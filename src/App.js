@@ -80,8 +80,6 @@ const App = () => {
         <Route path='/salesforce' element={<Salesforcepage />} />
         <Route path='/aprimo' element={<AprimoPage />} />
         <Route path='/Dataiku' element={<Platform_DataIKU />} />
-
-
         { /*SubChild_Drop-Down-Routes-Platform-Adobe*/}
 
         <Route path='/adobe-workfront' element={<Platform_Adobe_Workfront />} />
