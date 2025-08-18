@@ -1,0 +1,62 @@
+{
+  "name": "dluxwebsite",
+  "version": "1.2.1",
+  "private": true,
+  "homepage": "https://dluxtechcorp.com.au",
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "^16.3.5",
+    "@contentful/rich-text-react-renderer": "^15.19.6",
+    "autoprefixer": "^10.4.20",
+    "axios": "^1.6.7",
+    "babel-preset-react": "^6.24.1",
+    "contentful": "^10.8.0",
+    "dotenv": "^16.4.5",
+    "gh-pages": "^6.1.1",
+    "jquery": "^3.7.1",
+    "npm-font-open-sans": "^1.1.0",
+    "postcss": "^8.4.47",
+    "react": "^18.2.0",
+    "react-countup": "^6.5.0",
+    "react-dom": "^18.2.0",
+    "react-ga": "^3.3.1",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^6.22.2",
+    "react-scripts": "^5.0.1",
+    "react-scroll-trigger": "^0.6.14",
+    "sass": "^1.71.1",
+    "scripts": "^0.1.0",
+    "scrollreveal": "^4.0.9",
+    "slick-carousel": "^1.8.1",
+    "start": "^5.1.0",
+    "tailwindcss": "^3.4.14",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "generate-sitemap": "node sitemap-generator.js",
+    "build": "npm run generate-sitemap && react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "sitemap": "^8.0.0"
+  }
+}

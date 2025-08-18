@@ -1,0 +1,796 @@
+.salesforce-page-wrapper{
+    width: 100vw;
+}
+
+
+
+
+.serviceSalesForce-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serviceSalesForce-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.serviceSalesForce-headtext {
+    font-size: 55px;
+    margin-bottom: 0;
+    margin-top: -500px;
+    display: flex;
+    justify-content:center ;
+    text-align: center;
+    font-family: 'Open Sans', 'Regular';
+    color: white;
+    font-weight: bold;
+}
+
+.serviceSalesForce-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
+    width: 100vw;
+    z-index: -1;
+    background-color: black;
+    filter: brightness(55%);
+    top: 0;
+}
+
+/* .serviceSalesForce-headsection {
+    position: relative;
+    width: 100vw;
+    background: no-repeat center center fixed;
+    background-size: cover;
+    filter: grayscale(100%);
+    background-color: black;
+    z-index: -1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
+}
+
+.serviceSalesForce-headsection::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    z-index: -1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+} */
+
+
+/* service section */
+.serviceSalesForce-section{
+    margin-left: 250px;
+    
+}
+.serviceSalesForce-content {
+    position: relative;
+}
+
+
+.serviceSalesForce-left img {
+    display: flex;
+    justify-content: center;
+    position: inherit;
+    padding-bottom: 70px;
+    margin-left: 20px;
+    object-fit: cover;
+    margin-top: 130px;
+}
+
+
+
+.serviceSalesForce-right {
+    display: block;
+    position: absolute;
+    top: -5rem;
+    right: 0;
+    left: 30rem; 
+}
+.serviceSalesForce-right h1{
+    right: 0;
+    left: 28rem;
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Open Sans', 'Regular';
+}
+
+.rightSalesForce-text {
+    display: inline-flex;
+    font-family: 'Open Sans', 'Regular';
+    font-size: 16px;
+    color: var(--p-color);
+    text-align: left;
+    line-height: 30px;
+}
+  /* our services */
+.serviceSalesForce-Ourservices{
+    display: flex;
+    margin-top: 80px;
+  }
+.serviceSalesForce-ourservices1{
+    margin-left: 180px;
+}
+.serviceSalesForce-ourservices1 h1{
+    font-size: 45px;
+    color:#FE780C;
+    margin-top: 50px;
+    font-family: 'Open Sans', 'Regular';
+    font-weight: bold;
+}
+.serviceSalesForce-ourservices1 p{
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    line-height: 30px;
+
+}
+.serviceSalesForce-ourservices2{
+    margin-left: 240px;
+}
+.serviceSalesForce-ourservices2 h1{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Open Sans', 'Regular';
+
+}
+.serviceSalesForce-ourservices2 p{
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Open Sans', 'Regular';
+    line-height: 30px;
+}
+.serviceSalesForce-Ourservices11{
+    display: flex;
+    margin-top: 50px;
+}
+.serviceSalesForce-ourservices3{
+    margin-left: 180px;
+}
+.serviceSalesForce-ourservices3 h1{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Open Sans', 'Regular';
+
+
+
+}
+.serviceSalesForce-ourservices3 p{
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Open Sans', 'Regular';
+    line-height: 30px;
+}
+.serviceSalesForce-ourservices4{
+    margin-left:260px;
+}
+.serviceSalesForce-ourservices4 h1{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Open Sans', 'Regular';
+    font-weight: bold;
+}
+.serviceSalesForce-ourservices4 p{
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Open Sans', 'Regular';
+    line-height: 30px;
+   
+}
+.serviceSalesForce-Ourservices12{
+    display: flex;
+    margin-top: 50px;
+}
+.serviceSalesForce-ourservices5{
+    margin-left: 180px;
+}
+.serviceSalesForce-ourservices5 h1{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Open Sans', 'Regular';
+    font-weight: bold;
+
+}
+.serviceSalesForce-ourservices5 p{
+    color: #ffffff;
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Open Sans', 'Regular';
+    line-height: 30px;
+    
+}
+.serviceSalesForce-ourservices6{
+    margin-left: 250px;
+}
+.serviceSalesForce-ourservices6 h1{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Open Sans', 'Regular';
+    font-weight: bold;
+}
+.serviceSalesForce-ourservices6 p{
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Open Sans', 'Regular';
+    line-height: 30px;
+    
+}
+
+/* box section */
+.serviceSalesForce-Follow {
+    /* width: 100%; */
+    height: 200vh;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: linear-gradient(to bottom right, rgb(46, 45, 45), rgb(0, 0, 0));
+    margin-top: 90px;
+}
+
+.serviceSalesForce-Follow h1{
+    color: white;
+    font-size: 45px;
+    font-family: 'Open Sans', 'Regular';
+    font-weight: bold;
+    text-align: center;
+}
+.serviceSalesForce-main{
+    display: flex;
+    margin-left: 180px;
+    margin-top: 5rem;
+}
+.ServiceSalesForce-Business h2{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    /* margin-top: 100px; */
+
+}
+.ServiceSalesForce-Business p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+}
+.ServiceSalesForce-Business1{
+    margin-left: 180px;
+}
+.ServiceSalesForce-Business1 h2{
+    padding-top: 20px;
+    color: #FE780C;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Open Sans', 'Regular';
+}
+.ServiceSalesForce-Business1 p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+}
+.ServiceSalesForce-Businesspro p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+}
+.ServiceSalesForce-Businesspro h2{
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.ServiceSalesForce-Business1main{
+    margin-left: 190px;
+}
+.ServiceSalesForce-Business1main h2{
+    color: #FE780C;
+    font-size: 25px;
+    font-family: 'Open Sans', 'Regular';
+    font-weight: bold;
+
+}
+.ServiceSalesForce-Business1main p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+}
+
+
+/* dlux */
+.ServiceSalesforce-Dlux{
+    margin-top: 50px;
+    
+    
+}
+.ServiceSalesforce-Dlux h1{
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+    font-weight:bold;
+    font-family: 'Open Sans', 'Regular';
+}
+.ServiceSalesForce-Dlux1{
+    background-color: black;
+    width: 33rem; 
+    margin-bottom: 46px;
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align elements to the left */
+    text-align: left; /* Align text to the left */
+    padding: 2%;
+    border: 1px solid #666363; /* Grey border for the boxes */
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+    transition: transform 0.2s;
+  
+}
+.ServiceSalesForce-Dlux1:hover{
+    background: linear-gradient( rgba(51, 51, 51, 0.6),rgba(13, 13, 13, 0.6)); /* Change gradient effect on hover */
+    box-shadow: 8px 8px 20px #FE3908;
+  
+   
+}
+
+.ServiceSalesForce-Dluxmain img{
+  width: 50px;
+  height: 50px;
+}
+
+.ServiceSalesForce-Dluxmain:hover img{
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2); /* Grow the icon on service box hover */
+}
+
+.ServiceSalesForce-Dlux1 h2{
+    color: #fff;
+    font-family: 'Open Sans', 'Regular';
+    font-size: 25px;
+    
+}
+.ServiceSalesForce-Dlux1 p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+
+}
+.PageSalesForce{
+    display: flex;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+.ServiceSalesForce-Dlux2{
+    background-color: black;
+    width: 33rem; 
+    margin-bottom: 46px;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: flex-start; /* Align elements to the left */
+    text-align: left; /* Align text to the left */
+    padding: 2%;
+    border: 1px solid #666363; /* Grey border for the boxes */
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+    transition: transform 0.2s;
+    display: flex;
+    margin-left: 90px;
+}
+.ServiceSalesForce-Dlux2:hover{
+    background: linear-gradient( rgba(51, 51, 51, 0.6),rgba(13, 13, 13, 0.6)); /* Change gradient effect on hover */
+    box-shadow: 8px 8px 20px #FE3908;
+}
+
+.ServiceSalesForce-boxline2{
+    margin-top: -110px;
+}
+
+
+.ServiceSalesForce-Dlux2 h2{
+    color: #fff;
+    font-family: 'Open Sans', 'Regular';
+    font-size: 25px;
+
+}
+.ServiceSalesForce-Dlux2 p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+
+}
+.rotate2-div{
+        position: absolute;
+        top: 220%; 
+        right: 15%; 
+        transform: translate(-50%, -50%); 
+        z-index: 1; 
+        animation: rotate 4s linear infinite; 
+      }
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg); 
+        }
+        to {
+          transform: rotate(360deg); 
+      }
+    }
+
+    .cuberotate-div{
+        position: absolute;
+        top: 218%; 
+        left: 12%; 
+        transform: translate(-50%, -50%); 
+        z-index: 1; 
+        animation: rotate 4s linear infinite; 
+      }
+
+    .rectanglerotate-div{
+        position: absolute;
+        top: 320%; 
+        right: 90%; 
+        animation: blink 1.5s infinite;
+      }
+      @keyframes blink {
+        0% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+     
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg); 
+        }
+        to {
+          transform: rotate(360deg); 
+      }
+    }
+
+
+
+      .salesblink1{
+        position: absolute;
+        top: 236%;
+        left: 1%;
+        animation: blink 1.5s infinite;
+      }
+
+      .salesblink2{
+        position: absolute;
+        top: 305%;
+        right: 3%;
+        animation: blink 1.5s infinite;
+      }
+      .salesblink3{
+        position: absolute;
+        top: 565%; 
+        right: 8%; 
+        animation: blink 1.5s infinite;
+      }
+
+      .salescube{
+        position: absolute;
+        top: 550%; 
+        left: 15%; 
+        transform: translate(-50%, -50%); 
+        z-index: 1; 
+        animation: rotate 4s linear infinite; 
+      }
+
+
+      .salesdiamond{
+        position: absolute;
+        top: 180%; 
+        right: 8%; 
+        transform: translate(-50%, -50%); 
+        z-index: 1; 
+        animation: rotate 4s linear infinite; 
+      }
+
+
+      .salesforcepage-footer{
+        margin-right: 17px;
+      }
+      
+      @media screen and (max-width: 768px) {
+        .serviceSalesForce-headtext {
+          font-size: 35px;
+          margin-top: -300px;
+        }
+      
+        .serviceSalesForce-img {
+          margin-top:70px;
+          filter: brightness(100%);
+        }
+        .serviceSalesForce-headsection h1{
+          font-size: 20px;
+          margin-top: -130px;
+        }
+      
+        .serviceSalesForce-section {
+          margin-left: 0;
+        }
+      
+        .serviceSalesForce-left img {
+          margin-top: 30px;
+          width: 70%;
+          margin-left: 50px;
+        }
+      
+        .serviceSalesForce-right {
+          position: relative;
+          top: 0;
+          right: 0;
+          left: 0;
+          margin-top: 20px;
+        }
+      
+        .serviceSalesForce-right h1 {
+          font-size: 17px;
+          margin-left: 10px;
+          /* margin-right: 20px; */
+          margin-top: -30px;
+        }
+      
+        .rightSalesForce-text {
+          display: none;
+
+        }
+        .hide-on-laptop4{
+          font-size: 12px;
+          width: 95%;
+          margin-left: 10px;
+          font-family: 'Open Sans', 'Regular';
+        }
+      
+        .serviceSalesForce-Ourservices {
+          flex-direction: column;
+          margin-top: 50px;
+        }
+      
+        .serviceSalesForce-ourservices1,
+        .serviceSalesForce-ourservices2,
+        .serviceSalesForce-ourservices3,
+        .serviceSalesForce-ourservices4,
+        .serviceSalesForce-ourservices5,
+        .serviceSalesForce-ourservices6 {
+          margin-left: 10px;
+       
+        }
+        
+        .serviceSalesForce-ourservices3 img,
+        .serviceSalesForce-ourservices4 img,
+        .serviceSalesForce-ourservices5 img,
+        .serviceSalesForce-ourservices6 img{
+
+          width: 30%;
+          margin-bottom: 10px;
+        }
+        .serviceSalesForce-ourservices2 img{
+          margin-top: 40px;
+        }
+        
+      
+        .serviceSalesForce-ourservices1 h1,
+        .serviceSalesForce-ourservices2 h1,
+        .serviceSalesForce-ourservices3 h1,
+        .serviceSalesForce-ourservices4 h1,
+        .serviceSalesForce-ourservices5 h1,
+        .serviceSalesForce-ourservices6 h1 {
+          font-size: 22px;
+          margin-top: -10px;
+          color: #FE780C;
+        }
+      
+        .serviceSalesForce-ourservices1 p,
+        .serviceSalesForce-ourservices2 p,
+        .serviceSalesForce-ourservices3 p,
+        .serviceSalesForce-ourservices4 p,
+        .serviceSalesForce-ourservices5 p,
+        .serviceSalesForce-ourservices6 p {
+          font-size: 12px;
+          line-height: 20px;
+       
+        }
+        .serviceSalesForce-Follow {
+         height: 300vh;
+        }
+        .serviceSalesForce-Follow h1{
+          font-size: 22px;
+        }
+       .serviceSalesForce-main{
+        margin-left: 10px;
+        flex-direction: column;
+        
+       }
+       .ServiceSalesForce-Business h2{
+              font-size: 22px;
+              margin-top: -20px;
+       }
+       .ServiceSalesForce-Business p{
+        font-size: 12px;
+        width: 100%;
+       }
+       .ServiceSalesForce-Business1 h2{
+       font-size: 20px;
+       margin-left: -170px;
+       }
+       .ServiceSalesForce-Business1 p{
+       display: none;
+       }
+       .ServiceSalesForce-Business1 h6{
+        font-size: 12px;
+        margin-left: -170px;
+        width: 170%;
+        text-align:left;
+        font-family: 'Open Sans', 'Regular';
+       }
+      
+       .ServiceSalesforce-Dlux h1{
+        font-size: 22px;
+       }
+        .ServiceSalesForce-Dlux h1 {
+          font-size: 22px;
+          margin-top: 50px;
+        }
+       
+        .ServiceSalesForce-Businesspro h2{
+           font-size: 20px;
+           margin-top: -70px;
+           margin-left: 20px;
+
+        }
+      .ServiceSalesForce-Businesspro p{
+        font-size: 12px;
+        margin-left: 10px;
+      }
+      .serviceSalesForce-main{
+        margin-left: 20px;
+      }
+      .ServiceSalesForce-Business1main{
+        margin-left: 10px;
+      }
+      .ServiceSalesForce-Business1main h2{
+        font-size: 20px;
+      }
+      .ServiceSalesForce-Business1main p{
+       display: none;
+      }
+      .ServiceSalesForce-Business1main h6{
+        font-size: 12px;
+        margin-left: 0px;
+        width: 98%;
+        font-size: 12px;
+        font-family: 'Open Sans', 'Regular';
+      }
+      
+      .ServiceSalesforce-Dlux{
+        margin-bottom: 90px;
+        margin-top: -760px;
+      }
+      .PageSalesForce{
+        margin-left: 20px;
+        width: 90%;
+        gap:10px;
+        margin-top: -60px;
+        margin-bottom: -100px;
+      }
+      .ServiceSalesForce-boxline2 {
+       
+      }
+        .ServiceSalesForce-Dlux1,
+        .ServiceSalesForce-Dlux2 {
+          width: 100%;
+          margin-left: 0;
+          margin-right: 0;
+        }
+      
+        .ServiceSalesForce-Dlux1 h2,
+        .ServiceSalesForce-Dlux2 h2 {
+          font-size: 15px;
+          font-weight: bold;
+        }
+      
+        .ServiceSalesForce-Dlux1 p,
+        .ServiceSalesForce-Dlux2 p {
+          font-size: 14px;
+          line-height: 20px;
+        }
+      
+        .ServiceSalesForce-boxline2 {
+          margin-top: 0;
+        }
+      
+        .salesblink1,
+        .salesblink2,
+        .salesblink3,
+        .salescube,
+        .salesdiamond {
+          display: none;
+        }
+      }
+      @media only screen and (min-width: 1024px) {
+        .hide-on-laptop4 {
+          display: none; /* Hide the content on screens with a width of 1024 pixels or larger (laptops and desktops) */
+        }
+        .hide-on-laptop105{
+          display: none;
+        }
+      }
+
+      @media only screen and (min-width: 1024px) 
+      {
+        .serviceSalesForce-content
+        {
+          margin-left: -90px;
+        }
+      }
+      
+      @media (min-width: 768px) and (max-width: 1366px)
+      {
+        .serviceSalesForce-ourservices4 
+        {
+          margin-left: 120px;
+        }
+        .serviceSalesForce-ourservices2
+        {
+          margin-left: 100px;
+        }
+        .serviceSalesForce-ourservices6
+        {
+          margin-left: 100px;
+        }
+        .ServiceSalesForce-Business1
+        {
+          margin-left:100px;
+          margin-top:-100px;
+        }
+        .ServiceSalesForce-Businessmain
+        {
+          margin-left:-80px;
+          margin-top:-70px;
+        }
+        .serviceSalesForce-main
+        {
+          margin-top:120px;
+        }
+       
+        .PageSalesForce
+        {
+          margin-left:30px;
+        }
+        .salescube{
+          margin-top:100px;
+        }
+      }
+
+      
+
+
+
+  
+  

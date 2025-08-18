@@ -1,0 +1,210 @@
+.servicespage-four-X-both
+{
+    margin-left:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    background-color: #000000;
+}
+.servicespage-four-Main
+{
+    background-color: #000000;
+}
+.servicespage-four-title h1
+{
+    color: white;
+    font-size: 45px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-top: 50px;
+    font-family: 'Open Sans', 'Regular';
+    font-weight: bold;
+}
+.servicespage-four-contents p
+{
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    line-height: 30px;
+    font-family: 'Open Sans', 'Regular';
+    font-weight: bold;
+}
+.servicespage-four-KnowMore{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-top: 30px;
+
+}
+
+
+.servicespage-four-KnowMore button {
+  margin-top: 50px;
+  padding: 5px 55px;
+  border-radius: 40px; 
+  background: linear-gradient(to right,#FE780C, #FE3908);
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer; 
+}
+
+.servicespage-four-KnowMore button:hover {
+  box-shadow: 0 0 15px #FE780C, 0 0 20px #FE3908;
+}
+
+.servicespage-four-KnowMore button:hover::after {
+  content: url('../../contents/Careers/careers-assests/carrow2.png');
+  position: absolute;
+  margin-top: -29px;
+  padding-left: 55px;
+}
+
+.servicespage-four-KnowMore h6{
+  font-family: 'Open Sans', 'Regular';
+  font-size: 15px;
+}
+
+.servicespage-four-img {
+    position: absolute;
+    right: 200px;
+    top:2850px;
+    z-index: 1;
+    transform: scaleX(1); 
+  }
+
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .servicespage-four-cc {
+    animation: blink 1s infinite; 
+    left:80px;
+    position: absolute;
+    z-index: 100;
+    top:3240px;
+}
+
+.services-footer{
+  margin-right: 17px;
+}
+
+@media screen and (max-width: 768px) {
+  .servicespage-four-X-both {
+    margin-left: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .servicespage-four-title h1 {
+    font-size: 22px;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .servicespage-four-contents{
+    display: none;
+  }
+  .hide-on-laptop91 {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Open Sans', 'Regular';
+    width: 100%;
+    line-height: 22px;
+  }
+  .servicespage-four-KnowMore {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+  }
+
+  .servicespage-four-KnowMore button {
+    margin-top: 0px;
+    padding: 0px 30px;
+    border-radius: 40px; 
+    background: linear-gradient(to right,#FE780C, #FE3908);
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    border:linear-gradient(to right,#Fe780C,#FE3908);  
+  }
+
+  .servicespage-four-KnowMore h6 {
+    font-size: 12px;
+    text-align:center;
+  }
+  
+  .servicespage-four-KnowMore button:hover::after{
+    display: none;
+  }
+  .servicespage-four-KnowMore button:hover {
+    box-shadow: 0 0 15px #FE780C, 0 0 20px #FE3908;
+  }
+
+  .servicespage-four-img {
+    display: none;
+  }
+
+  .servicespage-four-cc {
+    animation: blink 1s infinite;
+    left: 0;
+    position: relative;
+    z-index: 100;
+    top: 0;
+    margin-top: -90px;
+    margin-left: 180px;
+  }
+  .c-wave{
+   margin-top: 10px;
+  }
+ 
+ 
+}
+
+/* Media query for tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .hide-on-tablet {
+    display: none; /* Hide the content on screens with a width between 768 and 1023 pixels (tablets) */
+  }
+}
+
+/* Media query for laptops */
+@media only screen and (min-width: 1024px) {
+  .hide-on-laptop91 {
+    display: none; /* Hide the content on screens with a width of 1024 pixels or larger (laptops and desktops) */
+  }
+}
+@media (min-width: 768px) and (max-width: 1366px)
+{
+  .servicespage-four-img
+  {
+    left:750px;
+    top:2800px;
+  }
+  .serviceContent-OurServices-dlux-content-gif-wrap
+  {
+    gap: 30px;
+  }
+}
+@media (min-width: 790px) and (max-width: 1200px)
+{
+  .servicespage-four-component
+  {
+    margin-top:920px;
+  }
+  .services-globe
+  {
+    margin-top:800px;
+  }
+}
+
+
+
+

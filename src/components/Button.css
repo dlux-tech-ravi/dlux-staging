@@ -1,0 +1,29 @@
+:root {
+    --primary: #000000;
+    --secondary: rgb(255, 255, 255);
+  }
+  .contactus-btn {
+    font-family: "Open Sans", "regular";
+    background-color: transparent;
+    display: inline-flex;
+    align-content: center;
+    padding: 1rem 2rem;
+    border-radius: 28px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #666363;
+    /* margin-left:-430px; */
+    /* margin-top: 80px; */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .contactus-btn:hover {
+    background-color: white;
+    color: #000000;
+  }
+  @media screen and (max-width: 768px) {
+    .contactus-btn {
+      margin-top: 20px;
+    }
+  }
+  

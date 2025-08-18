@@ -1,0 +1,108 @@
+.cmp-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+  }
+  
+  .cmp-banner__img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    max-height: clamp(40vh, 70%, 30vh);
+    margin-top: clamp(32px, 0vw, 0px);
+    border: none;
+  
+  }
+  
+  .cmp-banner__title {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: clamp(-53rem, -29%, -3rem);
+    font-size: clamp(14px, 5vw, 28px);
+    padding: 0 5%;
+    line-height: 1.2;
+  
+    @media (min-width: 768px) {
+      .cmp-banner__img {
+        height: 370px;
+      }
+    }
+  
+    @media (min-width: 1024px) {
+      height: 670px;
+      width: 103%;
+      max-width: none
+    }
+  }
+
+
+/* form section */
+form {
+    background-color: rgba(30, 30, 30, 0.9);
+    color: #ffffff;
+    padding: clamp(15px, 3vw, 30px);
+    border-radius: 15px;
+    max-width: clamp(90%, 40vw, 50%);
+    margin: auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+    position: relative;
+    width: clamp(70%, 50%, 40%);
+    height: auto;
+    bottom: clamp(50px, 8vw, 131px);
+    left: clamp(20px, 6vw, 78px);
+}
+
+/* Styles for the input fields */
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    width: clamp(80%, 60%, 50%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    font-size: clamp(10px, 2vw, 16px);
+    background-color: rgba(50, 50, 50, 1);
+    color: #ffffff;
+    padding: clamp(8px, 2vw, 12px);
+    margin-bottom: clamp(8px, 1.5vw, 10px);
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+/* Input field focus effect */
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="tel"]:focus {
+    border-color: #ff5722;
+}
+
+form input::placeholder {
+    color: rgba(200, 200, 200, 0.7);
+}
+
+/* Button styling */
+form button {
+    width: clamp(50%, 40%, 60%);
+    background-color: #ff5722;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    font-size: clamp(10px, 1.8vw, 14px);
+    cursor: pointer;
+    padding: clamp(8px, 1.5vw, 12px);
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #e64a19;
+}
+
+form label {
+    font-size: clamp(10px, 1.5vw, 14px);
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}

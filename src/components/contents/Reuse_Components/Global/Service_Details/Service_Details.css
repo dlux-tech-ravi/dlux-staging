@@ -1,0 +1,131 @@
+.cmp-service-details__title {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.cmp-service-details {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.cmp-service-details__title h1 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: clamp(1.2rem, 5vw, 2rem);
+  font-weight: bold;
+  color: white;
+}
+
+.cmp-service-details__section {
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: clamp(1rem, 2vw, 2.5rem) clamp(1rem, 2vw, 3rem);
+  font-family: 'Open Sans', sans-serif;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(1rem, 2vw, 2rem);
+  justify-items: center;
+
+}
+
+.cmp-service-details__heading h3 {
+  color: white;
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  margin-bottom: clamp(0.75rem, 2vw, 1rem);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cmp-service-details__heading {
+  display: block;
+  text-align: start;
+}
+
+.cmp-service-details__heading p {
+  font-size: clamp(0.875rem, 2vw, 1.125rem);
+  line-height: 1.6;
+  color: #d3d3d3;
+  margin-bottom: clamp(1rem, 2vw, 2rem);
+}
+
+.cmp-service-details__heading h3+p {
+  margin-top: 0;
+}
+
+.cmp-service-details__heading .icon {
+  display: inline-block;
+  margin-right: clamp(0.5rem, 2vw, 1rem);
+  vertical-align: middle;
+}
+
+.cmp-service-details__heading h3::before {
+  content: '';
+  display: block;
+  width: clamp(2rem, 10vw, 3.5rem);
+  height: 3px;
+  margin-bottom: clamp(0.5rem, 2vw, 1rem);
+
+}
+
+.icon-container {
+  margin-bottom: clamp(1rem, 2vw, 1.25rem);
+}
+
+.icon-container img {
+  height: clamp(2rem, 5vw, 3rem);
+  object-fit: contain;
+}
+
+.cmp-service-details__section .cmp-service-details__heading {
+  text-align: center;
+  flex: 1 1 100%;
+  max-width: 100%;
+  column-gap: 0rem;
+}
+
+.cmp-service-details__section .cmp-service-details__heading {
+  grid-column: span 1;
+
+}
+
+.cmp-service-details__section .cmp-service-details__heading {
+  grid-column: span 1;
+  text-align: left;
+  margin-bottom: clamp(1rem, 2vw, 2rem);
+
+}
+
+.cmp-service-details__section .cmp-service-details__heading img {
+  max-width: clamp(50px, 10vw, 80px);
+  transition: transform 0.3s ease-in-out;
+
+}
+
+@media (min-width: 768px) {
+  .cmp-service-details__heading {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: clamp(10px, 2vw, 20px);
+    align-items: center;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .cmp-service-details__heading {
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  .cmp-service-details__heading h3+p {
+    width: 74%;
+    margin-left: 131px;
+  }
+
+  .cmp-service-details__heading h3 {
+    margin-left: 131px;
+  }
+
+  .cmp-service-details__section .cmp-service-details__heading img {
+    margin-left: 131px;
+  }
+}

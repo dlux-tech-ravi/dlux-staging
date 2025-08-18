@@ -1,0 +1,40 @@
+.cmp-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.cmp-banner__img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  max-height: clamp(40vh, 70%, 30vh);
+  margin-top: clamp(32px, 0vw, 0px);
+  border: none;
+
+}
+
+.cmp-banner__title {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: clamp(-53rem, -29%, -3rem);
+  font-size: clamp(14px, 5vw, 28px);
+  padding: 0 5%;
+  line-height: 1.2;
+
+  @media (min-width: 768px) {
+    .cmp-banner__img {
+      height: 370px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    height: 670px;
+    width: 103%;
+    max-width: none
+  }
+}

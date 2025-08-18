@@ -1,0 +1,264 @@
+.wrapper-clients {
+  /* width: 100%; */
+  padding: 0 150px;
+  position: relative;
+  margin-top: 150px;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.cicon {
+  position: absolute;
+  top: 0%;
+  right: 10%;
+  z-index: 1;
+  animation: rotate 4s linear infinite;
+}
+
+
+.cube {
+  position: absolute;
+  top: -20%;
+  left: 15%;
+  z-index: 1;
+  animation: rotate 4s linear infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.ball {
+  position: absolute;
+  top: -30%;
+  right: 36%;
+  z-index: 1;
+  animation: blink 1.5s infinite;
+}
+
+.clients-container {
+  text-align: left;
+  padding-left: 50px;
+  color: white;
+  /* margin-top: 150px; */
+}
+
+.clients-container h1 {
+  /* margin-bottom: 10px; */
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Open Sans", "Regular";
+  /* margin-left: 130px; */
+}
+
+.clients-container p {
+  font-size: 16px;
+  font-family: "Open Sans", "Regular";
+  margin-top: 10px;
+  text-align: left;
+  line-height: 30px;
+  width: 59%;
+
+}
+
+.hero {
+  background-color: black;
+  padding-right: 90px;
+  padding-left: 40px;
+  text-align: center;
+  /* margin-left: -100px; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-move {
+  display: flex;
+  margin: auto;
+  width: fit-content;
+  /* margin-left: 140px; */
+}
+
+.client-btn {
+  margin: 10px 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: black;
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid #bbb;
+}
+
+.client-btn.active {
+  background-color: #fe3908;
+  border-color: #fe3908;
+}
+
+.testimonial {
+  width: 85%;
+  padding-right: 20%;
+  position: relative;
+  margin: 30px 0;
+  /* border-radius: 30px; */
+}
+
+.slide-col1,
+.slide-col2,
+.slide-col3,
+.slide-col4,
+.slide-col5 {
+  position: relative;
+  width: 155%;
+  height: 150%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-bottom: 350px;
+  border: 1px solid #bbb;
+  border-radius: 30px;
+  /* transition: background-image 0.5s ease; */
+}
+
+.slide-col1:hover,
+.slide-col2:hover,
+.slide-col3:hover,
+.slide-col4:hover,
+.slide-col5:hover {
+  box-shadow: 7px 37px 50px -40px #fe3908;
+}
+
+.woman {
+  position: absolute;
+  top: -285px;
+  padding-left: 60%;
+}
+
+.user-text {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  border-radius: 30px;
+  max-width: 750px;
+  color: white;
+  text-align: left;
+}
+
+.user-text p {
+  line-height: 30px;
+  color: white;
+  font-size: 16px;
+  font-family: "Open Sans", "Regular";
+  text-align: left;
+  width: 83%;
+}
+
+.user-text h3 {
+  font-size: 16px;
+  font-family: "Open Sans", "Regular";
+  font-weight: 100;
+  margin-top: 50px;
+  color: white;
+}
+
+@media screen and (max-width: 1000px) {
+  .wrapper-clients {
+    padding: 0 50px;
+  }
+  .woman {
+    display: none;
+  }
+  .testimonial,
+  .slide-col1,
+  .slide-col2,
+  .slide-col3,
+  .slide-col4,
+  .slide-col5 {
+    width: 100%;
+  }
+
+  .testimonial {
+    padding-right: 0;
+  }
+ 
+}
+
+@media screen and (max-width: 768px) {
+  .slide-col1,
+  .slide-col2,
+  .slide-col3,
+  .slide-col4,
+  .slide-col5 {
+    padding: 12px;
+  }
+  .user-text {
+    position: unset;
+
+  }
+   .user-text p{
+    font-size: 12px;
+    line-height: 22px;
+   }
+
+   .user-text h3{
+    font-size: 12px;
+    line-height: 22px;
+   }
+   
+  .cube {
+    position: absolute;
+    margin-top: 10px;
+ 
+    }
+    .ball {
+     display: none;
+
+    }
+    .cicon {
+  display: none;
+    }
+    .clients-container{
+      margin-left: -30px;
+      margin-top: -40px;
+      margin-bottom: 0px;
+    }
+    .clients-container h1{
+   font-size: 22px;
+  text-align: center;
+   
+    }
+    .clients-container p{
+      font-size: 12px;
+      text-align: center;
+      width: 100%;
+      line-height: 20px;
+    }
+ .home_indicator{
+  display: flex;
+  margin-left: -140px;
+ }
+    .hide-on-mobileclients{
+      display: none;
+    }
+    
+}
+@media only screen and (min-width: 1024px) {
+  .hide-on-laptopclients {
+    display: none; /* Hide the content on screens with a width of 1024 pixels or larger (laptops and desktops) */
+  }
+}

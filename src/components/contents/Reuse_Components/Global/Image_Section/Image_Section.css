@@ -1,0 +1,24 @@
+.cmp-image_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  
+  .cmp-section__img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .cmp-section__placeholder {
+    color: #777;
+    font-size: 14px;
+    text-align: center;
+  }
+  

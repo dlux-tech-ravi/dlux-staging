@@ -1,0 +1,59 @@
+.cmp-four-step__description {
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #000;
+    text-align: center;
+  }
+  
+  .cmp-four-step__description h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: clamp(0.875rem, 1.5625rem, 1.5625rem);
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .cmp-four-step__description p {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #d3d3d3;
+    text-align: center;
+    white-space: normal;
+    overflow: hidden;
+  }
+  .cmp-button {
+ 
+        background-color: #fe3908;
+        color: #ffffff;
+        width: 30%;
+        border-radius: 50px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        text-align: center;
+        cursor: pointer;
+        border: none;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        position: absolute;
+        left: 127px;
+
+        @media (min-width:768px) {
+            width: 21%;
+            position: absolute;
+            left: 293px;
+            font-size: 16px;
+        }
+        @media (min-width:1024px) {
+        width: 15%;
+        position: absolute;
+        left: 620px;
+        font-size: 18px;
+    
+        }
+  }
+  
+  .cmp-button:hover {
+    background-color: #e33607; 
+    transform: scale(1.05); 
+  }
+  

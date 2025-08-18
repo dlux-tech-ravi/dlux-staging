@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="344" height="86.024" viewBox="0 0 344 86.024">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe780c"/>
+      <stop offset="1" stop-color="#fe3908"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#333"/>
+      <stop offset="1" stop-color="#0d0d0d"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1764" data-name="Group 1764" transform="translate(-847 -2635.804)">
+    <g id="Group_1761" data-name="Group 1761">
+      <path id="Rectangle_1049" data-name="Rectangle 1049" d="M25,0H318a26,26,0,0,1,26,26V51a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V25A25,25,0,0,1,25,0Z" transform="translate(847 2654)" fill="url(#linear-gradient)"/>
+      <g id="Group_1703" data-name="Group 1703" transform="translate(-481.715 589.166) rotate(-8)">
+        <path id="Path_5870" data-name="Path 5870" d="M0,0,11.706,16.752H0Z" transform="translate(1135.528 2227.707) rotate(7)" fill="url(#linear-gradient-2)"/>
+        <path id="Path_5873" data-name="Path 5873" d="M54.329,82.563l-45.087.9c-6.21.125-11.143-4-11.019-9.208L0,0,67.575-1.356,65.8,72.9C65.674,78.113,60.539,82.438,54.329,82.563Z" transform="translate(1068.291 2219.451) rotate(7)" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+    <g id="Group_1763" data-name="Group 1763">
+      <text id="Exclusive_Limited_Of_fer_" data-name="Exclusive Limited Of fer!" transform="translate(962.869 2686)" fill="#fff" font-size="18" font-family="Outfit-Bold, Outfit" font-weight="700" letter-spacing="0.01em"><tspan x="0" y="0">Exclusive Limited O</tspan><tspan y="0" letter-spacing="-0.2em">f</tspan><tspan y="0" letter-spacing="0.054em"> </tspan><tspan y="0">f</tspan><tspan y="0">er!</tspan></text>
+      <text id="Save_20_" data-name="Save 
+20%" transform="translate(898 2668)" fill="#fff" font-size="16" font-family="Outfit-Bold, Outfit" font-weight="700" letter-spacing="0.01em"><tspan x="0" y="0">Save</tspan><tspan y="0" font-size="23"> </tspan><tspan font-size="23"><tspan x="0" y="27">20%</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

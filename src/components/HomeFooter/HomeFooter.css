@@ -1,0 +1,482 @@
+/* HomeFooter.css */
+
+.hfooter-container {
+  padding: 0 80px;
+}
+
+.hfooter-icon-logo-wrap {
+  padding-left: 28px;
+}
+
+.hfooter-logo {
+  margin-top: 168px;
+}
+
+.hfooter-logo img {
+  height: 90px;
+}
+.hfooter-icons {
+  /* margin-top: 1px;  */
+  display: flex;
+  gap: 20px;
+  padding-left: 5px;
+}
+
+.hfooter-icons a {
+  display: inline-block;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.hfooter-icons a::after {
+  content: ""; /* Create a pseudo-element to overlay the image */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent; /* Initial color */
+  transition: background-color 0.3s; /* Smooth transition for the background color */
+  z-index: -1; /* Place the pseudo-element behind the image */
+}
+
+.hfooter-icons a:hover::after {
+  background-color: #fe3908; /* Replace with the color you want to apply on hover */
+}
+
+.hfooterl1-c1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: -160px;
+  margin-right: 60px;
+}
+.hfooterl2 {
+  display: flex;
+  gap: 100px;
+  margin-top: 30px;
+  padding-left: 30px;
+  flex-wrap: wrap;
+
+}
+
+.hfooterl2-services_about{
+  display: flex;
+  gap: 100px;
+  margin-top: 30px;
+  padding-left: 30px;
+  flex-wrap: wrap;
+}
+
+.hfooterl2-Platform_Resources{
+  display: flex;
+  gap: 100px;
+  margin-top: 30px;
+  padding-left: 30px;
+  flex-wrap: wrap;
+}
+
+.hfooterl2-Policies{
+  display: flex;
+  gap: 100px;
+  margin-top: 30px;
+  padding-left: 30px;
+  flex-wrap: wrap;
+}
+
+.hfooterl2-c1 h3 {
+  font-family: "Open Sans", "Regular";
+}
+
+.hfooterl2-c2 h3 {
+  font-family: "Open Sans", "Regular";
+}
+
+.hfooterl2-c3 h3 {
+  font-family: "Open Sans", "Regular";
+}
+
+.hfooterl2-c4 h3 {
+  font-family: "Open Sans", "Regular";
+}
+
+.hfooterl2-c5 h3 {
+  font-family: "Open Sans", "Regular";
+}
+
+.hfooterl2-c1 p {
+  font-size: 16px;
+  font-family: "Open Sans", "Regular";
+  line-height: 35px;
+  text-align: left;
+}
+
+.hfooterl2-c2 p {
+  font-size: 16px;
+  font-family: "Open Sans", "Regular";
+  line-height: 35px;
+  text-align: left;
+}
+
+.hfooterl2-c3 p {
+  font-size: 16px;
+  font-family: "Open Sans", "Regular";
+  line-height: 35px;
+  text-align: left;
+}
+
+.hfooterl2-c4 p {
+  font-size: 16px;
+  font-family: "Open Sans", "Regular";
+  line-height: 35px;
+  text-align: left;
+}
+
+.hfooterl2-c5 p {
+  font-size: 16px;
+  font-family: "Open Sans", "Regular";
+  line-height: 35px;
+  text-align: left;
+}
+
+.hfooterl3 p {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 30px;
+  font-family: "Open Sans", "Regular";
+}
+
+/* Add this to your existing CSS */
+.hfooterl2-c1 h3:hover,
+.hfooterl2-c2 h3:hover,
+.hfooterl2-c3 h3:hover,
+.hfooterl2-c4 h3:hover,
+.hfooterl2-c5 h3:hover {
+  color: #FE3908; /* Change the color to your preferred hover color */
+  transition: color 0.3s ease; /* Smooth transition effect for color change */
+}
+
+
+.hfooterl2-c1 p:hover,
+.hfooterl2-c2 p:hover,
+.hfooterl2-c3 p:hover,
+.hfooterl2-c4 p:hover,
+.hfooterl2-c5 p:hover {
+  color: #FE3908; /* Change the color to your preferred hover color */
+  transition: color 0.3s ease; /* Smooth transition effect for color change */
+}
+
+
+/*For Australia*/
+@keyframes slideInFromBottom-icon1 {
+  0% {
+    transform: translateX(0%) translateY(10); /* Start off-screen below the viewport */
+    opacity: 0; /* Start fully transparent */
+  }
+  100% {
+    transform: translateX(0%) translateY(10); /* Move to the original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+.popup-container1 {
+  position: absolute;
+  right: 135px;
+  transform: translateX(-1%);
+}
+
+@keyframes slideInFromBottom-text1 {
+  0% {
+    transform: translateX(0%) translateY(10); /* Start off-screen below the viewport */
+    opacity: 0; /* Start fully transparent */
+  }
+  100% {
+    transform: translateX(0%) translateY(10); /* Move to the original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+.popup-image1 {
+  position: relative;
+  top: 160px;
+  left: 84.5%;
+  animation: slideInFromBotto-icon1 1.5s ease forwards;
+}
+
+@keyframes slideInFromBottom-line1 {
+  0% {
+    transform: translateX(0%) translateY(10); /* Start off-screen below the viewport */
+    opacity: 0; /* Start fully transparent */
+  }
+  100% {
+    transform: translateX(0%) translateY(10); /* Move to the original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+.popup-text1 {
+  position: relative;
+  padding-left: 200px;
+  top: -47px;
+  left: 78px;
+  line-height: 10px;
+  text-align: left;
+  animation: slideInFromBottom-text1 6.5s ease forwards;
+}
+
+.popup-text1 p {
+  font-family: "Open Sans", "Regular";
+  line-height: 22px;
+  text-align: left;
+}
+
+.vertical-line1 {
+  position: absolute;
+  top: 24px;
+  left: 86%;
+  width: 1.5px;
+  height: 210%;
+  background-color: white;
+  animation: slideInFromBottom-line1 4.5s ease forwards;
+}
+
+/*For India*/
+@keyframes slideInFromBottom-icon2 {
+  0% {
+    transform: translateX(0) translateY(10); /* Start off-screen below the viewport */
+    opacity: 0; /* Start fully transparent */
+  }
+  100% {
+    transform: translateX(0) translateY(10); /* Move to the original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+.popup-container2 {
+  position: absolute;
+  margin-top: -10px;
+  right: 150px;
+  transform: translateX(-29%);
+}
+
+@keyframes slideInFromBottom-text2 {
+  0% {
+    transform: translateX(0) translateY(10); /* Start off-screen below the viewport */
+    opacity: 0; /* Start fully transparent */
+  }
+  100% {
+    transform: translateX(0) translateY(10); /* Move to the original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+.popup-image2 {
+  position: relative;
+  top: 82px;
+  left: 84.5%;
+  animation: slideInFromBottom-icon2 2.5s ease forwards;
+}
+
+@keyframes slideInFromBottom-line2 {
+  0% {
+    transform: translateX(0) translateY(10); /* Start off-screen below the viewport */
+    opacity: 0; /* Start fully transparent */
+  }
+  100% {
+    transform: translateX(0) translateY(10); /* Move to the original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+.popup-text2 {
+  position: relative;
+  padding-left: 200px;
+  top: -100px;
+  left: -45px;
+  line-height: 10px;
+  text-align: right;
+  animation: slideInFromBottom-text2 7.5s ease forwards;
+}
+
+.popup-text2 p {
+  font-family: "Open Sans", "Regular";
+  line-height: 22px;
+  text-align: right;
+}
+
+.vertical-line2 {
+  position: absolute;
+  top: -33px;
+  left: 86%;
+  width: 1.5px;
+  height: 180%;
+  background-color: white;
+  animation: slideInFromBottom-line2 5.5s ease forwards;
+}
+
+/*For US*/
+@keyframes slideInFromBottom-icon3 {
+  0% {
+    transform: translateX(0%) translateY(10); /* Start off-screen below the viewport */
+    opacity: 0; /* Start fully transparent */
+  }
+  100% {
+    transform: translateX(0) translateY(10); /* Move to the original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+.popup-container3 {
+  position: absolute;
+  top: 6685px;
+  right: 140px;
+  transform: translateX(-111%);
+}
+
+@keyframes slideInFromBottom-text3 {
+  0% {
+    transform: translateX(0%) translateY(10); /* Start off-screen below the viewport */
+    opacity: 0; /* Start fully transparent */
+  }
+  100% {
+    transform: translateX(0) translateY(10); /* Move to the original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+.popup-image3 {
+  position: relative;
+  top: 160px;
+  left: 84.5%;
+  animation: slideInFromBottom-icon3 3.5s ease forwards;
+}
+
+@keyframes slideInFromBottom-line3 {
+  0% {
+    transform: translateX(0%) translateY(10); /* Start off-screen below the viewport */
+    opacity: 0; /* Start fully transparent */
+  }
+  100% {
+    transform: translateX(0) translateY(10); /* Move to the original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+.popup-text3 {
+  position: relative;
+  padding-left: 200px;
+  top: 15px;
+  left: -48px;
+  line-height: 10px;
+  text-align: right;
+  animation: slideInFromBottom-text3 8.5s ease forwards;
+}
+
+.popup-text3 p {
+  font-family: "Open Sans", "Regular";
+  line-height: 22px;
+  text-align: right;
+}
+
+.vertical-line3 {
+  position: absolute;
+  top: 88px;
+  left: 86%;
+  width: 1.5px;
+  height: 116%;
+  background-color: white;
+  animation: slideInFromBottom-line3 6.5s ease forwards;
+}
+
+@media only screen and (max-width: 800px) {
+  .hfooter-container {
+    /* Adjust styles for smaller devices here */
+    padding: 0 30px;
+  margin-top: -100px;  
+  display: flex;
+}
+
+  .hfooterl2-services_about{
+    display: flex;
+    margin-top: 200px;
+    margin-left: -50px;
+    gap:20px;
+   
+  }
+  .hfooterl2-services_about h3{
+    font-size: 20px;
+    text-align: left;
+
+  }
+  .hfooterl2-services_about p{
+    font-size: 10px;
+    line-height: 22px;
+    text-align: left;
+  }
+  .hfooterl2-c2{
+    /* margin-left: 30px; */
+    line-height: 22px;
+ 
+  
+  }
+  .hfooterl2-c2 h3{
+    font-size: 20px;
+  }
+  .hfooterl2-Platform_Resources{
+    display: flex;
+    margin-left: -50px;
+    gap:102px;
+    margin-top: -100px;
+  }
+  .hfooterl2-Platform_Resources h3{
+    font-size: 22px;
+  }
+  .hfooterl2-Platform_Resources p{
+    font-size: 10px;
+    line-height: 22px;
+    text-align: left;
+   
+  }
+  .hfooterl2-c4{
+    margin-left: -9px;
+  }
+  .hfooterl2-c5{
+    margin-left: -50px;
+    gap:120px;
+    margin-top: -120px;
+  }
+  .hfooterl2-c5 h3{
+    font-size: 20px;
+  }
+  .hfooterl2-c5 p{
+    font-size: 11px;
+    line-height: 22px;
+  }
+
+
+  .hfooterl3 p{
+    font-size: 8px;
+    margin-top: -10px;
+  }
+
+
+  .globe-footer-wrap{
+    display: none;
+  }
+  .popup-container1,
+  .popup-container2 {
+    display: none;
+  }
+}
+
+/* Media Queries for devices with width between 768px and 1024px */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .hfooterl2-Platform_Resources{
+    display: flex;
+    margin-left: -50px;
+    gap:102px;
+    margin-top: 195px;
+  }
+}
+

@@ -1,0 +1,777 @@
+
+  .platform-AEM-wrapper{
+    width: 100vw;
+  }
+  
+  
+  .platform-AEM-img-section img {
+    margin-top: -100px;
+    position: relative;
+    width: 100vw;
+    object-fit: cover; 
+    inset: 0;
+    /* filter: grayscale(100%); */
+    filter: brightness(55%);
+    z-index: -1;
+  }
+ 
+ .paem-logo-section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+  
+  
+.paem-img-text h1{
+    position: absolute;
+    top: 300px; 
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   left:350px;
+    font-size: 55px;
+    font-family: 'Open Sans', 'Regular';
+}
+.paem-logo-textOne p
+{
+  font-size: 16px;
+  font-family: 'Open Sans', 'Regular';
+  text-align:left;
+  line-height: 30px;
+}
+.paem-logo-section
+{
+    display: flex;
+    gap:100px;
+    justify-content: center;
+    padding-top:80px;
+}
+.paem-why-section
+{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    margin-top: 100px;
+    margin-left: 220px;
+}
+.paem-why-textOne h2
+{
+   font-size: 45px;
+   font-family: 'Open Sans', 'Regular';
+   font-weight: bold;
+   text-align: left;
+   
+}
+.paem-why-textOne p
+{
+    font-size: 16px;
+    font-family:'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+}
+.paem-content-img{
+  margin-right: 200px;
+}
+
+/* services */
+.paem-services-section
+{
+    background-image: linear-gradient(#333333,#0D0D0D);
+    margin-top: 70px;
+
+}
+.paem-services-section h1{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 45px;
+  font-family:'Open Sans', 'Regular';
+  font-weight: bold;
+}
+.paem-services-section-one{
+  display: flex;
+  margin-top:70px;
+  gap:150px;
+  margin-left: 80px;
+}
+
+.paem-services-section-one h3{
+   font-weight: bold;
+   font-size: 25px;
+   font-family: 'Open Sans', 'Regular';
+}
+
+.paem-img-one {
+  margin-left: 200px;
+}
+.paem-img-one p{
+  font-size: 16px;
+  font-family: 'Open Sans', 'Regular';
+  text-align: left;
+  line-height: 30px;
+}
+.paem-img-two {
+  margin-right: 100px;
+}
+.paem-img-two p{
+  font-size: 16px;
+  font-family: 'Open Sans', 'Regular';
+  text-align: left;
+  line-height: 30px;
+}
+
+.paem-services-section-two{
+  display: flex;
+  gap:150px;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+.paem-services-section-two h3{
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Open Sans', 'Regular';
+}
+
+.paem-img-three {
+  margin-left: 200px;
+}
+.paem-img-three p{
+  font-size: 16px;
+  font-family: 'Open Sans', 'Regular';
+  text-align: left;
+  line-height: 30px;
+}
+.paem-img-four{
+  margin-right: 20px;
+}
+.paem-img-four p{
+  font-size: 16px;
+  font-family: 'Open Sans', 'Regular';
+  text-align: left;
+  line-height: 30px;
+}
+.paem-services-section-three{
+  display:flex;
+  gap:150px;
+  margin-left: 80px;
+  margin-top: 30px;
+  padding-bottom: 70px;
+}
+
+.paem-services-section-three h3{
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Open Sans', 'Regular';
+}
+
+.paem-img-five {
+  margin-left: 200px;
+}
+.paem-img-five p{
+  font-size: 16px;
+  font-family: 'Open Sans', 'Regular';
+  text-align: left;
+  line-height: 30px;
+}
+.paem-img-six{
+  /* margin-right: 200px; */
+}
+.paem-img-six p{
+  font-size: 16px;
+  font-family: 'Open Sans', 'Regular';
+  text-align: left;
+  line-height: 30px;
+}
+
+/* redefine */
+
+.paem-redefining-section{
+  /* margin-top: 10px; */
+}
+
+.paem-redefining-one
+{
+    display:flex;
+    justify-content: center;
+    gap:80px;
+    padding-top:70px;
+    margin-left: 40px;
+    /* img{width:400px;height:300px} */
+
+    
+}
+.paem-redefining-textOne h3{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+}
+.paem-redefining-textOne p{
+    font-size: 16px;
+    /* width: 64%; */
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+  
+}
+
+.paem-redefining-textTwo h3{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Open Sans', 'Regular';
+  text-align: left;
+}
+
+.paem-redefining-textTwo p{
+  font-size: 16px;
+  /* width: 64%; */
+  font-family: 'Open Sans', 'Regular';
+  text-align: left;
+  line-height: 30px;
+}
+
+.paem-redefining-textThree h3{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Open Sans', 'Regular';
+  text-align: left;
+}
+
+.paem-redefining-textThree p{
+  font-size: 16px;
+    /* width: 64%; */
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+}
+
+.paem-redefining-textFour h3{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Open Sans', 'Regular';
+  text-align: left;
+}
+
+.paem-redefining-textFour p{
+  font-size: 16px;
+  /* width: 64%; */
+  font-family: 'Open Sans', 'Regular';
+  text-align: left;
+  line-height: 30px;
+}
+.paem-redefining-two
+{
+    display:flex;
+    gap:80px;
+    /* margin-left: 280px; */
+    justify-content: center;
+    padding-top:70px;
+    /* img{width:400px;height:300px} */
+}
+.paem-redefining-three
+{
+    display:flex;
+    gap:80px;
+    padding-top:70px;
+    /* margin-left: 280px; */
+    justify-content: center;
+    /* img{width:400px;height:300px;border-color:antiquewhite;} */
+}
+.paem-redefining-four
+{
+    display:flex;
+    gap:80px;
+    justify-content: center;
+    padding-top:70px;
+    /* margin-left: 280px; */
+    /* img{width:400px;height:300px} */
+}
+
+.paem-redefining-section h2{
+    text-align: center;
+    font-size: 45px;
+   font-family: 'Open Sans', 'Regular';
+   font-weight: bold; 
+   padding-top:50px;
+}
+
+.paem-wave-img img
+{
+  margin-top: 70px;
+  width: 100%;
+}
+.paem-content-img 
+{
+    img{padding-top: 50px;}
+}
+.paem-drImg
+{
+    position:absolute;
+    top:1590px;
+    left:220px;
+    animation: blink 1s linear infinite;
+}
+.paem-drImgTwo
+{
+    position:absolute;
+    top:2140px;
+    right:10px;
+    animation: blink 1s linear infinite;
+}
+
+.paem-blurDot{
+  position:absolute;
+  top:2610px;
+  left:250px;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.paem-pyramid-a{
+    position: absolute;
+    z-index: 1;
+    top:2750px;
+    right:150px;
+    transform: translate(-50%, -50%);
+    animation: rotate 3.5s linear infinite; /* Change the animation duration and timing function as per your preference */
+  }
+
+  .paem-differentiators-imagescroll{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.paem-animate-on-scroll {
+opacity: 0;
+transition: opacity 5s, transform 5s;
+}
+.paem-animate {
+opacity: 1;
+transform: translateY(0);
+}
+
+
+@media (max-width: 768px) {
+  .platform-AEM-wrapper {
+    width: 100%;
+  }
+
+  .platform-AEM-img-section img {
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    inset: 0;
+    filter: brightness(100%);
+    z-index: -1;
+  }
+
+  .paem-logo-section {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .paem-img-text h1 {
+  
+    text-align: center;
+    display: flex;
+    margin-top: -150px;
+    font-size: 20px;
+    margin-left: -300px;
+    font-family: 'Open Sans', 'Regular';
+  }
+  .paem-logo-section img{
+    width: 60%;
+    margin-left: 70px;
+
+  }
+
+  .paem-logo-textOne p {
+  display: none;
+  }
+
+  .paem-why-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 0;
+  }
+
+  .paem-why-textOne h2 {
+    font-size: 22px;
+    font-family: 'Open Sans', 'Regular';
+    font-weight: bold;
+    text-align: center;
+    color:darkorange ;
+  }
+
+  .paem-why-textOne p {
+   display:none ;
+  }
+  .hide-on-laptop3{
+    font-size: 12px;
+    font-family: 'Open Sans', 'Regular';
+    margin-left: 20px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .paem-content-img  img{
+    margin-right: 0;
+    width: 150%;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+
+  .paem-services-section {
+    background-image: linear-gradient(#333333, #0D0D0D);
+    margin-top: 50px;
+  }
+
+  .paem-services-section h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 22px;
+    font-family: 'Open Sans', 'Regular';
+    font-weight: bold;
+  }
+
+  .paem-services-section-one {
+    display: flex;
+    margin-top: 50px;
+    gap: 10px;
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .paem-services-section-one h3 {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Open Sans', 'Regular';
+  }
+
+  .paem-img-one  {
+    margin-left: 0;
+    margin-left: 20px;
+  }
+
+  .paem-img-one p {
+    font-size: 12px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 20px;
+    width: 100%;
+  }
+
+  .paem-img-two {
+    margin-right: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .paem-img-two p {
+    font-size: 12px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 20px;
+  }
+
+  .paem-services-section-two {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .paem-services-section-two h3 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Open Sans', 'Regular';
+  }
+
+  .paem-img-three {
+    margin-left: 0;
+    margin-left: 20px;
+  }
+
+  .paem-img-three p {
+    font-size: 12px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 20px;
+  }
+
+  .paem-img-four {
+    margin-right: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .paem-img-four p {
+    font-size: 12px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 20px;
+  }
+
+  .paem-services-section-three {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .paem-services-section-three h3 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Open Sans', 'Regular';
+  }
+
+  .paem-img-five {
+    margin-left: 0;
+    margin-left: 20px;
+  }
+
+  .paem-img-five p {
+    font-size: 12px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 20px;
+  }
+
+  .paem-img-six {
+    margin-right: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .paem-img-six p {
+    font-size: 12px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 20px;
+  }
+
+  .paem-redefining-section {
+    /* margin-top: 10px; */
+  }
+
+  .paem-redefining-one {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 50px;
+    margin-left: 0;
+  }
+
+  .paem-redefining-textOne h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', 'Regular';
+    text-align: center;
+  }
+
+  .paem-redefining-textOne p {
+    font-size: 14px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .paem-redefining-textTwo h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', 'Regular';
+    text-align: center;
+  }
+
+  .paem-redefining-textTwo p {
+    font-size: 14px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .paem-redefining-textThree h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', 'Regular';
+    text-align: center;
+  }
+
+  .paem-redefining-textThree p {
+    font-size: 14px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .paem-redefining-textFour h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', 'Regular';
+    text-align: center;
+  }
+
+  .paem-redefining-textFour p {
+    font-size: 14px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .aem-wave-img img {
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .drImg {
+    position: absolute;
+    top: 1400px;
+    left: 280px;
+    animation: blink 1s linear infinite;
+  }
+
+  .drImgTwo {
+    position: absolute;
+    top: 2140px;
+    right: 10px;
+    animation: blink 1s linear infinite;
+  }
+
+  .blurDot {
+    position: absolute;
+    top: 2690px;
+    left: 250px;
+    animation: blink 1s linear infinite;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .paem-pyramid-a {
+    position: absolute;
+    z-index: 1;
+    top: 2650px;
+    right: 150px;
+    transform: translate(-50%, -50%);
+    animation: rotate 3.5s linear infinite;
+  }
+
+  .paem-differentiators-imagescroll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
+  .paem-redefining-section h2{
+    font-size: 22px;
+  }
+  .paem-redefining-section img{
+   display:none;
+    
+  }
+  .paem-redefining-textOne h3{
+    font-size: 20px;
+    color:darkorange;
+  }
+   .paem-redefining-textOne p{
+    font-size: 12px;
+   }
+   .paem-redefining-textTwo h3{
+    font-size: 20px;
+    color:darkorange;
+    margin-top: -20px;
+   }
+   .paem-redefining-textTwo p{
+    font-size: 12px;
+   }
+   .paem-redefining-textThree h3{
+    font-size: 20px;
+    color:darkorange;
+    margin-top: -20px;
+   }
+   .paem-redefining-textThree p{
+    font-size: 12px;
+   }
+   .paem-redefining-textFour h3{
+    font-size: 19px;
+    color:darkorange;
+    margin-top: -20px;
+   }
+   .paem-redefining-textFour p{
+   font-size: 12px;
+   }
+  .paem-animate-on-scroll {
+    opacity: 0;
+    transition: opacity 5s, transform 5s;
+  }
+
+  .paem-animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .hide-on-laptop3 {
+    display: none; /* Hide the content on screens with a width of 1024 pixels or larger (laptops and desktops) */
+  }
+}
+@media (min-width: 768px) and (max-width: 1366px)
+{
+  .paem-redefining-one 
+  {
+    margin-left:90px;
+  }
+  .paem-redefining-two
+  {
+    margin-left:15px;
+  }
+  .paem-services-section
+  {
+    margin-left:-100px;
+  }
+  .paem-why-textOne p br 
+  {
+    display:none;
+  }
+  .paem-why-section
+  {
+    margin-left:200px;
+  }
+  .paem-logo-section
+  {
+    margin-right:-50px;
+  }
+  .paem-pyramid-a{
+    margin-top:-100px;
+  }
+  .paem-img-text h1{
+   margin-left:-100px;
+   margin-top:-20px;
+  }
+}

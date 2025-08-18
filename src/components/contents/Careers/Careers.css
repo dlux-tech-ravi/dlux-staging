@@ -1,0 +1,769 @@
+
+
+
+.careers-wrapper {
+    width: 100vw; 
+  }
+
+
+  .careers-img-section img {
+    margin-top: -100px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    inset: 0;
+    filter: brightness(55%);
+    z-index: -1;
+  }
+
+  
+
+
+.careers-head-text h1{
+      position: absolute;
+      top: 420px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 55px;
+      font-family: 'Open Sans', 'Regular';
+      text-align: center;
+      font-weight: bold;
+  }
+
+
+  .careers-container {
+    padding-top: 100px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;  
+    }
+
+  
+  .c-buildcareerssection {
+    margin-top: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+
+  }
+  
+  .cgiftop {
+    padding-top: 20px;
+  }
+  
+  .bcs-text {
+    padding-left: 60px;
+    font-family: 'Open Sans', 'Regular';
+    font-size: 16px;
+  }
+
+
+  .bcs-text h1{
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  .bcs-text p{
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .cblink3{
+    position: absolute;
+    top: 155%; 
+    right: 270px;
+    animation: blink 1.5s infinite;
+
+  }
+  
+ 
+.ops-text{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ops-text h1{
+  font-family: 'Open Sans', 'Regular';
+  font-size: 45px;
+  font-weight: bold;
+}
+
+  .ops-boxarea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 270px;
+  }
+
+
+    .ops-boxarea h3 {
+      font-family: 'Open Sans', 'Regular';
+      font-size: 22px;
+  }
+  
+  .ops-box1,
+  .ops-box2,
+  .ops-box3,
+  .ops-box4 {
+    width: calc(30% - 20px); /* Set the width to 50% of the container with margin */
+    height: 80px; /* Set the height of the first box */
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,#333333, #0D0D0D);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .ops-box1 {
+    left: 310px; /* Stick the first box to the left */
+  }
+  
+  .ops-box2 {
+    left: 240px; /* Stick the second box to the center */
+  }
+  
+  .ops-box3 {
+    right: 306px; /* Stick the third box to the right */
+    top: 114px; /* Move the third box down by 100px */
+  }
+  
+  .ops-box4 {
+    left: 310px; /* Stick the fourth box to the center */
+  }
+
+  .ops-box1 img {
+    position: absolute;
+    top: 52%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+  }
+  
+  .ops-box1:hover img {
+    opacity: 1; 
+  }
+
+  .ops-box2 img {
+    position: absolute;
+    top: 52%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+  }
+  
+  .ops-box2:hover img {
+    opacity: 1; 
+  }
+
+
+  .ops-box3 img {
+    position: absolute;
+    top: 52%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+  }
+  
+  .ops-box3:hover img {
+    opacity: 1; 
+  }
+
+
+  .ops-box4 img {
+    position: absolute;
+    top: 52%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+  }
+  
+  .ops-box4:hover img {
+    opacity: 1; 
+  }
+
+  .crectangle {
+    position: absolute;
+    top: 207%; 
+    right: 6%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    animation: rotate 4s linear infinite; 
+   
+  }
+
+  .c_ops_blink2{
+    position: absolute;
+    top: 198%; 
+    left: 120px;
+    animation: blink 1.5s infinite;
+
+  }
+  .c-internshipsection {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+  }
+
+  .is-text{
+    padding-left: 230px;
+
+  }
+
+  .is-text h1 {
+    font-family: 'Open Sans', 'Regular';
+    font-size: 45px;
+    font-weight: bold;
+
+  }
+
+  .is-text p {
+    font-family: 'Open Sans', 'Regular';
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+
+  }
+
+  
+  .is-btn button {
+    margin-top: 50px;
+    padding: 5px 50px;
+    border-radius: 40px; 
+    background: linear-gradient(to right,#FE780C, #FE3908);
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer; 
+  }
+  
+  .is-btn button:hover {
+    box-shadow: 0 0 15px #FE780C, 0 0 20px #FE3908;
+  }
+  
+  .is-btn button:hover::after {
+    content: url('../../contents/Careers/careers-assests/carrow2.png');
+    position: absolute;
+    margin-top: -29px;
+    padding-left: 50px;
+  }
+  
+  .is-btn h6{
+    font-family: 'Open Sans', 'Regular';
+    font-size: 15px;
+  }
+  
+  .is-cinternimage {
+    flex: 1;
+    display: flex;
+    padding-left: 120px;
+  }
+  
+  .c-ourculturesection {
+    margin-top: 70px;
+    background: linear-gradient(to right,#333333, #0D0D0D);
+  
+  }
+
+  .oc-text {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px; 
+  }
+
+  .oc-text h1 {
+    font-family: 'Open Sans', 'Regular';
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  .oc-text p {
+    font-family: 'Open Sans', 'Regular';
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .oc-boxareawhole{
+    padding-left:40px;
+   
+  }
+  
+  .oc-boxarear1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .oc-box1,
+  .oc-box2,
+  .oc-box3{
+    width: 25%; /* Set the width of all boxes to 20% */
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .oc-box1 {
+    margin-right: -130px; /* Move the first box to the right by adding margin to the right */
+  }
+  
+  .oc-box2 {
+    margin-left: -120px;
+  }
+  
+  .oc-box3 {
+    margin-left: -250px;
+  }
+
+  .oc-boxarear2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 20px;
+  }
+
+  .oc-box5,
+  .oc-box4{
+    width: 25%; /* Set the width of all boxes to 20% */
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  
+  
+  .oc-box5 {
+    margin-left: -660px;
+  }
+
+  .oc-box1 img,
+  .oc-box2 img,
+  .oc-box3 img,
+  .oc-box4 img,
+  .oc-box5 img {
+    padding-top: 20px; /* Adjust the padding as needed */
+  }
+  .oc-box1 h3,
+  .oc-box2 h3,
+  .oc-box3 h3,
+  .oc-box4 h3,
+  .oc-box5 h3 {
+    font-family: 'Open Sans', 'Regular';
+    font-size: 22px;
+  }
+
+  .g-text{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .g-text h1 {
+    font-family: 'Open Sans', 'Regular';
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  .g-text p{
+    font-family: 'Open Sans', 'Regular';
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .g-banner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 100px;
+    background-color: black;
+  }
+  
+  .g-indicator {
+    margin-bottom: 20px;
+  }
+  
+  .gallery-btn {
+    margin: 10px 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0 5px;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #bbb;
+  }
+
+  .g-indicator{
+    margin-top: 20px;
+  }
+  
+  .gallery-btn.active {
+    background-color: #FE3908;
+    border-color: #FE3908; 
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg); 
+    }
+    to {
+      transform: rotate(360deg); 
+  }
+  }
+  
+  .cload {
+    position: absolute;
+    top: 462%; 
+    right: 11%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    animation: rotate 4s linear infinite; 
+   
+  }
+
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+  .cblink1{
+    position: absolute;
+    top: 365%; 
+    left: 300px;
+    animation: blink 1.5s infinite;
+  }
+  
+  .cblink2{
+    position: absolute;
+    top: 447%; 
+    left: 200px;
+    animation: blink 1.5s infinite;
+
+  }
+  
+
+  .es-text {
+    margin-left: 230px; 
+    margin-top: 70px;
+    margin-bottom: 20px;
+  }
+
+  .es-text h1 {
+    font-family: 'Open Sans', 'Regular';
+    font-size: 45px;
+    text-align: left;
+  }
+
+  .es-text p{
+    font-family: 'Open Sans', 'Regular';
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+  }
+
+
+.c-wave {
+    position: relative;
+    overflow: hidden;
+}
+.c-wave img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.careers-footer{
+    margin-right: 17px;
+}
+
+@media (max-width: 768px) {
+  .careers-wrapper {
+    width: auto; 
+  }
+  .careers-img-section img {
+    margin-top: 100px;
+    filter: brightness(100%);
+  }
+  .careers-head-text h1 {
+    font-size: 22px;
+    margin-top:-200px ;
+    width: 100%;
+  }
+  .careers-container {
+    padding-top: 70px;
+    padding-left: 0px;
+  }
+
+  .cgiftop{
+   display: none;
+  }
+
+  .bcs-text{
+    padding-left: 20px;
+  }
+  .bcs-text h1 {
+    font-size: 22px;
+  }
+
+  
+  .bcs-text p {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .bcs-text p br{
+    display: none;
+  }
+
+  .cblink3 {
+   display: none;
+  }
+  .c-openpositionsection {
+    margin-top: 30px;
+  }
+  .ops-text h1 {
+    font-size: 22px;
+  }
+  .oc-boxareawhole{
+    width: 90%;
+    margin-left: 20px;
+  }
+  .ops-boxarea {
+    gap: 10px;
+    width: 80%;
+    margin-left: 30px;
+
+  }
+  .ops-box1, .ops-box2, .ops-box3, .ops-box4 {
+   left: 0px;
+   right: 0px;
+   top:0px;
+   width: 100%;
+  }
+  .ops-box1 img, .ops-box2 img, .ops-box3 img, .ops-box4 img {
+    height: auto;
+  }
+  .ops-box1 h3, .ops-box2 h3, .ops-box3 h3, .ops-box4 h3 {
+    font-size: 15px;
+    font-family: 'Open Sans', 'Regular';
+  }
+  .crectangle {
+    top: 170%;
+    right: 10%;
+    display: none;
+  }
+  .c_ops_blink2 {
+    top: 160%;
+    left: 60px;
+    display: none;
+  }
+  .c-internshipsection {
+    margin-top: 30px;
+  }
+  .is-text {
+    padding-left: 20px;
+  }
+  .is-text h1 {
+    font-size: 22px;
+  }
+
+  .is-text p br{
+    display: none;
+  }
+  .is-text p {
+    font-size: 12px;
+    width: 100%;
+  }
+  .is-btn button {
+    margin-top: 30px;
+    padding: 0px 30px;
+    border-radius: 40px; 
+    background: linear-gradient(to right,#FE780C, #FE3908);
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer; 
+  }
+
+  .is-btn button h6 {
+    font-size: 12px;
+    text-align:center;
+  }
+  
+  .is-btn button:hover::after{
+    display: none;
+  }
+  .is-btn button:hover {
+    box-shadow: 0 0 15px #FE780C, 0 0 20px #FE3908;
+  }
+
+  .is-cinternimage {
+    display: none;
+  }
+  .c-ourculturesection {
+    margin-top: 30px;
+  }
+  .oc-text h1 {
+    font-size: 22px;
+  }
+
+  .oc-text p br{
+    display: none;
+  }
+  .oc-text p {
+    font-size: 12px;
+  }
+  .oc-boxareawhole {
+    padding-left: 0px;
+
+  }
+  .oc-boxarear1, .oc-boxarear2 {
+    gap: 10px;
+    padding-left: 0px;
+    
+
+  }
+  .oc-box1, .oc-box2, .oc-box3, .oc-box4, .oc-box5 {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+  }
+  .oc-box1 img, .oc-box2 img, .oc-box3 img, .oc-box4 img, .oc-box5 img {
+    height: auto;
+  }
+  .oc-box1 h3, .oc-box2 h3, .oc-box3 h3, .oc-box4 h3, .oc-box5 h3 {
+    font-size: 22px;
+  }
+ 
+  .g-text h1 {
+    font-size: 22px;
+  }
+
+  .g-text p br{
+    display: none;
+  }
+
+  .g-text p {
+    font-size: 12px;
+  }
+  .g-banner img{
+    padding: 0 50px;
+    width: 250%;
+  }
+  
+  .g-indicator {
+    margin-bottom: 10px;
+  }
+  .gallery-btn {
+    width: 8px;
+    height: 8px;
+    margin: 0 3px;
+  }
+  .cload {
+    top: 175%;
+    right: 5%;
+  }
+  .cblink1 {
+    top: 147%;
+    left: 150px;
+  }
+  .cblink2 {
+    display:none;
+  }
+ 
+  .es-text {
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .es-text h1 {
+    font-size: 22px;
+  }
+
+  .es-text p br{
+    display: none;
+  }
+  
+  .es-text p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1366px)
+{
+ 
+.is-text p br
+{
+display:none;
+}
+.is-text{
+  margin-right:-60px;
+}
+.is-text p
+{
+ width:500px;
+}
+.oc-text{
+  margin-right:40px;
+}
+.oc-boxareawhole{
+  margin-right:80px;
+}
+.oc-boxarear2
+{
+  gap:90px;
+}
+.c-internshipsection{
+  margin-left:-50px;
+}
+.cload{
+margin-right:-100px;
+}
+.cblink2
+{
+  margin-left:-200px;
+}
+.cblink1
+{
+  margin-left:-200px;  
+}
+.es-text{
+  margin-left:120px;
+}
+.careers-head-text h1
+{
+  margin-top:-80px;
+}
+.ops-box1{
+  margin-left:-50px;
+}
+.about-right
+{
+  margin-top:-81px;
+}
+
+}

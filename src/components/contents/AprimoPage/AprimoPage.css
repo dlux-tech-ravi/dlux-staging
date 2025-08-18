@@ -1,0 +1,813 @@
+.AprimoPage-wrapper{
+    width: 100vw;
+}
+
+
+.Aprimo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Aprimo-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Aprimo-headtext {
+    font-size: 55px;
+    margin-bottom: 0;
+    margin-top: -30rem;
+    display: flex;
+    justify-content:center ;
+    text-align: center;
+    width: 100%;
+    font-family: 'Open Sans', 'Regular';
+    color: white;
+    font-weight: bold;
+}
+
+.Aprimo-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
+    width: 100vw;
+    z-index: -1;
+    background-color: black;
+    /* filter: grayscale(100%); */
+    filter: brightness(55%);
+    top: 0;
+}
+
+.Aprimo-headsection {
+    position: relative;
+    width: 100vw;
+    background: no-repeat center center fixed;
+    background-size: cover;
+    filter: grayscale(100%);
+    background-color: black;
+    z-index: -1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
+}
+
+.Aprimo-headsection::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    z-index: -1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+   /* second section */
+
+.AprimoSecond-content {
+    position: relative;
+    margin-left: 170px;
+}
+
+
+.AprimoSecond-left img {
+    display: flex;
+    justify-content: center;
+    position: inherit;
+    padding-top: 150px;
+    padding-bottom: 70px;
+    /* width: 500px; */
+    margin-left: 100px;
+    object-fit: cover;
+}
+
+
+.AprimoSecond-right {
+    display: block;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    left: 35rem;
+}
+
+
+.AprimoSecond-right h1 {
+     color: #fff;
+     display: flex;
+     justify-content: left;
+     font-family: 'Open Sans', 'Regular';
+     font-size: 30px;
+     font-weight: bold;
+   
+}
+
+
+.AprimoSecond-rightContent-text {
+    display: inline-flex;
+    font-family: 'Open Sans', 'Regular';
+    font-size: 16px;
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+    line-height: 30px;
+}
+/* third */
+.AprimoThird-section {
+margin-top: 50px;
+}
+.AprimoThird-section h2{
+    color:#e97415;
+   text-align: center;
+    font-size: 35px;
+    font-family: 'Open Sans', 'Regular';
+    font-weight: bold;
+}
+.AprimoThird-content{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 20px;
+}
+.AprimoThird-content img{
+    width: 8%;
+    height: 100px;
+   padding: auto;
+   /* filter: brightness(70%); */
+}
+.AprimoThird-content p{
+    font-size: 16px;
+    color: #fff;
+    width: 20%;
+    margin-top: 35px;
+    text-align: left;
+    font-family: 'Open Sans', 'Regular';
+    line-height: 30px;
+}
+
+
+.AprimoThird1-content{
+    display: flex;
+    margin-left: 400px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+    
+    .AprimoThird1-content img{
+        width: 9%;
+        height: 100px;
+        padding: auto;
+      
+    }
+    .AprimoThird1-content p{
+        font-size: 16px;
+        color: #fff;
+        width: 25%;
+        margin-top: 35px;
+        text-align: left;
+        font-family: 'Open Sans', 'Regular';
+        line-height: 30px;
+    }
+    /* fourth */
+.Aprimovalue-Dam{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.Aprimovalue-Dam h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 70px;
+    font-family: 'Open Sans', 'Regular';
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.Aprimovalue1-main{
+    background-color: black;
+    width: 33rem; /* Updated width to 40% */
+    margin-bottom: 46px;
+    flex-direction: column;
+    align-items: flex-start; /* Align elements to the left */
+    text-align: left; /* Align text to the left */
+    padding: 2%;
+    border: 1px solid #666363; /* Grey border for the boxes */
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+    transition: transform 0.2s;
+    display: flex;
+    margin-left: 250px;
+}
+.Aprimovalue1 p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+}
+.AprimoValue-start{
+    display: flex;
+}
+.Aprimovalue11-main{
+    background-color: black;
+    width: 33rem; /* Updated width to 40% */
+    margin-bottom: 46px;
+    flex-direction: column;
+    align-items: flex-start; /* Align elements to the left */
+    text-align: left; /* Align text to the left */
+    padding: 2%;
+    border: 1px solid #666363; /* Grey border for the boxes */
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+    transition: transform 0.2s;
+    display: flex;
+    margin-left: 50px;
+}
+.Aprimovalue11 p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+}
+.Aprimo-partnership{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(to bottom right, rgb(46, 45, 45), rgb(0, 0, 0));
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+
+.Aprimosecond-Partnership h1{
+    font-size: 45px;
+    color: #fff;
+    font-family: 'Open Sans', 'Regular';
+    font-weight: bold;
+}
+.Aprimosecond-Partnership p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+}
+
+/* fourth */
+.AprimoExpertise-section{
+   margin-top: 70px;
+   margin-left: 210px;
+    
+}
+.AprimoExpertise-content {
+    position: relative;
+}
+.AprimoExpertise-left h1{
+    font-size: 45px;
+    color: #fff;
+    font-family: 'Open Sans', 'Regular';
+    font-weight: bold;
+}
+
+.AprimoExpertise-left img {
+    display: block;
+    position: inherit;
+    margin-left: 0;
+    object-fit: cover;
+    margin-top: 50px;
+  
+}
+
+
+
+.AprimoExpertise-right {
+    display: block;
+    position: absolute;
+    top: 12rem;
+    right: 0;
+    left: 38rem;
+}
+
+.AprimoExpertise-right h2{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.AprimoExpertise-text {
+    display: inline-flex;
+    font-family: 'Open Sans', 'Regular';
+    font-size: 16px;
+    color: var(--p-color);
+    text-align: left;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+/* sixth */
+.AprimoConsulting{
+    margin-top: 100px;
+    
+}
+.AprimoConsulting h1{
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Open Sans', 'Regular';
+}
+.AprimoConsulting-main{
+    display: flex;
+    justify-content:center ;
+    margin-top: 70px;
+    margin-left: -90px;
+
+}
+.AprimoConsulting-second img{
+   margin-right: 20px;
+   margin-left: 150px;
+}
+.AprimoConsulting-second1 h2{
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Open Sans', 'Regular';
+    font-weight:bold;
+}
+.AprimoConsulting-second1 p{
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+  
+    
+}
+.AprimoConsulting-main1{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: -90px;
+
+}
+.AprimoConsulting-second11 h2{
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Open Sans', 'Regular';
+    font-weight:bold;
+}
+.AprimoConsulting-second11 p{
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+  
+    
+}
+.AprimoConsulting-second12 p{
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    margin-bottom: 20px;
+    line-height: 30px;
+  
+  
+    
+}
+.AprimoConsulting-second12 img{
+  margin-right: 20px;
+  margin-left: 150px;
+}
+
+.aprimo-wave img{
+    width: 100%;
+}
+
+.aprimo-footer{
+  margin-right: 17px;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); 
+  }
+  to {
+    transform: rotate(360deg); 
+}
+}
+
+.aprimo-blinkstuff1{
+    position: absolute;
+    top: 280%;
+    left: 4%;
+    animation: blink 1.5s infinite;
+}
+
+.aprimo-blinkstuff2{
+    position: absolute;
+    top: 380%;
+    left: 34%;
+    animation: blink 1.5s infinite;
+}
+
+.aprimo-blinkstuff3{
+    position: absolute;
+    top: 500%;
+    left: 8%;
+    animation: blink 1.5s infinite;
+}
+
+.aprimo-diamond{
+    position: absolute;
+    top: 180%; 
+    left: 12%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    animation: rotate 4s linear infinite; 
+}
+
+.aprimo-globe{
+    position: absolute;
+    top: 405%; 
+    right: 8%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    animation: rotate 4s linear infinite; 
+
+}
+
+.aprimo-cube{
+    position: absolute;
+    top: 247%; 
+    right: 8%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    animation: rotate 4s linear infinite; 
+
+}
+
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    .AprimoPage-wrapper {
+      width: 100%;
+    }
+  
+    .Aprimo-container {
+      flex-direction: column;
+    }
+    .Aprimo-container img{
+      margin-top: 110px;
+      filter: brightness(100%);
+    }
+  
+    .Aprimo-headtext {
+      font-size: 20px;
+      margin-top: -130px;
+    }
+  
+  
+  
+    .Aprimo-headsection {
+      width: 100%;
+    }
+  
+    .AprimoSecond-content {
+      margin-left: 0;
+    }
+  
+    .AprimoSecond-left img {
+      margin-left: 50px;
+      width: 70%;
+      margin-top: -80px;
+    }
+  
+    .AprimoSecond-right {
+      left: 0;
+      margin-left: 0;
+      margin-top: 300px;
+    }
+    .AprimoSecond-right  h1{
+      font-size: 20px;
+      margin-left: 10px;
+    margin-top:-10px;
+    }
+    .AprimoSecond-right  p{
+      display: none;
+    }
+    .hide-on-laptop41{
+      font-size: 12px;
+      font-family: 'Open Sans', 'Regular';
+      margin-left: 10px;
+      margin-top: 10px;
+      width: 95%;
+    }
+  
+    .AprimoThird-content {
+      margin-left: 0;
+      flex-direction: column;
+      gap:10px;
+      margin-bottom: -20px;
+   
+    }
+    .AprimoThird-section h2{
+      margin-top: 50px;
+      font-size: 22px;
+    }
+  
+    .AprimoThird1-content {
+      margin-left: 0;
+      flex-direction: column;
+    }
+  .AprimoThird-content  img{
+   display: none;
+  }
+    .AprimoThird-content p{
+      font-size: 12px;
+      width: 100%;
+      margin-left: 20px;
+      margin-top:-5px;
+      margin-bottom: -5px;
+    }
+    .AprimoThird1-content img{
+      display:none;
+
+    }
+    .AprimoThird1-content p{
+      font-size: 12px;
+      width: 100%;
+      margin-left: 20px;
+      margin-top: 10px;
+   
+  
+    }
+    .Aprimovalue-Dam {
+      margin-top: 50px;
+    }
+  .Aprimovalue-Dam h1{
+    font-size: 22px;
+  }
+  .AprimoValue-start{
+    width: 90%;
+    gap: 20px;
+    height: 38vh;
+    margin-left: 10px;
+    margin-top: -20px;
+  }
+  .Aprimovalue1 p{
+    font-size: 12px;
+    text-align: center;
+  }
+  .Aprimovalue11 p{
+    font-size: 12px;
+    text-align: center;
+  }
+    .Aprimovalue1-main {
+      margin-left: 0;
+    }
+  
+    .Aprimovalue11-main {
+      margin-left: 0;
+    }
+  
+    .Aprimo-partnership {
+      margin-top: 2rem;
+      height: 20vh;
+
+    }
+  
+    .Aprimosecond-Partnership h1 {
+      font-size: 19px;
+      width: 200%;
+      margin-left: -90px;
+      text-align: center;
+    }
+    .Aprimosecond-Partnership p{
+    display: none;
+    }
+    .hide-on-laptopap{
+      font-size: 12px;
+      width: 100%;
+      margin-left: 50px;
+      font-family: 'Open sans','Regular';
+      text-align: center;
+    }
+    .Aprimosecond1-Partnership img{
+      display: none;
+    }
+  
+    .AprimoExpertise-section {
+      margin-top: 70px;
+      margin-left: 0;
+    }
+  
+    .AprimoExpertise-left img {
+      margin-top: 50px;
+      width: 40%;
+      margin-left: 20px;
+    }
+    .AprimoExpertise-left h1{
+      font-size: 22px;
+      margin-left: 20px;
+    }
+  
+    .AprimoExpertise-right {
+      top: 22rem;
+      left: 0;
+      margin-left: 20px;
+      flex-direction: column;
+    }
+      .AprimoExpertise-right img{
+      margin-top: 10px;
+      }
+      .AprimoExpertise-right h2{
+        font-size: 19px;
+
+      }
+      .AprimoExpertise-right p{
+        font-size: 12px;
+      }
+      .AprimoExpertise-right1{
+        margin-top: -40px;
+      }
+  
+    .AprimoConsulting {
+      margin-top: 600px;
+    }
+  
+    .AprimoConsulting h1 {
+      font-size: 22px;
+      color: #e97415;
+    }
+  
+    .AprimoConsulting-main {
+      margin-top: 40px;
+      margin-left: 0;
+      flex-direction: column;
+    }
+  
+    .AprimoConsulting-second img {
+      margin-left: 20px;
+      width: 20%;
+      margin-right: 30px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+   
+    }
+  
+    .AprimoConsulting-second1 h2 {
+      font-size: 22px;
+      margin-top: -10px;
+      margin-left: 40px;
+    }
+  
+    .AprimoConsulting-second1 p {
+      font-size: 12px;
+      margin-left: 40px;
+      width: 120%;
+    }
+  
+    .AprimoConsulting-main1 {
+      margin-top: 20px;
+      margin-left: 0;
+      flex-direction: column;
+    }
+    .AprimoConsulting-main1 img{
+      margin-left: 30px;
+    }
+    
+  
+    .AprimoConsulting-second11 h2 {
+      font-size: 22px;
+      margin-top: 10px;
+      margin-left: 40px;
+    }
+  
+    .AprimoConsulting-second11 p {
+      font-size: 12px;
+      margin-left: 40px;
+      width: 120%;
+    }
+  
+    .AprimoConsulting-second12 p {
+      font-size: 12px;
+      margin-left: 40px;
+    }
+    .AprimoConsulting-second12 img{
+      margin-left: 40px;
+      width: 15%;
+      margin-right: 30px;
+      margin-top: 10px;
+    }
+    .AprimoConsulting-second12 h2{
+      font-size: 22px;
+      margin-top:10px;
+      margin-left: 40px;
+    }
+  
+  
+    .aprimo-wave img {
+      width: 100%;
+    }
+  
+    .aprimo-blinkstuff1 {
+      top: 273%;
+      left: 30%;
+    }
+  
+    .aprimo-blinkstuff2 {
+      top: 380%;
+      left: 48%;
+    }
+  
+    .aprimo-blinkstuff3 {
+      top: 500%;
+      left: 15%;
+    }
+  
+    .aprimo-diamond {
+      top: 130%;
+      left: 7%;
+    }
+  
+    .aprimo-globe {
+      top: 405%;
+      right: 8%;
+    }
+  
+    .aprimo-cube {
+      top: 207%;
+      right: 8%;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .hide-on-laptop41
+     {
+      display: none; /* Hide the content on screens with a width of 1024 pixels or larger (laptops and desktops) */
+    }
+    .hide-on-laptopap{
+      display: none;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1366px)
+  {
+    .AprimoSecond-content
+    {
+      margin-left:40px;
+    }
+    .aprimo-diamond{
+      top: 180%;
+      margin-left:-100px;
+    }
+    .AprimoThird-section p br
+    {
+      display: none;;
+    }
+    .AprimoThird-content
+    {
+      margin-left: 160px;
+    }
+    .AprimoThird1-content
+    {
+      margin-left: 270px;
+    }
+    .AprimoValue-start
+    {
+      margin-left:-100px;
+    }
+    .aprimo-globe{
+      margin-right:-20px;
+      margin-top:200px;
+    }
+    .AprimoExpertise-content
+    {
+      margin-left:-20px;
+    }
+    .aprimo-blinkstuff2
+    {
+     margin-left:0px;
+     margin-top:250px;
+    }
+    .Aprimo-headsection h1
+    {
+    margin-bottom:-30px;
+    }
+    .Aprimovalue-Dam
+    {
+      margin-left:10px;
+    }
+
+
+  }

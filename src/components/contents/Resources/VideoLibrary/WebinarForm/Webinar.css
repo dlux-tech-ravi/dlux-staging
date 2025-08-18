@@ -1,0 +1,50 @@
+form h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fullName {
+    display: flex;
+    gap: 25px;
+}
+
+.firstName, .lastName, .emailId, .phoneNumber {
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 10px 0px 15px 0px;
+}
+
+input:focus {
+    outline: none;
+    border-color:white; 
+}
+
+.emailId:focus {
+    border-color:white; 
+}
+
+label .Phone {
+    transition: none;
+    transform: none;
+}
+input {
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 10px 0 15px 0;
+    color: white;
+    padding: 10px; 
+}
+
+.emailId:focus {
+    outline: none;
+    border-color: white; 
+}
+
+.phoneNumber:focus {
+    outline: none;
+    border-color: lightgrey; 
+}
+
+input:not(:focus) {
+    border-color: grey; 
+}
