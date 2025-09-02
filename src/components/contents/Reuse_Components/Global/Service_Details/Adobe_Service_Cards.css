@@ -1,0 +1,260 @@
+/* ============================
+   Adobe Services Section Base
+=============================== */
+.adobe-services-section {
+  padding: 60px 100px;
+  text-align: center;
+  color: white;
+}
+
+.adobe-services-heading {
+  font-size: 36px;
+  margin-bottom: 48px;
+  font-weight: 600;
+}
+
+.adobe-services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ============================
+   Card Base Styles
+=============================== */
+/* ============================
+   Animated Border for Service Card
+=============================== */
+.adobe-service-card {
+  width: 100%;
+  max-width: 360px;
+  height: 180px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+  border-radius: 20px;
+  background: linear-gradient(
+    135deg,
+    rgba(223, 106, 247, 0.1),
+    rgba(163, 73, 246, 0.15),
+    rgba(255, 255, 255, 0.05)
+  );
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow:
+    0 0 25px rgba(171, 90, 240, 0.2),
+    inset 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+/* Running conic-gradient border */
+.adobe-service-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 2px; /* border thickness */
+  background: conic-gradient(
+    from var(--gradient-angle),
+    transparent 0deg,
+    rgba(223, 106, 247, 0.9) 60deg,
+    rgba(163, 73, 246, 0.9) 120deg,
+    transparent 180deg,
+    rgba(223, 106, 247, 0.9) 240deg,
+    rgba(163, 73, 246, 0.9) 300deg,
+    transparent 360deg
+  );
+  animation: rotateCardBorder 3s linear infinite;
+  z-index: 2;
+
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* For smooth rotation */
+@property --gradient-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes rotateCardBorder {
+  0% { --gradient-angle: 0deg; }
+  100% { --gradient-angle: 360deg; }
+}
+
+/* Inner face stays above the bg but below border mask */
+.card-face {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+}
+
+
+
+.card-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1;
+
+  /* Glassy Core */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 0 30px rgba(183, 77, 246, 0.15), inset 0 0 10px rgba(255, 255, 255, 0.05);
+  color: #fff;
+}
+
+/* ============================
+   Glassy Purple Themes
+=============================== */
+.card-1 .card-face {
+  background: linear-gradient(
+    120deg,
+    rgba(43, 22, 81, 0.7) 10%,
+    rgba(94, 45, 172, 0.75) 35%,
+    rgba(123, 63, 235, 0.8) 65%,
+    rgba(161, 70, 242, 0.85) 90%,
+    rgba(183, 77, 246, 0.9) 100%
+  );
+  border: 1px solid rgba(94, 45, 172, 0.4);
+}
+
+.card-2 .card-face {
+  background: linear-gradient(
+    120deg,
+    rgba(37, 13, 77, 0.7) 10%,
+    rgba(104, 49, 163, 0.75) 35%,
+    rgba(141, 72, 232, 0.8) 65%,
+    rgba(171, 78, 243, 0.85) 90%,
+    rgba(183, 77, 246, 0.9) 100%
+  );
+  border: 1px solid rgba(104, 49, 163, 0.4);
+}
+
+.card-3 .card-face {
+  background: linear-gradient(
+    120deg,
+    rgba(30, 10, 62, 0.7) 10%,
+    rgba(85, 39, 161, 0.75) 40%,
+    rgba(123, 63, 235, 0.8) 75%,
+    rgba(168, 79, 241, 0.85) 95%,
+    rgba(183, 77, 246, 0.9) 100%
+  );
+  border: 1px solid rgba(85, 39, 161, 0.4);
+}
+
+/* ============================
+   Icon + Content
+=============================== */
+.adobe-card-icon {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 10px;
+}
+
+.adobe-card-icon img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  transition: transform 0.6s ease-in-out;
+}
+
+.adobe-card-icon img:hover {
+  transform: scale(1.15);
+}
+
+.adobe-card-icon h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  color: #ffffff;
+}
+
+.adobe-card-content p {
+  font-size: 12px;
+  text-align: justify;
+  color: #cccccc;
+}
+
+/* ============================
+   Responsive
+=============================== */
+@media (max-width: 1024px) {
+  .adobe-services-section {
+    padding: 40px 40px;
+  }
+
+  .adobe-services-heading {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .adobe-services-section {
+    padding: 30px 20px;
+  }
+
+  .adobe-services-heading {
+    font-size: 28px;
+    margin-bottom: 32px;
+  }
+
+  .adobe-service-card {
+    height: auto;
+  }
+
+  .card-face {
+    padding: 16px;
+  }
+
+  .adobe-card-icon {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .adobe-card-icon h3 {
+    font-size: 18px;
+  }
+
+  .adobe-card-content p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 480px) {
+  .adobe-services-heading {
+    font-size: 24px;
+  }
+
+  .adobe-card-icon img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .adobe-card-icon h3 {
+    font-size: 16px;
+  }
+
+  .adobe-card-content p {
+    font-size: 10px;
+  }
+}

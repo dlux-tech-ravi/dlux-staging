@@ -1,0 +1,178 @@
+.case-study {
+  /* background-color: #101010; */
+  color: #ffffff;
+  padding: 3rem 1rem;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cs-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  width: 100%;
+}
+
+.cs-title {
+  font-size: 2.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.cs-description {
+  font-size: 1rem;
+  color: #cccccc;
+  line-height: 1.6;
+}
+
+.cs-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.cs-subheading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.cs-right {
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.cs-filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tab {
+  padding: 0.5rem 1.2rem;
+  background-color: #222;
+  border: none;
+  color: #fff;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.tab.active,
+.tab:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Responsive Grid */
+.cs-cards {
+  display: grid;
+  grid-template-columns: 1fr; /* Mobile first */
+  gap: 24px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.cs-card {
+  background-color: #121212;
+  border-radius: 12px;
+  padding: 24px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.cs-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
+}
+
+.cs-img {
+  height: 140px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.cs-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.cs-tag {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+
+.cs-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  word-break: break-word;
+}
+
+.cs-arrow {
+  font-size: 20px;
+  color: #ff7a00;
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .cs-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cs-top {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .case-study {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .cs-header {
+    width: 70%;
+  }
+
+  .cs-title {
+    font-size: 2.5rem;
+  }
+
+  .cs-subheading {
+    font-size: 1.5rem;
+  }
+
+  .cs-description {
+    font-size: 1.1rem;
+  }
+
+  .cs-text {
+    font-size: 1.1rem;
+  }
+
+  .cs-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

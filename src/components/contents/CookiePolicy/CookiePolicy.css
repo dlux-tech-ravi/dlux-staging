@@ -1,0 +1,476 @@
+
+/* CookiePolicy.css */
+
+
+.cookie-policy-container h1{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Open Sans', 'Regular';
+}
+
+
+
+.cookie-policy-text{
+    margin-left: 165px;  
+}
+
+
+.cookie-policy-cookie-notice-para1 p{
+    margin-top: 50px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+}
+
+.cookie-policy-cookie-notice-para1 a {
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    color: blue; /* Add underline on hover */
+    text-decoration: none;
+  }
+  
+  
+
+.cookie-policy-cookie-notice-para2 p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+}
+
+
+.cookie-policy-cookie-notice-para3 p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+}
+
+.cookie-policy-cookie-notice-para3 a {
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    color: blue; /* Add underline on hover */
+    text-decoration: none;
+  }
+
+.cookie-policy-cookie-notice-para4 p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+}
+
+.cookie-policy-cookie-notice-para4 a {
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    color: blue; /* Add underline on hover */
+    text-decoration: none;
+  }
+
+
+  
+  .cp-whatrcookies-section h3{
+    font-size:35px;
+    margin-top: 50px;
+    color: #FE780C ;
+  }
+  
+  .cp-whatrcookies-para1 p{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+  }
+  
+  .cp-whatrcookies-para2 p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+  }
+  
+  .cp-usecookies-section h3{
+    font-size:35px;
+    margin-top: 50px;
+    color: #FE780C ;
+  }
+  
+  .cp-usecookies-para1 p{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+  }
+  
+  .cp-usecookies-para2 p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .cp-usecookies-para3 p{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 40px;
+  }
+
+  .cp-usecookies-para3 ul li{
+    margin-left: 15px;
+  }
+
+  .cp-usecookies-para3 ul li::marker{
+    color: #FE780C ;
+  }
+  
+  .cp-cookieswe-section h3{
+    font-size:35px;
+    margin-top: 50px;
+    color: #FE780C ;
+  }
+  
+  .cp-cookieswe-para1 p{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+  }
+  
+  .cp-cookieswe-para2 p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+  }
+  
+  .cp-cookieswe-para3 p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+  }
+  
+  .cp-cookieswe-para4 h4{
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+  }
+  .cp-cookieswe-para4 p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+  }
+
+  .cp-cookieswe-para4 a{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    color: blue; 
+    text-decoration: none;
+  }
+  
+  .cp-cookieswe-para5 h4{
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+  }
+
+  .cp-cookieswe-para5 p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+  }
+
+  .cp-cookieswe-para5 a{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    color: blue; 
+    text-decoration: none;
+  }
+  
+  .cp-cookieswe-para6 h4{
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+  }
+
+  .cp-cookieswe-para6 p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  .cp-cookieswe-para6 a{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    color: blue; 
+    text-decoration: none;
+  }
+  
+  .cp-cookieswe-para7 h4{
+    font-size: 22px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+  }
+
+  .cp-cookieswe-para7-sub1 p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+  }
+
+  .cp-cookieswe-para7-sub2 p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  .cp-cookieswe-para7-sub2 a{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    color: blue; 
+    text-decoration: none;
+  }
+
+  .cp-cookieswe-para7-sub3 p{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 40px;
+  }
+
+  .cp-cookieswe-para7-sub3 a{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    color: blue; 
+    text-decoration: none;
+  }
+
+  
+
+  .cp-cookieswe-para7-sub3 ul li{
+    margin-left: 15px;
+
+  }
+
+  .cp-cookieswe-para7-sub3 ul li::marker{
+    color: #FE780C ;
+  }
+  
+  .cp-cookieswe-para8  h4{
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  .cp-cookieswe-para8 p{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+
+  }
+
+  .cp-cookieswe-para8 a{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    color: blue; 
+    text-decoration: none;
+  }
+  
+  .cp-controlcookies-section h3{
+    font-size:35px;
+    margin-top: 50px;
+    color: #FE780C ;
+  }
+  
+  .cp-controlcookies-para1 p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+  }
+  
+  .cp-controlcookies-para2 p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .cp-controlcookies-para3{
+    margin-bottom: 30px;
+  }
+  .cp-controlcookies-para3 p{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 40px;
+  }
+
+  .cp-controlcookies-para3 ul li{
+    margin-left: 15px;
+  }
+
+  .cp-controlcookies-para3 ul li::marker{
+    color: #FE780C ;
+  }
+
+  .cp-controlcookies-para3 a{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    color: blue; 
+    text-decoration: none;
+  }
+
+
+  
+  .cp-controlcookies-para4 p{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 40px;
+  }
+
+  .cp-controlcookies-para4 ul li{
+    margin-left: 15px;
+  }
+
+  .cp-controlcookies-para4 ul li::marker{
+    color: #FE780C ;
+  }
+
+  
+  .cp-controlcookies-para4 a{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    color: blue; 
+    text-decoration: none;
+  }
+  
+  .cp-webbeacons-section h3{
+    font-size:35px;
+    margin-top: 50px;
+    color: #FE780C ;
+  }
+  
+  .cp-webbeacons-para1 p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+  }
+  
+  .cp-webbeacons-para2 p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+  }
+  
+  .cp-targetedadvertising-section h3{
+    font-size:35px;
+    margin-top: 50px;
+    color: #FE780C ;
+  }
+  
+  .cp-targetedadvertising-para1 p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+  }
+  
+  .cp-contactus-section{
+    padding-bottom: 50px;
+  }
+  .cp-contactus-section h3{
+    font-size:35px;
+    margin-top: 50px;
+    color: #FE780C ;
+  }
+  
+  .cp-contactus-para1 p{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+  }
+  
+  .cp-contactus-para2 p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 20px;
+  }
+
+  
+  .cp-contactus-para2 a{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    color:  #FE780C ; 
+    text-decoration: none;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .cookie-policy-container h1 {
+        padding-top: 150px; 
+        font-size: 30px; 
+    }
+
+    .cookie-policy-text {
+        margin-left: 10px; 
+    }
+
+    .cookie-policy-text p{
+        font-size: 14px;
+    }
+
+} 

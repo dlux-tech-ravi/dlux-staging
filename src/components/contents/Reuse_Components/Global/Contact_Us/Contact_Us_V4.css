@@ -1,0 +1,368 @@
+.cmp-contact-us-container {
+  padding-top: 35px;
+}
+
+.cmp-contact-us-content {
+  background: linear-gradient(to right, #ea5623, #f87e26);
+  color: white;
+  text-align: center;
+}
+
+.cmp-cta-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px;
+  background: linear-gradient(to right, #ea5623, #f87e26);
+  color: white;
+  text-align: center;
+}
+
+.cmp-cta-text h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.cmp-cta-text p {
+  text-align: left;
+  font-size: 14px;
+}
+
+.cmp-cta-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 30px;
+  padding: 10px 14px;
+  gap: 14px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  color: white;
+  width: fit-content;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cmp-cta-link:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.link-text {
+  margin: 0;
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+}
+
+.lock-icon {
+  width: 25px;
+  margin-right: 6px;
+}
+
+.cmp-cta-link:hover {
+  color: black;
+}
+
+/* ARROW CIRCLE */
+.arrow-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: background-color 0.3s ease;
+  animation: arrowPulse 1.4s infinite ease-in-out;
+}
+
+.arrow-icon {
+  width: 14px;
+  height: 14px;
+  filter: invert(1); /* white arrow */
+  transition: filter 0.3s ease;
+}
+
+.cmp-cta-link:hover .arrow-wrapper {
+  background-color: white;
+}
+
+.cmp-cta-link:hover .arrow-icon {
+  filter: invert(0);
+}
+
+/* ARROW ANIMATION */
+@keyframes arrowPulse {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(6px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.signup-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.privacy-text {
+  color: #ccc;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+
+.signup-content {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 25px 40px;
+  border-radius: 16px;
+  width: 70%;
+  text-align: center;
+  color: white;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.signup-content h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.signup-content input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  background: #2e2e2e;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.signup-content .social-text {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.signup-content .social-icons {
+  margin-top: 15px;
+}
+
+.signup-content .social-icons i {
+  font-size: 20px;
+  color: white;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.signup-content .social-icons i:hover {
+  color: #f85032;
+}
+
+.close-btns {
+  position: absolute;
+  top: 12px;
+  right: 18px;
+  font-size: 26px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-input-group {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #999;
+  margin: 6px 0;
+  /* padding: 6px 0; */
+}
+
+.contact-input-group i {
+  color: #aaa;
+  margin-right: 12px;
+  font-size: 16px;
+  width: 20px;
+  text-align: center;
+}
+
+.contact-input-group input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  flex: 1;
+  font-size: 14px;
+  padding: 6px 0;
+}
+.contact-input-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
+  filter: brightness(0.8);
+}
+
+.error-msg {
+  color: #ff6b6b;
+  font-size: 12px;
+  text-align: left;
+  margin-top: -15px;
+  margin-left: 6px;
+}
+
+.success-message {
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.success-message h3 {
+  color: #00ff90;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.check-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.contact-input-group input:focus {
+  border: none;
+  outline: none;
+}
+
+.contact-input-group:focus-within {
+  border-bottom: 1px solid #f85032;
+}
+
+/* Button */
+.signup-content button {
+  width: 65%;
+  padding: 12px;
+  background: linear-gradient(to right, #f85032, #e73827);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 14px;
+}
+/*above*/
+
+.contact-input-group textarea,
+.custom-textarea {
+  width: 100%;
+  border: none;
+  background: transparent;
+  color: #fff;
+  resize: none;
+  font-size: 16px;
+  outline: none;
+  font-family: inherit;
+  box-shadow: none;
+  appearance: none;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 17px;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cmp-cta-banner {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    padding: 4%;
+  }
+
+  .signup-content {
+    width: 50%;
+  }
+
+  .contact-input-group {
+    margin: 2px;
+  }
+
+  .cmp-cta-text {
+    width: 70%;
+    /* padding-left: 4%; */
+  }
+
+  .cmp-cta-text h2 {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+
+  .signup-modal {
+    top: -14%;
+  }
+  .cmp-cta-link {
+    margin-left: 0;
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cmp-cta-banner {
+    flex-direction: row;
+    padding: 4% 8% 2%;
+  }
+  .cmp-cta-text {
+    width: 55%;
+    padding-left: 9%;
+  }
+  .signup-modal {
+    top: 5%;
+  }
+  .signup-content {
+    width: 24%;
+  }
+
+  .cmp-cta-text h2 {
+    font-size: 33px;
+  }
+
+  .cmp-cta-text p {
+    font-size: 17px;
+  }
+  .cmp-cta-link {
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
+  .arrow-wrapper {
+    width: 30px;
+    height: 30px;
+  }
+
+  .arrow-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .link-text {
+    font-size: 16px;
+  }
+}

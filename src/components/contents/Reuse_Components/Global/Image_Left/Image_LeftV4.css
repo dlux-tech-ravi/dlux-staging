@@ -1,0 +1,426 @@
+.cmp-training-news-section {
+  padding: 4%;
+}
+
+.cmp-training-news-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.cmp-news-box {
+  text-align: left;
+}
+
+.cmp-news-title {
+  color: #ff5722;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.cmp-news-item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.cmp-news-thumbnail {
+  width: 45%;
+  flex-shrink: 0;
+}
+.cmp-news-thumbnail img {
+  width: 100%;
+  border-radius: 4%;
+}
+.cmp-news-meta h6 {
+  font-size: 12px;
+}
+.cmp-news-subtitle {
+  padding-bottom: 15px;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.cmp-explore-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 11px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fe3908;
+  background: transparent;
+  border: 2px solid #fe3908;
+  border-radius: 25px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: border-color 0.4s ease;
+  z-index: 1;
+}
+
+.cmp-explore-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #fe780c, #fe3908);
+  transition: left 0.4s ease-in-out;
+  z-index: 0;
+}
+
+.cmp-explore-btn:hover::before {
+  left: 0;
+}
+
+.cmp-explore-btn .text,
+.cmp-explore-btn .arrow {
+  position: relative;
+  z-index: 1;
+  transition: color 0.4s ease;
+}
+
+.cmp-explore-btn:hover .text {
+  color: white;
+}
+
+.cmp-explore-btn .arrow {
+  opacity: 0;
+  transform: translateX(-4px) translateY(2px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.cmp-explore-btn:hover .arrow {
+  opacity: 1;
+  transform: translateX(0) translateY(2px);
+  color: white;
+}
+
+.top-heading,
+.cmp-training-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #d4c6aa;
+}
+
+.person-container {
+  position: relative;
+  z-index: 1;
+}
+
+.person-image {
+  width: 100%;
+  height: 505px;
+  object-fit: contain;
+  z-index: 2;
+}
+
+.enroll-now-btn {
+  position: absolute;
+  z-index: 3;
+}
+
+.enroll-us-btn {
+  background-color: #80808080;
+  border: 1px solid #666363;
+  border-radius: 28px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Open Sans, Regular;
+  font-size: 14px;
+  padding: 8px 11px;
+  /* transition: background 0.3s ease, transform 0.3s ease; */
+}
+
+.enroll-us-btn:hover {
+  background: #00695c;
+  transform: scale(1.05);
+}
+
+.icon-img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-bottom: 6px;
+  margin-right: 6px;
+}
+
+.card-content-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge-card {
+  position: absolute;
+  background: #f0ebd8;
+  border-radius: 12px;
+  padding: 8px 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  color: #000;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.badge-card:hover {
+  transform: scale(1.05);
+}
+
+.badge-title {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 3px;
+  color: #00695c;
+  transition: transform 0.3s ease;
+}
+
+.badge-white-line {
+  width: 90%;
+  height: 3px;
+  background-color: #e0e0e0;
+  border-radius: 3px;
+  margin-bottom: 8px;
+}
+
+.badge-description {
+  font-size: 10px;
+}
+
+.badge-stars {
+  font-size: 8px;
+  color: #ffc107;
+}
+
+.badge-icon {
+  background-color: #00695c;
+}
+
+.badge-icon.right-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 35px;
+  margin: 0;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+.cmp-explore-btn-wrapper {
+  text-align: center;
+}
+.cmp-training-card.custom-layout {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 20px 20px 0px;
+  width: 100%;
+}
+
+.cmp-training-card.custom-layout .bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.cmp-training-card.custom-layout .card-contents {
+  position: relative;
+  z-index: 1;
+}
+
+.cmp-training-card.custom-layout .person-image {
+  width: 100%;
+  height: 400px !important;
+  object-fit: contain;
+}
+
+.cmp-training-card.custom-layout .eqiq-image {
+  width: 30%;
+  object-fit: contain;
+  position: absolute;
+  left: 34%;
+  top: -8%;
+}
+
+.cmp-training-card.custom-layout .enroll-now-btn {
+  bottom: 10px !important;
+  right: 33% !important;
+}
+
+.cmp-training-card.custom-layout .top-left {
+  top: 40% !important;
+  left: 5px !important;
+}
+
+.cmp-training-card.custom-layout .top-right {
+  top: 60% !important;
+  right: 5px !important;
+}
+
+.cmp-training-card.custom-layout .bottom-left {
+  bottom: 75px !important;
+  left: 10px !important;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cmp-news-title {
+    font-size: 26px;
+  }
+  .top-heading,
+  .cmp-training-heading {
+    font-size: 26px;
+  }
+  .cmp-news-meta h6 {
+    font-size: 14px;
+  }
+
+  .cmp-news-thumbnail {
+    width: 35%;
+  }
+
+  .badge-description {
+    font-size: 12px;
+  }
+  .cmp-news-subtitle {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .cmp-explore-btn-wrapper {
+    align-self: center !important;
+  }
+
+  .cmp-news-meta strong {
+    font-size: 18px;
+  }
+
+  .badge-icon.right-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .badge-title {
+    font-size: 14px;
+  }
+  .badge-stars {
+    font-size: 10px;
+  }
+  .badge-white-line {
+    height: 5px;
+  }
+  .enroll-us-btn {
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+  .cmp-training-card.custom-layout .enroll-now-btn {
+    right: 40% !important;
+  }
+
+  .cmp-training-card.custom-layout .top-left {
+    top: 12% !important;
+  }
+
+  .cmp-training-card.custom-layout .top-right {
+    top: 30% !important;
+  }
+
+  .cmp-explore-btn {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cmp-training-news-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .cmp-news-box {
+    width: 40%;
+    order: 2;
+  }
+  .cmp-explore-btn-wrapper {
+    padding-left: 150px;
+  }
+  .cmp-news-title {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+  .cmp-news-subtitle {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .cmp-training-news-section {
+    padding: 6% 8%;
+  }
+  .cmp-news-thumbnail img {
+    width: 100%;
+    height: 120px;
+  }
+  .cmp-training-card.custom-layout {
+    width: 55%;
+    height: 472px;
+  }
+
+  .cmp-news-meta h6 {
+    font-size: 14px;
+  }
+  .cmp-training-card.custom-layout .person-image {
+    height: 373px !important;
+  }
+
+  .badge-title {
+    font-size: 15px;
+  }
+  .badge-icon.right-icon {
+    width: 50px;
+    height: 50px;
+  }
+  .badge-stars {
+    font-size: 12px;
+  }
+  .badge-white-line {
+    height: 8px;
+  }
+  .cmp-training-card.custom-layout .top-right {
+    top: 45% !important;
+  }
+  .cmp-training-card.custom-layout .top-left {
+    top: 10% !important;
+  }
+
+  .enroll-us-btn {
+    font-size: 16px;
+    padding: 10px 16px;
+  }
+  .cmp-training-card.custom-layout .enroll-now-btn {
+    right: 42% !important;
+  }
+  .badge-description {
+    font-size: 13px;
+  }
+
+  .cmp-explore-btn {
+    font-size: 16px;
+    padding: 10px 16px;
+    border-radius: 30px;
+  }
+}

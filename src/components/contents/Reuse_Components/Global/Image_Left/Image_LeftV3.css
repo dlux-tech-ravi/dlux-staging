@@ -1,0 +1,439 @@
+/* --- Base Styles (Mobile First) --- */
+.fusion-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+  color: #fff;
+  background-color: #000;
+  box-sizing: border-box;
+}
+
+.fusion-right {
+  text-align: center;
+  order: -1;
+  padding: 0 0.75rem;
+}
+
+.fusion-heading {
+  color: #ff5722;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  font-family: open-sans, sans-serif;
+  font-weight: bold;
+}
+
+.fusion-description {
+  font-size: 12px;
+  line-height: 22px;
+  text-align: left;
+  padding-top: 15px;
+}
+
+.arrow-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 11px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fe3908;
+  background: transparent;
+  border: 2px solid #fe3908;
+  border-radius: 25px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: border-color 0.4s ease;
+  z-index: 1;
+}
+
+.arrow-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #fe780c, #fe3908);
+  transition: left 0.4s ease-in-out;
+  z-index: 0;
+}
+
+.arrow-button:hover::before {
+  left: 0;
+}
+
+.arrow-button .text,
+.arrow-button.arrow {
+  position: relative;
+  top: 1%;
+  z-index: 1;
+  transition: color 0.4s ease;
+}
+
+.arrow-button:hover .text {
+  color: white;
+}
+
+.arrow-button .arrow {
+  opacity: 0;
+  transform: translateX(-4px) translateY(2px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.arrow-button:hover .arrow {
+  opacity: 1;
+  transform: translateX(0) translateY(2px);
+  color: white;
+}
+
+.fusion-card {
+  flex: 0 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  color: #000;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  width: 98%;
+}
+
+.fusion-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 8px 6px 15px #fe3908;
+}
+
+.fusion-card h3 {
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.3;
+  font-weight: bold;
+}
+
+.fusion-video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 45%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.fusion-thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: -webkit-fill-available;
+  object-fit: cover;
+  border-radius: 12px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.fusion-play-btn {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  z-index: 2;
+  outline: none;
+}
+
+.fusion-play-btn:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.7);
+  background: rgba(0, 0, 0, 0.8);
+}
+.fusion-play-btn:active {
+  transform: translate(-50%, -50%) scale(1.05);
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.fusion-carousel-wrapper {
+  width: 100%;
+}
+
+.fusion-carousel-scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  gap: 20px;
+  padding-bottom: 1rem;
+  padding-top: 15px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  touch-action: pan-y;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.fusion-carousel-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.fusion-carousel-arrows {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.fusion-carousel-arrows button {
+  background: #000;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  flex-shrink: 0;
+  outline: none;
+  padding: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.fusion-carousel-arrows button:active {
+  transform: scale(0.95);
+}
+
+.carousel-arrow-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.fusion-popup-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  animation: funnelOpen 0.4s ease forwards;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  top: 6%;
+}
+
+.fusion-popup-overlay.slide-close {
+  animation: funnelClose 0.4s ease forwards;
+}
+
+.fusion-popup-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 2rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: background 0.3s;
+}
+.fusion-popup-close-button:hover {
+  background: rgba(255, 0, 0, 0.8);
+}
+.fusion-popup-close-button:active {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.fusion-popup-content {
+  position: relative;
+  background: #000;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 95%;
+  max-width: 900px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+
+#fusion-video-player {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-color: #000;
+}
+
+@keyframes funnelOpen {
+  0% {
+    opacity: 0;
+    transform: scaleX(0.1) scaleY(0.3);
+  }
+  100% {
+    opacity: 1;
+    transform: scaleX(1) scaleY(1);
+  }
+}
+
+@keyframes funnelClose {
+  0% {
+    opacity: 1;
+    transform: scaleX(1) scaleY(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scaleX(0.1) scaleY(0.3);
+  }
+}
+
+/* Tablet Layout */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .fusion-grid {
+    grid-template-columns: 1fr 1fr;
+    padding: 7% 3% 2%;
+    gap: 2rem;
+    display: grid;
+  }
+
+  .fusion-description {
+    font-size: 14px;
+  }
+
+  .fusion-heading {
+    font-size: 26px;
+  }
+  .fusion-right {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    padding: 0;
+    padding-top: 5px;
+  }
+
+  .fusion-card1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .fusion-carousel-wrapper {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+
+  .fusion-card {
+    width: 48%;
+  }
+  .fusion-card1 {
+    width: 100%;
+  }
+
+  .fusion-carousel-arrows {
+    justify-content: center;
+    padding: 0;
+  }
+
+  .fusion-popup-content {
+    width: 70%;
+    height: auto;
+  }
+
+  .fusion-card h3 {
+    font-size: 16px;
+  }
+
+  .arrow-button {
+    font-size: 14px;
+  }
+}
+
+/* Desktop Layout */
+@media (min-width: 1024px) {
+  .fusion-grid {
+    grid-template-columns: 1fr 1fr;
+    padding: 6% 8% 3%;
+    gap: 2rem;
+    display: grid;
+  }
+
+  .fusion-right {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    padding: 0;
+    padding-top: 15px;
+  }
+
+  .fusion-card1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .fusion-heading {
+    font-size: 34px;
+  }
+
+  .fusion-carousel-wrapper {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+
+  .fusion-card {
+    width: 49%;
+  }
+  .fusion-card1 {
+    width: 100%;
+  }
+
+  .fusion-carousel-arrows {
+    justify-content: center;
+    padding: 0;
+  }
+
+  .fusion-popup-content {
+    width: 60%;
+    height: auto;
+  }
+
+  .fusion-description {
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .fusion-card h3 {
+    font-size: 20px;
+  }
+
+  .arrow-button {
+    font-size: 18px;
+    padding: 10px 16px;
+    border-radius: 30px;
+  }
+}

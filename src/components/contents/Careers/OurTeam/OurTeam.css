@@ -1,0 +1,705 @@
+/* ===== Base Styles (Mobile First) ===== */
+/* ===== Banner Section ===== */
+.banner-section {
+  position: relative;
+  text-align: center;
+  padding: 60px 0px 1px;
+}
+
+.banner-section img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  opacity: 0.6;
+  padding-top: 20px;
+}
+
+.banner-content {
+  position: absolute;
+  top: 170px; /* adjust vertical placement */
+  left: 0;
+  right: 0;
+  z-index: 2;
+  color: white;
+}
+
+.banner-content h2 {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+/* ===== Section Layout ===== */
+.secondary-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 30px 20px 20px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.secondary-image {
+  width: 50%;
+  border-radius: 8px;
+  border: 1px solid #f2f2f2;
+  transition: transform 0.3s ease-in-out;
+}
+.secondary-image:hover {
+  box-shadow: 8px 8px 20px #fe3908;
+  background: linear-gradient(rgba(51, 51, 51, 0.6), rgba(13, 13, 13, 0.6));
+  border: 1px solid black;
+}
+
+.p-globals {
+  animation: rotate 3.5s linear infinite;
+  left: 80%;
+  position: absolute;
+  top: 43%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.p-globals img {
+  width: 45px;
+}
+
+.p-balls2 {
+  animation: blink 1.5s infinite;
+  position: absolute;
+  z-index: 100;
+  left: 2%;
+  top: 89%;
+}
+
+.p-balls3 {
+  animation: blink 1.5s infinite;
+  position: absolute;
+  z-index: 100;
+  left: 70%;
+  top: 159%;
+}
+
+.p-global5 {
+  animation: rotate 3.5s linear infinite;
+  position: absolute;
+  z-index: 1;
+}
+.p-global5 img {
+  width: 45px;
+}
+.secondary-content h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.secondary-content p {
+  font-size: 12px;
+  line-height: 22px;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 10px;
+  text-align: left;
+}
+
+.hero-description {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.hero-description em {
+  font-size: 12px;
+  line-height: 22px;
+  text-align: left;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 20px 10px;
+  width: 100%;
+}
+
+.hero-image {
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px 0px 0px 0px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  position: relative;
+  left: 22%;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 200px;
+  display: block;
+}
+
+.hero-label {
+  background-color: #ff7f00;
+  padding: 2px 10px;
+  color: white;
+  text-align: center;
+  border-radius: 0px 0px 0px 10px;
+}
+
+.hero-label h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.hero-label h2 {
+  font-size: 12px;
+  margin: 0px;
+}
+
+/* ===== Life at DLUX Section ===== */
+.life-at-dlux {
+  text-align: center;
+  width: 100%;
+}
+
+.life-at-dlux h1 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 7px;
+}
+
+.life-at-dlux p {
+  font-size: 12px;
+  line-height: 22px;
+  padding: 3px 20px 1px;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
+
+/* ===== Video Section ===== */
+.videos-section {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.videos-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-right: 5px;
+}
+
+.hidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+.videos-section-content h1 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.videos-section-content p {
+  font-size: 12px;
+  line-height: 22px;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+}
+
+.videos-player {
+  width: 70%;
+  border-radius: 8px;
+  border: 2px solid white;
+  margin-top: 15px;
+}
+
+.plays-button-overlay,
+.pauses-button-overlay {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  pointer-events: all;
+  user-select: none;
+  padding-top: 12px;
+}
+.videos-section-descriptions {
+  display: none;
+}
+.videos-section-description p {
+  padding: 20px 0px 0px;
+  font-size: 12px;
+  line-height: 22px;
+  width: 100%;
+  text-align: left;
+}
+
+.videos-controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.videos-controls button {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.testimonial-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.testimonial-content h2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.testimonial-content p {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 22px;
+  text-align: left;
+}
+
+.testimonial-image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.testimonial-image img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.dot-navigation {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  margin: 0 5px;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: orange;
+}
+
+/* ===== Tablet Styles ===== */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .banner-section img {
+    height: 365px !important;
+  }
+  .banner-content h2 {
+    font-size: 25px;
+    line-height: 22px;
+    padding-top: 90px;
+  }
+
+  .p-globals {
+    top: 59%;
+  }
+
+  .p-balls2 {
+    top: 60%;
+    left: 2%;
+  }
+
+  .p-balls3 {
+    left: 75%;
+    top: 125%;
+  }
+
+  .p-global5 {
+    top: 135%;
+    left: 2%;
+  }
+
+  .secondary-image {
+    width: 85%;
+    height: 195px;
+  }
+  .secondary-section {
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    padding: 5px;
+  }
+
+  .secondary-content {
+    width: 65%;
+  }
+
+  .secondary-content h3 {
+    font-size: 25px;
+    text-align: left;
+  }
+
+  .secondary-content p {
+    font-size: 12px;
+    line-height: 22px;
+    padding: 2px;
+  }
+
+  .life-at-dlux {
+    padding: 5px;
+  }
+
+  .hero-description {
+    padding: 18px 25px;
+    background-color: #1c1c1c;
+    border-radius: 0px 15px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hero-description em {
+    font-size: 12px;
+    line-height: 22px;
+    text-align: left;
+  }
+  .hero-image img {
+    width: 100%;
+    height: 215px;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .hero-image-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    left: 0;
+  }
+
+  .hero-label h1 {
+    font-size: 18px; /* Correct tablet size */
+  }
+
+  .life-at-dlux h1 {
+    font-size: 25px; /* Correct tablet size */
+  }
+
+  .life-at-dlux p {
+    font-size: 12px;
+    line-height: 22px;
+    width: 100%;
+    text-align: center;
+    padding: 3px 65px 1px;
+  }
+  .videos-wrapper {
+    width: 50%;
+  }
+  .videos-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .videos-section-content {
+    width: 50%;
+  }
+
+  .videos-section-content h1 {
+    font-size: 25px;
+  }
+  .videos-section-descriptions {
+    display: flex;
+  }
+  .videos-section-description {
+    display: none;
+  }
+  .videos-player {
+    width: 100%;
+    height: 202px;
+  }
+  .videos-controls {
+    padding-top: 25px;
+  }
+
+  .testimonial-content {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+  }
+  .testimonial-image img {
+    width: 100%;
+  }
+
+  .testimonial-dots-container {
+    margin-top: 15px;
+    gap: 12px;
+  }
+  .testimonial-content h2 {
+    font-size: 25px;
+  }
+  .testimonial-section {
+    gap: 25px;
+  }
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+/* ===== Desktop Styles ===== */
+@media (min-width: 1024px) {
+  .banner-section img {
+    height: 730px;
+  }
+
+  .banner-content {
+    top: 55%;
+  }
+
+  .banner-content h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .p-globals {
+    left: 90%;
+    top: 200%;
+  }
+  .p-globals img {
+    width: 90px;
+  }
+  .p-global5 img {
+    width: 90px;
+  }
+  .p-balls2 {
+    left: 2%;
+    top: 160%;
+  }
+  .p-balls3 {
+    left: 82%;
+    top: 140%;
+  }
+
+  .p-global5 {
+    left: 1%;
+    top: 240%;
+  }
+  .secondary-image {
+    width: 100%;
+    height: 230px;
+    position: relative;
+    top: 20px;
+  }
+  .secondary-section {
+    gap: 70px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 4%;
+    justify-content: center;
+    padding: 0px;
+  }
+  .secondary-content {
+    width: 50%;
+    text-align: left;
+  }
+  .secondary-content h3 {
+    font-size: 35px;
+    text-align: left;
+  }
+  .secondary-content p {
+    font-size: 16px;
+    line-height: 28px;
+    width: 80%;
+  }
+  .life-at-dlux {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .life-at-dlux h1 {
+    font-size: 35px;
+  }
+  .life-at-dlux p {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    width: 930px;
+  }
+
+  .hero-section {
+    width: 100%;
+    position: relative;
+    padding-top: 50px;
+  }
+
+  .hero-description {
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 11px 25px;
+    background-color: #1c1c1c;
+    border-radius: 0px 15px 15px 0px;
+  }
+
+  .hero-description em {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    padding: 10px 0px;
+  }
+
+  .hero-image {
+    width: 100%;
+    border-radius: 10px 0px 0px 0px;
+  }
+  .hero-image img {
+    width: 100%;
+    height: 286px;
+  }
+  .hero-label {
+    width: 100%;
+  }
+
+  .hero-label h1 {
+    font-size: 22px;
+  }
+  .hero-label h2 {
+    font-size: 16px;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+  }
+  .hero-image-container {
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+    left: 0;
+  }
+  .videos-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 83%;
+    padding-top: 40px;
+  }
+  .videos-section-descriptions {
+    display: flex;
+  }
+  .videos-section-description {
+    display: none;
+  }
+  .videos-section-content {
+    width: 60%;
+  }
+  .videos-section-content h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .videos-section-content p {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+  }
+  .videos-player {
+    width: 100%;
+  }
+
+  .videos-wrapper {
+    width: 60%;
+  }
+  .videos-controls {
+    padding: 55px 55px 30px;
+    gap: 25px;
+  }
+
+  .videos-controls button {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .testimonial-section {
+    gap: 25px;
+  }
+  .testimonial-content {
+    width: 65%;
+  }
+  .testimonial-content h2 {
+    font-size: 35px;
+  }
+
+  .testimonial-content p {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .testimonial-image {
+    width: 80%;
+  }
+
+  .testimonial-image img {
+    border-radius: 15px;
+    padding: 0px;
+    border: 2px solid #666363;
+  }
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+}

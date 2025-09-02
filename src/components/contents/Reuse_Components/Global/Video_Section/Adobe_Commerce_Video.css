@@ -1,0 +1,329 @@
+.commerce-video-library-section {
+  padding: 3rem 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+.commerce-main-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.commerce-video-library-wrapper {
+  position: relative;
+  background: linear-gradient(135deg,
+      rgba(247, 207, 252, 0.2),
+      rgba(171, 90, 240, 0.25),
+      rgba(237, 223, 236, 0.1));
+  border-radius: 20px;
+  padding: 2rem 1rem;
+  width: 95%;
+  margin: 0 auto;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow:
+    0 0 25px rgba(171, 90, 240, 0.2),
+    inset 0 0 10px rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* Two-color running animated border */
+.commerce-video-library-wrapper::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 1px;
+  /* border thickness */
+  background: conic-gradient(from var(--gradient-angle),
+      transparent 0deg,
+      violet 60deg,
+      purple 120deg,
+      transparent 180deg,
+      violet 240deg,
+      purple 300deg,
+      transparent 360deg);
+  animation: rotateBorder 3s linear infinite;
+  z-index: -1;
+
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+/* Houdini property for smooth animation */
+@property --gradient-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes rotateBorder {
+  0% {
+    --gradient-angle: 0deg;
+  }
+
+  100% {
+    --gradient-angle: 360deg;
+  }
+}
+
+
+.commerce-video-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #f0f0f0;
+}
+
+.commerce-video-scroll-container {
+  display: flex;
+  gap: 1.5rem;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  padding: 35px;
+}
+
+.commerce-video-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border-radius: 28px;
+  flex: 0 0 auto;
+  width: 410px;
+  height: 210px;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.3s ease;
+  z-index: 1;
+  row-gap: 10px;
+}
+
+.commerce-video-card::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 30px;
+  background: conic-gradient(from var(--gradient-angle),
+      transparent 0deg,
+      violet 60deg,
+      purple 120deg,
+      transparent 180deg,
+      violet 240deg,
+      purple 300deg,
+      transparent 360deg);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: rotate 3s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.commerce-video-card:hover::before {
+  opacity: 1;
+}
+
+.commerce-thumbnail {
+  position: relative;
+  height: 75%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.commerce-thumbnail-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+  transition: transform 0.3s ease;
+}
+
+.commerce-video-card:hover .commerce-thumbnail-img {
+  transform: scale(1.05);
+}
+
+.commerce-badge {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  gap: 8px;
+  z-index: 1;
+}
+
+.commerce-badge span {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(4px);
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.commerce-card-footer {
+  background: linear-gradient(135deg,
+      rgba(247, 207, 252, 0.2),
+      rgba(171, 90, 240, 0.25),
+      rgba(237, 223, 236, 0.1));
+  height: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+  background-color: transparent;
+}
+
+.commerce-video-info h4 {
+  font-size: 1rem;
+  margin: 4px 0;
+  color: #fff;
+}
+
+.commerce-video-info p {
+  margin: 2px 0;
+  font-size: 0.75rem;
+  color: #aaa;
+}
+
+/* Updated glossy purple play button */
+.commerce-play-btn {
+  background: linear-gradient(145deg, violet, purple);
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow:
+    0 4px 8px rgba(128, 0, 128, 0.4),
+    inset 0 2px 4px rgba(255, 255, 255, 0.4),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.commerce-play-btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 150%;
+  height: 50%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), transparent);
+  border-radius: 50%;
+  transform: rotate(-20deg);
+}
+
+.commerce-play-btn:hover {
+  transform: scale(1.15);
+  box-shadow:
+    0 6px 12px rgba(128, 0, 128, 0.6),
+    inset 0 2px 6px rgba(255, 255, 255, 0.5),
+    inset 0 -3px 6px rgba(0, 0, 0, 0.4);
+}
+
+.play-button {
+  width: 100%;
+  height: 100%;
+}
+
+.commerce-video-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.commerce-video-modal-content {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  background: transparent;
+  border-radius: 10px;
+}
+
+.commerce-video-frame {
+  width: 100%;
+}
+
+.commerce-modal-video {
+  width: 75%;
+  border-radius: 10px;
+}
+
+.commerce-closes-btn {
+  position: absolute;
+  top: -12px;
+  right: 80px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commerce-closes-btn:hover {
+  background: #ff1a1a;
+}
+
+@media screen and (max-width: 768px) {
+  .commerce-video-card {
+    width: 320px;
+    height: 190px;
+  }
+
+  .commerce-thumbnail {
+    height: 75%;
+  }
+
+  .commerce-card-footer {
+    height: 25%;
+  }
+
+  .commerce-main-title {
+    font-size: 1.75rem;
+  }
+
+  .commerce-video-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .commerce-video-modal-content {
+    width: 95%;
+  }
+
+  .commerce-modal-video {
+    width: 100%;
+  }
+}

@@ -1,0 +1,56 @@
+.cmp-secondary--process_section {
+  background-color: #000;
+  color: #fff;
+  padding: clamp(1.25rem, 5vw, 2.5rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cmp-secondary--process_heading h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: clamp(0.75rem, 3vw, 1.34rem);
+  line-height: clamp(1.4, 2vw, 1.8);
+  font-weight: normal;
+  max-width: 50rem;
+  margin: 0 auto clamp(1.25rem, 5vw, 1.875rem) auto;
+  text-align: start;
+}
+
+.cmp-secondary--process_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(0.625rem, 2vw, 1.875rem);
+}
+
+.cmp-secondary--process_image img {
+  max-width: clamp(15.625rem, 40vw, 21.875rem);
+  height: auto;
+  border-radius: clamp(0.3125rem, 0.0625vw, 0.625rem);
+}
+
+.cmp-secondary--process_content {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: clamp(0.3125rem, 0.0625vw, 0.625rem);
+  padding: clamp(0.625rem, 3vw, 1.25rem);
+  max-width: clamp(15.625rem, 50%, 21.875rem);
+  text-align: left;
+}
+
+.cmp-secondary--process_content h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: clamp(0.875rem, 1.4rem, 1.34rem);
+  line-height: clamp(1.4, 2vw, 1.5);
+  margin: 0;
+}
+
+.cmp-secondary--process_content p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: clamp(0.875rem, 1rem, 1.4rem);
+  line-height: clamp(1.4, 2vw, 1.5);
+  margin: 0;
+}

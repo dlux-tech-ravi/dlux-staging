@@ -1,0 +1,104 @@
+
+  .container2 {
+    text-align: center;
+    margin-top: 70px;
+    padding: 0 80px;
+  }
+  .container2 h1 {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Open Sans", "Regular";
+    margin-bottom: 20px;
+  }
+  .container2 p {
+    font-size: 16px;
+    font-family: "Open Sans", "Regular";
+    font-weight: 300;
+    margin-top: 10px;
+    line-height: 30px;
+    margin: auto;
+    text-align: center;
+    width: 69%;
+  }
+  .service-row2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1200px;  
+    margin: 0 auto;
+  }
+  .service-box2 {
+    background-color: black;
+    width: 25rem;
+    height: 150px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align elements to the center */
+    justify-content: center; /* Align content to the center */
+    border: 1px solid #666363;
+    border-radius: 10px;
+    transition: none;
+    margin-top: 45px;
+    font-size: 16px;
+    font-family: "Open Sans", "Regular";
+  }
+  .service-text2 h2 {
+    font-weight: noraml;
+    white-space: pre-line;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Open Sans", "Regular";
+  }
+  .icon-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Open Sans", "Regular";
+  }
+  .icon2 {
+    transition: none;
+    padding-right: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .service-box2 {
+      width: 100%; /* Set the width to 100% for full width on smaller screens */
+      margin: 5px; 
+      margin-top: 20px; /* Adjust margin for smaller screens */
+    }
+  
+    .container2 p {
+      max-width: 100%;
+    }
+  
+    .container2 {
+      padding: 0 50px;
+    }
+    .container2 h1{
+      font-size: 22px;
+      margin-left:10px;
+      text-align: center;
+    }
+    .container2 p{
+      font-size: 12px;
+      line-height: 22px;
+      text-align: center;
+      width: 100%;
+    }
+    .hide-on-mobilehome{
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .hide-on-laptophome {
+      display: none; /* Hide the content on screens with a width of 1024 pixels or larger (laptops and desktops) */
+    }
+  }
+  
+ 
+  

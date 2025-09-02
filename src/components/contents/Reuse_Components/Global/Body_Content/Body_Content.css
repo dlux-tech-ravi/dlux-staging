@@ -1,0 +1,30 @@
+.cmp-body-content__section {
+  background-color: #000;
+  color: #fff;
+  padding: clamp(15px, 2vw, 30px);
+  text-align: center;
+
+  @media (min-width:1024px) {
+    margin-top: -83px;
+  }
+}
+
+.cmp-body-content__title h1 {
+  font-family: Open Sans, sans-serif;
+  font-size: clamp(16px, 1.5vw, 28px);
+  font-weight: 700;
+  margin-bottom: clamp(15px, 2vw, 25px);
+  color: #fe780c;
+}
+
+.cmp-body-content__description {
+  font-size: clamp(12px, 1.5vw, 16px);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.cmp-body-content__description p {
+  font-family: Open Sans, sans-serif;
+  font-size: clamp(12px, 1.5vw, 18px);
+  margin: 0;
+}

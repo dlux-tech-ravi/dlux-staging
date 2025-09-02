@@ -1,0 +1,136 @@
+/* Loading Spinner -- Connected in all pages -Starts */
+.blog-loading-spinner {
+    margin: 100px auto;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    animation: rotate 2s infinite linear;
+}
+
+
+.blog-loading-spinner:before {
+    content: '';
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-color: #FE3908 transparent transparent;
+    border-width: 2px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    animation: spin 1s infinite ease-in-out;
+}
+/* Loading Spinner -- Connected in all pages -- Ends */
+
+/* Blog Detail Page -- Styles - Starts */
+.blog-detail-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px; 
+  }
+  
+  /* Header Section */
+  .blog-detail-header {
+    text-align: center;
+    margin-bottom: 30px; 
+  }
+
+  .blog-detail-img {
+    width: 50%; 
+    margin: 100px auto 30px auto; 
+    object-fit: cover; 
+    border-radius: 8px; 
+  }
+
+  .blog-detail-header h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  /* Content Section */
+  .blog-detail-content {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #ffff;    
+  }
+  
+
+/* Blog Detail Page -- Styles - Ends */
+
+/* Media Query for 768px and below - Tablet */
+@media (max-width: 768px) {
+    .blog-detail-wrapper {
+      padding: 30px; /* Adjust padding for smaller screens */
+    }
+  
+    /* Header Section */
+    .blog-detail-header {
+      margin-bottom: 20px; /* Reduce space between header and content */
+    }
+  
+    .blog-detail-img {
+      width: 70%; 
+      margin: 100px auto 20px auto; 
+    }
+  
+    .blog-detail-header h3 {
+      font-size: 22px; 
+      text-align: center; 
+    }
+  
+    /* Content Section */
+    .blog-detail-content {
+      font-size: 16px; /* Adjust font size for better readability */
+    }
+  }
+  
+  /* Media Query for 414px to 767px - Mobile */
+  @media screen and (min-width: 300px) and (max-width: 767px) {
+    .blog-detail-wrapper {
+      padding: 20px; /* Further reduce padding for mobile screens */
+    }
+  
+    /* Header Section */
+    .blog-detail-header {
+      margin-bottom: 15px;
+    }
+  
+    .blog-detail-img {
+      width: 80%; 
+      margin: 100px auto 15px auto; 
+    }
+  
+    .blog-detail-header h3 {
+      font-size: 20px; 
+      text-align: center; 
+    }
+  
+    /* Content Section */
+    .blog-detail-content {
+      font-size: 15px; /* Smaller font size for mobile readability */
+    }
+  }
+  
+  /* Media Query for Mobile Devices Smaller than 414px */
+  @media (max-width: 413px) {
+    .blog-detail-wrapper {
+      padding: 15px; /* Minimal padding for very small screens */
+    }
+  
+    .blog-detail-img {
+      width: 90%; 
+      margin: 30px auto 10px auto; /* Adjust margins */
+    }
+  
+    .blog-detail-header h3 {
+      font-size: 18px; /* Smaller header text */
+    }
+  
+    .blog-detail-content {
+      font-size: 14px; /* Smaller font size for readability */
+    }
+  }

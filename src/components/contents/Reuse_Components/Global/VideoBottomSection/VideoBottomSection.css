@@ -1,0 +1,58 @@
+
+.video-bottom_section {
+    text-align: center;
+        font-family: "Open Sans", "Regular";
+
+}
+
+.video-bottom_head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    padding: 6rem 0rem;
+    flex-direction: column;
+
+    @media (min-width: 768px) {
+     gap: 100px;
+     flex-direction: row;
+  }
+  
+   @media (min-width: 1024px) {
+    gap: 350px;
+    padding: 6rem 0rem;
+   }
+}
+.video-bottom_title {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    
+  @media (min-width: 768px) {
+    font-size: 26px;
+    width: 30vw;
+    text-align: left;
+  }
+   @media (min-width: 1024px) {
+    font-size: 34px;
+    width: 20vw;
+    text-align: left;
+  }
+}
+
+.video-bottom_subtitle {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+
+  @media (min-width: 768px) {
+    font-size: 14px;
+  }
+   @media (min-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+.video-bottom_media {
+    border-radius: 12px;
+}

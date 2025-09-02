@@ -1,0 +1,129 @@
+.cmp-four-step__descriptions {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:#000000;
+    text-align: center;
+    height: 254px;
+
+    @media (min-width:768px) {
+      height: 206px;
+      margin-top: 20px;
+      background-color: #000000;
+      display: flex
+;
+      flex-direction: column;
+      justify-content: center;
+      align-items: stretch;
+      text-align: -webkit-center;
+    }
+    
+  }
+  
+  .cmp-four-step__descriptions h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: clamp(0.875rem, 1.5625rem, 1.5625rem);
+    color: #fe780c;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .cmp-four-step__descriptions p {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #d3d3d3;
+    text-align: center;
+    white-space: normal;
+    overflow: hidden;
+
+
+    @media (min-width:1024px) {
+      font-size: 1rem;
+      width: 52%;
+      position: relative;
+      left: 50%;
+      top: 21%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  
+    } 
+
+  }
+  .cmp-buttons {
+        background-color: #fe3908;
+        color: #ffffff;
+        width: 33%;
+        border-radius: 50px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        text-align: center;
+        cursor: pointer;
+        border: none;
+        transition: background-color 0.3sease, transform 0.3sease;
+        position: relative;
+        left: 1px;
+        top: 7px;
+        padding-top: 1px;
+    
+  
+   
+  
+
+        @media (min-width:768px) {
+          width: 21%;
+          position: relative;
+          left: 12px;
+          font-size: 16px;
+          bottom: -27px;
+      
+        }
+        
+  
+  @media (min-width:1024px) {
+    width: 13%;
+    position: relative;
+    left: -12px;
+    font-size: 18px;
+    top: 31px;
+    height: 50px;
+    padding: 10px;
+
+    .cmp-buttons:hover::after{
+      content: url('./Contact_Us_Assests/carrow2.png');
+      position: absolute;
+      margin-top: 1px;
+      padding-left: 15px;
+    
+    
+    }
+}
+
+  
+  
+}
+.cmp-buttons:hover{
+  cursor: pointer;  
+  box-shadow: 0 0 15px #FE780C, 0 0 20px #FE3908;
+
+}
+ 
+.cmp-buttons:hover::after{
+  content: url('./Contact_Us_Assests/carrow2.png');
+  position: absolute;
+  margin-top: 1px;
+  padding-left: 15px;
+
+
+}
+.cmp-buttons:hover::after{
+  position: absolute;
+  margin-top: 1px;
+  padding-left: 10px;
+}
+  
+  

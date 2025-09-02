@@ -1,0 +1,103 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: -10px;
+  margin-right: 100px;
+}
+
+.cell1 {
+  margin: 10px 277px 10px 10px; /* top, right, bottom, left */
+  text-align: center;
+  border: 1px solid #f2f2f2;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: linear-gradient(rgba(51, 51, 51, 0.6), rgba(13, 13, 13, 0.6));
+}
+
+.cell2 {
+  position: relative;
+  margin: 10px -237px 10px 30px; /* top, right, bottom, left */
+  text-align: center;
+  border: 1px solid #f2f2f2;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: linear-gradient(rgba(51, 51, 51, 0.6), rgba(13, 13, 13, 0.6));
+}
+
+.cell3 {
+  margin: 10px 277px 10px 10px; /* top, right, bottom, left */
+  text-align: center;
+  border: 1px solid #f2f2f2;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: linear-gradient(rgba(51, 51, 51, 0.6), rgba(13, 13, 13, 0.6));
+}
+
+.cell4 {
+  margin: 10px -237px 10px 30px; /* top, right, bottom, left */
+  text-align: center;
+  border: 1px solid #f2f2f2;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: linear-gradient(rgba(51, 51, 51, 0.6), rgba(13, 13, 13, 0.6));
+}
+
+.cell1:hover {
+  border: 1px solid rgba(0, 0, 0, 0);
+  background: linear-gradient(
+    rgba(51, 51, 51, 0.6),
+    rgba(13, 13, 13, 0.6)
+  ); /* Change gradient effect on hover */
+  box-shadow: 8px 8px 20px #fe3908;
+  .service-box:hover .icon {
+    transform: scale(1.2); /* Grow the icon on service box hover */
+  }
+}
+
+.cell2:hover {
+  border: 1px solid rgba(0, 0, 0, 0);
+  background: linear-gradient(
+    rgba(51, 51, 51, 0.6),
+    rgba(13, 13, 13, 0.6)
+  ); /* Change gradient effect on hover */
+  box-shadow: 8px 8px 20px #fe3908;
+  .service-box:hover .icon {
+    transform: scale(1.2); /* Grow the icon on service box hover */
+  }
+}
+
+.cell3:hover {
+  border: 1px solid rgba(0, 0, 0, 0);
+  background: linear-gradient(
+    rgba(51, 51, 51, 0.6),
+    rgba(13, 13, 13, 0.6)
+  ); /* Change gradient effect on hover */
+  box-shadow: 8px 8px 20px #fe3908;
+  .service-box:hover .icon {
+    transform: scale(1.2); /* Grow the icon on service box hover */
+  }
+}
+
+.cell4:hover {
+  border: 1px solid rgba(0, 0, 0, 0);
+  background: linear-gradient(
+    rgba(51, 51, 51, 0.6),
+    rgba(13, 13, 13, 0.6)
+  ); /* Change gradient effect on hover */
+  box-shadow: 8px 8px 20px #fe3908;
+  .service-box:hover .icon {
+    transform: scale(1.2); /* Grow the icon on service box hover */
+  }
+}
+
+.lineimage {
+  margin-top: -443px; 
+}
+
+@media screen and (max-width: 900px) {
+  .grid {
+    display: none;
+  }
+}

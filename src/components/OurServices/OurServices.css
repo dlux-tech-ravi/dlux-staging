@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+.container {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 0px 80px;
+}
+.container h1{
+  font-size: 45px;
+  font-family: "Open Sans", "Regular";
+  text-align: center;
+  font-weight: bold;
+}
+
+.container p {
+  font-size: 16px;
+  font-family: "Open Sans", "Regular";
+  text-align: center;
+  line-height: 2;
+  max-width: 800px;
+}
+
+.container p span {
+  display: block;
+  font-size: 55px;
+  font-weight: bold;
+  font-family: "Open Sans", "Regular";
+}
+
+.service-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 65px;
+  width: 89%;
+}
+
+
+.service-box {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  text-align: left; 
+  padding: 2%;
+  border: 1px solid #666363;
+  border-radius: 10px; 
+  transition: background-color 0.3s ease;
+  transition: transform 0.2s;
+  height: 100%;
+}
+
+.service-box:hover {
+  background: linear-gradient(
+    rgba(51, 51, 51, 0.6),
+    rgba(13, 13, 13, 0.6)
+  ); 
+  box-shadow: 8px 8px 20px #fe3908;
+
+  .service-box:hover .icon{
+    transform: scale(1.2); 
+  }
+}
+
+.service-text {
+  margin: 10px;
+  font-size: 14px;
+  white-space: pre-line;
+} 
+
+.service-text h2 {
+  font-weight: 900;
+  line-height: 20px;
+  font-size: 20px;
+  font-family: "Open Sans", "Regular";
+}
+
+.service-text .para {
+  font-size: 16px;
+  line-height: 2;
+  text-align: left;
+}
+
+.service-box img {
+  margin-left: 10px;
+}
+
+.OurServices-icon-container {
+  padding: 12px 10px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.2s; 
+}
+.service-box:hover .icon {
+  transform: scale(1.2); 
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .service-row {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width: 100%;
+  }
+  .container {
+    padding: 0 50px;
+    width: 100%;
+  }
+  .container h1{
+   font-size: 32px;
+  }
+  .container p{
+    font-size: 12px;
+  }
+  .service-text .para{
+    font-size: 12px;
+    text-align:left;
+    line-height: 22px;
+  }
+  .service-text h2{
+    font-size: 16px;
+  }
+}
+
+.home-wrapper {
+  padding: 0px 0px;
+  margin-top: 150px;
+  box-sizing: border-box;
+  display: inline;
+  justify-content: space-between;
+}
+
+.home-head{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* Home page */
+.home-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  gap: 5%;
+  gap: 5%;
+  display: flex;
+  flex-direction: column ;
+  position: relative;
+  box-sizing: border-box;
+  background: linear-gradient(to right, #302f2f, #0d0d0d);
+}
+
+.home-container-head{
+  font-size: 35px;
+  font-family: "Open Sans", "Regular";
+  text-align: center;
+  font-weight: bold;
+  width:55%;
+  margin-bottom: 45px; 
+  margin-top:40px;
+}
+
+.home-container-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-container-text {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.home-container-text1,
+.home-container-text2{
+  width:86%;
+  text-align:start;
+  font-size: 16px;
+  font-family: "Open Sans", "Regular";
+  margin-bottom: 25px;
+}
+
+.home-container-text3 {
+  font-size: 24px;
+}
+
+.home-content{
+  display: flex;
+  justify-content: space-between;
+  gap: 17%;
+  padding-bottom: 50px;
+}
+
+.homeimage{
+  width: 430px;
+  height: 400px;
+  margin-bottom: 70px;
+  margin-left: 30%;
+}
+
+span{
+  color:#FE780C;
+}
+
+.btn-div{
+  margin: 0;
+  text-align: start;
+  padding-top: 0px;
+  margin-bottom:0px;
+  width:200px;
+}
+
+.btn-eqiq{
+  margin-top: 40px;
+  padding: 5px 60px;
+  border-radius: 40px; 
+  background: linear-gradient(to right,#FE780C, #FE3908);
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  width: 205px;
+  height: 50px;
+}
+
+.btn-eqiq:hover{
+  cursor: pointer;  
+  box-shadow: 0 0 15px #FE780C, 0 0 20px #FE3908;
+}
+
+.btn-eqiq:hover::after{
+  content: url('./OurServices_Assests/carrow2.png');
+  position: absolute;
+  margin-top: 3px;
+  padding-left: 30px;
+}
+
+/* Mobile responsive */
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  
+  .home-content{
+    display: flex;
+    flex-direction:column;
+  }
+  .home-container-head {
+    font-size:24px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home-container-text1,
+  .home-container-text2 {
+    width: 90%;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .home-content {
+    grid-template-columns: 1fr; 
+    width: 95%;
+  }
+
+  .homeimage {
+    width: 75%;
+    height: 250px;
+    margin: 0px 20px 25px 35px;
+  }
+  .btn-eqiq{
+  width:184px;
+  border-radius: 40px;
+  font-size: 12px;
+  }
+}
+
+/* Tablet responsive */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .home-content{
+    display: flex;
+    flex-direction:column;
+  }
+  .home-container-head {
+    font-size:45px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home-container-text1,
+  .home-container-text2 {
+    width: 90%;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 50px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .home-content {
+    grid-template-columns: 1fr; 
+    width: 95%;
+  }
+
+  .homeimage {
+    width: 70%;
+    height: 350px;
+    margin: 20px 20px 25px 45px;
+  }
+  .btn-eqiq{
+    width:205px;
+    border-radius: 40px;
+  }
+}

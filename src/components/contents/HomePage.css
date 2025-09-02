@@ -1,0 +1,318 @@
+.root {
+  --primary: #333333;
+  --secondary: #000000;
+  --third: #ffffff;
+
+  font-family: "Open Sans", 'Regular'; /* regular weight is the default */
+}
+
+.services,
+.platforms,
+.contact-us {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-family: "Open Sans",'Regular';
+}
+.we-do-main {
+  background-color: var(--secondary);
+  /* color :var(--third); */
+  display: flex;
+  margin-left: 50px;
+
+}
+.what-we-do-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 80px;
+  gap: 20px;
+  margin-right: 128px;
+  /* margin-top: -350px; */
+  margin-left: 70px;
+  margin-top: -10px;
+}
+.what-we-do-main {
+  background-color: var(--secondary);
+}
+
+
+
+.what-we-do h1 {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Open Sans", 'Regular';
+}
+.what-we-do p {
+  font-size: 16px;
+  font-family: "Open Sans", 'Regular';
+  line-height: 30px;
+  text-align: left;
+  width: 74%;
+
+}
+.counter-wrap {
+  margin-top: 70px;
+}
+
+.counter-top {
+  font-family: "Open Sans", 'Regular';
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.counter-second {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 80px;
+  justify-content: space-between;
+}
+
+.counter-second h2 {
+  font-size: 45px;
+  background: -webkit-linear-gradient(orange, var(--fourth), var(--fifth), red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Open Sans",'Regular';
+  font-weight: bolder;
+  width: 130px;
+}
+
+.counter-second p {
+  font-family: 'Open Sans', 'Regular';
+}
+
+.counter-third {
+  font-weight: bold;
+}
+
+.counter-fourth {
+  font-family: 'Open Sans', 'Regular';
+}
+
+
+.WhatWeDo-KnowMain {
+  background: var(--secondary);
+  /* color :var(--third); */
+}
+
+.what-we-do button {
+  margin-top: 50px;
+  padding: 5px 50px;
+  border-radius: 40px; 
+  background: linear-gradient(to right,#FE780C, #FE3908);
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.what-we-do button:hover {
+  box-shadow: 0 0 15px #FE780C, 0 0 20px #FE3908;
+}
+
+.what-we-do button:hover::after {
+  content: url('../contents/Careers/careers-assests/carrow2.png');
+  position: absolute;
+  margin-top: -31px;
+  padding-left: 50px;
+}
+
+.what-we-do h6{
+  font-family: 'Open Sans', 'Regular';
+  font-size: 15px;
+}
+@media screen and (max-width: 768px) {
+  .what-we-do-main {
+    flex-direction: column; ;
+    margin-top: -200px;
+    margin-right: 20px;
+    margin-left: 0px;
+  }
+ 
+  .what-we-do h1{
+    font-size: 32px;
+    text-align: center;
+    width: 200%;
+    margin-left: -110px;
+  }
+  .what-we-do p{
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+    margin-left: -70px;
+    width: 170%;
+    margin-top: -20px;
+  }
+  .what-we-do button h6 {
+    font-size: 12px;
+    text-align:center;
+  }
+  .what-we-do button {
+    margin-top: 0px;
+    margin-left: 50px;
+    padding: 0px 30px;
+    border-radius: 40px; 
+    background: linear-gradient(to right,#FE780C, #FE3908);
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    border:linear-gradient(to right,#Fe780C,#FE3908);  
+  }
+  
+  .what-we-do button:hover::after{
+    display: none;
+    
+  }
+  .what-we-do button:hover {
+    box-shadow: 0 0 15px #FE780C, 0 0 20px #FE3908;
+  }
+  .counter-wrap{
+    margin-left: -40px;
+  }
+}
+/* Default styles for your content */
+.hide-on-mobile {
+  display: block; /* Show the content by default on all devices */
+}
+
+/* Media query for smaller screens, including mobile devices */
+@media only screen and (max-width: 767px) {
+  .hide-on-mobile {
+    display: none; /* Hide the content on screens with a width of 767 pixels or smaller (mobile devices) */
+  }
+}
+
+/* Media query for tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .hide-on-tablet {
+    display: none; /* Hide the content on screens with a width between 768 and 1023 pixels (tablets) */
+  }
+}
+
+/* Media query for laptops */
+@media only screen and (min-width: 1024px) {
+  .hide-on-laptop {
+    display: none; /* Hide the content on screens with a width of 1024 pixels or larger (laptops and desktops) */
+  }
+}
+
+.what-we-do__bottom {
+  text-align: center;
+      text-align: center;
+    padding: 0px 15rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    border: flex;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.what-we-do__head {
+  font-weight: bold;
+  font-size: 32px;
+  font-family: "Open Sans", "Regular";
+  width: 100vw;
+
+   @media (min-width: 768px) {
+      font-size: 32px;
+    width: 100vw;
+  }
+  
+   @media (min-width: 1024px) {
+  font-size: 45px;
+
+   }
+}
+
+.what-we-do__text {
+  font-size: 12px;
+  width: 100vw;
+  text-align: center;
+  padding: 0px 20px;
+
+  @media (min-width: 768px) {
+    font-size: 12px;
+    width: 90vw;
+  }
+  
+  @media (min-width: 1024px) {
+    font-size: 16px;
+    padding: 0px 0px;
+    width: 50vw;
+  }
+}
+
+.what-we-do__media-wrapper {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  border: 1px solid var(--third); /* Border around the wrapper */
+  border-radius: 20px;
+  padding: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  background: linear-gradient(var(--secondary), var(--primary));
+
+    @media (min-width: 768px) {
+     
+  }
+  
+   @media (min-width: 1024px) {
+     padding: 40px;
+     width: 100%;
+   }
+}
+
+/* Optional spacing between images */
+.what-we-do__media-wrapper img {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+}
+
+/* Add spacing between images */
+.what-we-do__media-wrapper img:first-child {
+  margin-left: 40px;
+  padding: 0px 25px;
+
+  @media (min-width: 1024px) {
+     margin-right: 20px;
+   }
+}
+
+/* Add a vertical line between the two images */
+.what-we-do__media-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 47%;
+  width: 1px;
+  background-color: var(--third);
+  transform: translateX(-50%);
+
+  @media (min-width: 768px) {
+     left: 50%;
+   }
+   @media (min-width: 1024px) {
+     left: 50%;
+   }
+}
+
+.what-we-do__media-wrapper:hover{
+ box-shadow: 8px 8px 20px #fe3908;
+}
+
+.tp-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}

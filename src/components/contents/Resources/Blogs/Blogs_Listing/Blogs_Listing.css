@@ -1,0 +1,588 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  /* Use lighter weight */
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+}
+
+
+.blogs-page-wrapper {
+  width: 100vw;
+}
+
+/* Blogs Tag Filter Section - Starts Here! */
+.blogs-tag-filters-section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  /* Center the entire content horizontally */
+  padding: 20px;
+  background: linear-gradient(to right, #302f2f, #0d0d0d);
+}
+
+.blogs-tag-filters-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  /* Space between h2 and filters */
+}
+
+.blogs-tag-filters-wrapper h2 {
+  font-family: 'urw-din', sans-serif;
+  padding-right: 40px;
+  font-size: 22px;
+}
+
+.blogs-tag-filters {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* Creates four equal columns */
+  gap: 10px;
+  /* Space between filter items */
+}
+
+.blogs-filter-item {
+  text-align: left;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Smooth transition for scaling and shadow */
+}
+
+.blogs-filter-item:hover {
+  transform: scale(1.05);
+  /* Slightly enlarge the item */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  /* Enhance shadow on hover */
+}
+
+.blogs-tag-filter-button {
+  background: none;
+  font-family: 'urn-din', sans-serif;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-align: left;
+
+}
+
+.blogs-tag-filter-button p {
+  font-family: 'urw-din', sans-serif;
+  margin: 0;
+  font-size: 14px;
+  color: grey;
+  /* Text color */
+  transition: color 0.3s ease;
+}
+
+.blogs-filter-item:hover .blogs-tag-filter-button p {
+  color: white;
+  /* Text color on hover */
+}
+
+.blogs-filter-item.selected {
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 0 2px white;
+}
+
+.blogs-results-count {
+  display: inline-block;
+  white-space: nowrap;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Blogs Tag Filter Section - Ends Here! */
+
+
+/* Blogs Listing Section - Starts Here! */
+
+.blogs-listing-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* Ensure full width of the parent container */
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.blogs-listing-section.filter-animation {
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+
+.no-blogs-message {
+  margin: 50px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #555;
+  /* Adjusts text color */
+}
+
+/* Styling for each blog item (tile) */
+.blogs-item {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  padding: 50px;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+  /* Include padding and border in the element's total width and height */
+  gap: 30px;
+}
+
+/* Image container */
+.blogs-image-container {
+  flex-shrink: 0;
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+}
+
+/* Image inside the blog tile */
+.blogs-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Placeholder for when no image is available */
+.blogs-img-placeholder {
+  width: 100%;
+  height: 100%;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #757575;
+}
+
+/* Content container */
+.blogs-content {
+  flex-grow: 1;
+  /* Allows the content section to grow and take available space */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling for the tag */
+.blogs-tag {
+  padding: 5px 20px;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'uRoboto', sans-serif;
+  color: #FFFFFF;
+  margin: 0 40px 10px 0;
+  margin-bottom: 30px;
+  border: 1px solid white;
+  text-align: center;
+  width: auto;
+  max-width: fit-content;
+  /* Ensure it only fits content */
+  white-space: nowrap;
+  /* Prevent the text from wrapping to the next line */
+}
+
+/* Styling for the publish date */
+.blogs-date {
+  color: #e0e0e0;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Title inside the blog tile */
+.blogs-title {
+  font-size: 19px;
+  margin: 10px 0;
+  font-weight: bold;
+  font-family: 'urw-din', sans-serif;
+  color: #FE780C;
+}
+
+
+.blogs-listing-tile-description {
+  font-family: 'urw-din', sans-serif;
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.blog-detail-content p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.blog-detail-content b {
+  font-family: 'Roboto', sans-serif;
+  color: #FE780C;
+}
+
+.blog-detail-content b:hover {
+  text-decoration: underline;
+  color: #FE780C;
+}
+
+
+.blog-detail-content p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  line-height: 2.2rem;
+  font-size: 15px;
+  color: whitesmoke;
+  font-weight: lighter;
+}
+
+.blog-detail-content h5 {
+  font-family: 'Roboto', sans-serif;
+  line-height: 2.2rem;
+  font-size: 15px;
+  font-weight: 100;
+  font-weight: lighter;
+}
+
+
+.blog-detail-content i {
+  color: #FFFFFF;
+}
+
+/* .blog-detail-content li,h3,h4{
+  color: red;
+} */
+
+
+
+.blogs-read-more {
+  font-size: 16px;
+  color: #FE780C;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.blogs-read-more:hover::after {
+  content: url('./Blogs_Listing_Assests/carrow2.png');
+  position: absolute;
+  margin-top: 3px;
+  padding-left: 15px;
+
+}
+
+/* Blogs Listing Section - Ends Here! */
+
+/* Blogs Pagination - Load More button - Starts Here! */
+.blogs-load-more-section {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.blogs-load-more-button {
+  padding: 15px 45px;
+  /* Adjusted padding for a more balanced button size */
+  border-radius: 25px;
+  /* Slightly smaller border radius for a less pill-like appearance */
+  background: #0000;
+  color: white;
+  font-weight: 600;
+  border: 1px solid white;
+  border-color: white;
+  cursor: pointer;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  /* Smooth transition for all properties */
+  display: flex;
+  /* Ensure proper alignment of text and arrow */
+  align-items: center;
+}
+
+.blogs-load-more-button:hover {
+  border-color: #FE780C;
+  /* Change border color on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  /* Subtle shadow effect */
+}
+
+.blogs-load-more-button:hover::after {
+  content: url('../../../Careers/careers-assests/carrow2.png');
+  position: absolute;
+  right: 18px;
+  top: 55%;
+  transform: translateY(-50%);
+  width: 20px;
+}
+
+
+/* Blogs Pagination - Load More button - Ends Here! */
+
+
+.blogs-footer {
+  margin-right: 17px;
+}
+
+/* Blogs Tag Filter Section - Updated */
+.blogs-tag-filters-section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: linear-gradient(to right, #302f2f, #0d0d0d);
+  width: 100vw;
+}
+
+.blogs-tag-filters-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  /* max-width for large screens */
+}
+
+/* Media Query for 768x1024 - Tablet  */
+@media (max-width: 768px) {
+
+  /* Adjust the filter section for smaller screens */
+  .blogs-tag-filters-section {
+    margin-top: 100px;
+    padding: 15px;
+    width: 100vw;
+  }
+
+  .blogs-tag-filters-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .blogs-tag-filters {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+
+  .blogs-load-more-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .blogs-load-more-button:hover::after {
+    content: none;
+    /* Hide the arrow image */
+  }
+
+  .blogs-load-more-button {
+    position: relative;
+  }
+}
+
+/* Media Query for 300x896 - Mobile */
+@media screen and (min-width: 300px) and (max-width: 767px) {
+
+  .blog-detail-content p {
+    font-family: 'urw-din', sans-serif;
+  }
+
+  .blog-detail-content b {
+    font-family: 'urw-din', sans-serif;
+    color: #FE780C;
+  }
+
+  .blog-detail-content p {
+    font-family: 'urw-din', sans-serif;
+    line-height: 48px;
+    font-size: 15px;
+    font-weight: 100;
+    font-weight: lighter;
+  }
+
+  .blog-detail-content i {
+    color: #FFFFFF;
+  }
+
+  .blogs-read-more:hover::after {
+    content: url('./Blogs_Listing_Assests/carrow2.png');
+    position: absolute;
+    margin-top: 3px;
+    padding-left: 14px;
+
+  }
+
+  /* Blogs Listing Section */
+  .blogs-listing-section {
+    padding: 20px;
+    /* Add padding for mobile layout */
+  }
+
+  .blogs-item {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .blogs-image-container {
+    margin-right: 0;
+    margin: 10px;
+    align-self: center;
+  }
+
+  .blogs-content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .blogs-tag {
+    margin: 0 0 20px 0;
+    padding: 5px 15px;
+    /* Adjust padding for smaller screens */
+  }
+
+  .blogs-title {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  .blogs-listing-tile-description {
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .blogs-read-more {
+    font-size: 14px;
+    color: #FE780C;
+  }
+
+  /* Load More Button */
+  .blogs-load-more-button {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+
+  /* Blogs Tag Filter Section */
+  .blogs-tag-filters-section {
+    margin-top: 100px;
+    padding: 10px;
+  }
+
+  .blogs-tag-filters-wrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Dropdown for Mobile View */
+  .blogs-tag-dropdown {
+    display: none;
+    /* Hidden by default for non-mobile screens */
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background: linear-gradient(to right, #302f2f, #0d0d0d);
+    color: white;
+    outline: none;
+    font-family: 'urw-din', sans-serif;
+    appearance: none;
+    /* Remove default dropdown arrow */
+    position: relative;
+  }
+
+  .blogs-tag-dropdown option {
+    background-color: #302f2f;
+    color: white;
+    font-family: 'urw-din', sans-serif;
+  }
+
+  .blogs-tag-dropdown:focus {
+    border-color: white;
+    /* Change border color on focus */
+  }
+
+  .blogs-tag-dropdown-wrapper {
+    position: relative;
+    /* For positioning the custom arrow */
+    width: 100%;
+  }
+
+  .blogs-tag-dropdown-wrapper::after {
+    content: url('../../../Careers/careers-assests/carrow2.png');
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    /* Ensure the arrow doesn't block interaction with the dropdown */
+  }
+
+  .blogs-tag-dropdown:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* Subtle shadow on hover */
+  }
+
+  /*Blogs Footer Section*/
+  .blogs-footer {
+    margin-top: 50px;
+  }
+
+  /* Show dropdown in mobile view */
+  @media screen and (max-width: 767px) {
+
+
+    .blog-detail-content p {
+      font-family: 'urw-din', sans-serif;
+    }
+
+    .blog-detail-content b {
+      font-family: 'urw-din', sans-serif;
+      color: #FE780C;
+    }
+
+    .blog-detail-content p {
+      font-family: 'urw-din', sans-serif;
+      line-height: 48px;
+      font-size: 16px;
+      font-weight: 100;
+      font-weight: lighter;
+    }
+
+    .blog-detail-content i {
+      color: #FFFFFF;
+    }
+
+    .blogs-tag-dropdown {
+      display: block;
+      /* Display the dropdown on mobile screens */
+    }
+
+    /* Hide the regular tag filter buttons */
+    .blogs-tag-filters {
+      display: none;
+    }
+
+    .blogs-read-more {
+      font-size: 15 px;
+      color: #FE780C;
+    }
+  }
+}

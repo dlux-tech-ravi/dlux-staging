@@ -1,0 +1,368 @@
+/* Banner_V3.css */
+
+.cmp-bannerV3-container {
+  padding: 30% 0 10%;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.cmp-bannerV3-container {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.2;
+  z-index: 0;
+  pointer-events: none; /* prevent video from interfering with interaction */
+}
+
+.cmp-bannerV3-content {
+  position: relative;
+  z-index: 1;
+}
+
+.cmp-bannerV3-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cmp-bannerV3-text {
+  width: 100%;
+  padding: 0 8%;
+  align-content: center;
+  text-align: center;
+}
+
+.cmp-bannerV3-text p {
+  margin: 0 0 5px;
+}
+
+.cmp-bannerV3-orange-text {
+  color: #ff5722;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.cmp-bannerV3-white-text {
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.cmp-bannerV3-highlighted-text {
+  color: #ff5722;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.cmp-bannerV3-image {
+  flex: 1 1 45%;
+  position: relative;
+}
+
+.bannerV3-video-wrapper {
+  position: relative;
+  padding-top: 58%;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.bannerV3-thumbnail {
+  position: absolute;
+  width: 65%;
+  height: 80%;
+  top: 20px;
+  left: 30%;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.bannerV3-play-btn {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.cmp-bannerV3-image-background {
+  position: absolute;
+  left: 65%;
+  top: 0;
+  width: 42%;
+  height: 97%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background: linear-gradient(90deg, #fe3908, #ff7c01);
+  z-index: 1;
+}
+
+.cmp-bannerV3-overlay-box {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: transform 0.3s ease;
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+.cmp-bannerV3-overlay-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 8px 6px 15px #fe3908;
+}
+
+.cmp-bannerV3-buttons button:hover {
+  box-shadow: 0 0 15px #fe780c, 0 0 20px #fe3908;
+}
+
+.progress-circle {
+  width: 40px;
+  height: 40px;
+}
+
+.bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 1;
+}
+
+.progress {
+  fill: none;
+  stroke-width: 1;
+}
+
+.percentage {
+  fill: url(#circleGradient);
+  font-size: 8px;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  font-weight: bold;
+}
+
+.overlay-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 12px;
+  font-size: 10px;
+}
+
+.cmp-bannerV3-buttons {
+  margin-top: 15px;
+  padding: 0 11%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.cmp-bannerV3-buttons button {
+  padding: 8px 11px;
+  border-radius: 25px;
+  background: linear-gradient(to right, #fe780c, #fe3908);
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.tech-fusion-video-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.arrow-img {
+  width: 25px;
+  height: 25px;
+  animation: arrow-bounce 0.6s infinite alternate;
+}
+
+@keyframes arrow-bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(8px);
+  }
+}
+
+.fusion-popup-overlays {
+  align-items: center;
+  animation: funnelOpen 0.4s ease forwards;
+  background: #000000b3;
+  box-sizing: border-box;
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  padding: 0.5rem;
+  position: fixed;
+  top: 8%;
+  z-index: 9999;
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cmp-bannerV3-container {
+    padding: 20% 0 5%;
+  }
+  .cmp-bannerV3-orange-text {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .cmp-bannerV3-white-text {
+    font-size: 22px;
+  }
+
+  .cmp-bannerV3-highlighted-text {
+    font-size: 20px;
+  }
+
+  .bannerV3-thumbnail {
+    width: 80%;
+    height: 85%;
+    left: 10%;
+  }
+
+  .cmp-bannerV3-overlay-box {
+    position: absolute;
+    top: 65%;
+    left: -8%;
+  }
+
+  .cmp-bannerV3-image-background {
+    left: 48%;
+    width: 52%;
+    height: 102%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .bannerV3-play-btn {
+    top: 50%;
+    left: 48%;
+  }
+
+  .cmp-bannerV3-buttons {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .cmp-bannerV3-text {
+    width: 50%;
+    padding: 0 0 0 2%;
+    text-align: left;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+  .cmp-bannerV3-container {
+    padding: 10% 0 0;
+  }
+  .cmp-bannerV3-orange-text {
+    font-size: 34px;
+    line-height: 53px;
+  }
+
+  .cmp-bannerV3-white-text {
+    font-size: 26px;
+  }
+
+  .cmp-bannerV3-highlighted-text {
+    font-size: 24px;
+  }
+
+  .cmp-bannerV3-buttons {
+    flex-direction: row;
+    gap: 50px;
+    padding: 0 20%;
+    margin-top: 0px;
+  }
+  .cmp-bannerV3-text {
+    width: 50%;
+    padding: 0 1% 0 8%;
+    text-align: left;
+  }
+  .cmp-bannerV3-overlay-box {
+    top: 65%;
+    left: -7%;
+    gap: 10px;
+    padding: 10px 10px;
+    border-radius: 18px;
+  }
+
+  .bannerV3-thumbnail {
+    width: 70%;
+    height: 80%;
+    top: 37px;
+    left: 11%;
+  }
+
+  .bannerV3-play-btn {
+    top: 48%;
+    left: 47%;
+    width: 60px;
+    height: 60px;
+  }
+  .bannerV3-video-wrapper {
+    padding-top: 58%;
+  }
+  .cmp-bannerV3-image-background {
+    left: 48%;
+    width: 65%;
+    height: 97%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+
+  .overlay-text {
+    line-height: 24px;
+    font-size: 14px;
+  }
+
+  .progress-circle {
+    width: 50px;
+    height: 50px;
+  }
+  .percentage {
+    font-size: 10px;
+  }
+  .tech-fusion-video-btn {
+    font-size: 18px;
+  }
+  .cmp-bannerV3-buttons button {
+    padding: 10px 16px;
+    font-size: 16px;
+  }
+  .arrow-img {
+    width: 30px;
+    height: 30px;
+  }
+}

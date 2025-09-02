@@ -1,0 +1,221 @@
+/* ResourcesForm Styles */
+.rsf-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.rsf-modal.show {
+    display: block;
+}
+
+.rsf-modal-content {
+    background-color: #0d0d0d;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    max-width: 700px;
+    border-radius: 10px;
+    color: white;
+    font-family: "Open Sans", "Regular";
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.rsf-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.rsf-close:hover,
+.rsf-close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Form */
+.zf-templateWrapper {
+    font-family: "Open Sans", "Regular";
+    color: white;
+}
+
+.zf-templateWrapper ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.zf-tempHeadBdr {
+    border-bottom: 1px solid #333;
+    padding-bottom: 15px;
+}
+
+.zf-tempHeadContBdr {
+    text-align: center;
+}
+
+.zf-frmTitle {
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}
+
+.zf-frmDesc {
+    font-size: 14px;
+    color: #ccc;
+    margin: 5px 0 0;
+}
+
+.zf-clearBoth {
+    clear: both;
+}
+
+.zf-subContWrap {
+    margin-top: 20px;
+}
+
+.zf-tempFrmWrapper {
+    margin-bottom: 25px;
+}
+
+.zf-tempContDiv {
+    margin-top: 5px;
+}
+
+.zf-tempContDiv input[type="text"],
+.zf-tempContDiv input[type="email"],
+.zf-tempContDiv textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #333;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    font-family: "Open Sans", "Regular";
+}
+
+.zf-tempContDiv input[type="text"]::placeholder,
+.zf-tempContDiv textarea::placeholder {
+    color: #999;
+}
+
+.zf-tempContDiv input[type="email"]::placeholder {
+    color: #999;
+}
+
+.zf-tempContDiv input[type="email"]:focus {
+    border-color: white;
+}
+
+.zf-tempContDiv input[type="text"]:focus,
+.zf-tempContDiv textarea:focus {
+    border-color: white;
+}
+
+.zf-tempContDiv label {
+    font-size: 12px;
+    color: #999;
+}
+
+.zf-tempContDiv .zf-phonefld {
+    display: flex;
+}
+
+.zf-tempContDiv .zf-phNumber {
+    flex: 1;
+}
+
+.zf-errorMessage {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.zf-fmFooter {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Button Styles */
+.zf-submitColor {
+    padding: 10px 40px; /* Reduced padding for a smaller button */
+    border-radius: 25px; /* Slightly smaller border radius */
+    background-color: white;
+    border: 2px solid grey;
+    display: block !important;
+    cursor: pointer;
+    font-family: "Open Sans", "Regular";
+    color: black;
+    margin: 0 auto;
+    font-size: 14px; /* Smaller font size */
+}
+
+.zf-submitColor em {
+    font-size: 14px; /* Adjust font size to match button size */
+    font-family: "Open Sans", "Regular";
+    font-style: normal;
+}
+
+.zf-submitColor:hover {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    .rsf-modal{
+        margin-top: 100px;
+
+    }
+    .rsf-modal-content {
+        width: 90%;
+    }
+
+    .zf-templateWrapper {
+        padding: 20px;
+    }
+
+    .zf-frmTitle {
+        font-size: 20px;
+    }
+
+    .zf-frmDesc {
+        font-size: 12px;
+    }
+
+    .zf-tempContDiv input[type="text"],
+    .zf-tempContDiv textarea {
+        padding: 8px;
+    }
+
+    .zf-submitColor {
+        padding: 10px 50px;
+    }
+}
+
+/* Flexbox for Name fields */
+.zf-nameWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.zf-nameWrapper input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.zf-nameWrapper input:last-child {
+    margin-right: 0;
+}

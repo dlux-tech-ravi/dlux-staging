@@ -1,0 +1,917 @@
+.platform-adobe-workfront-wrapper {
+    width: 100vw; 
+  }
+
+  .platform-adobe-workfront-img-section img {
+    margin-top: -100px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    inset: 0;
+    /* filter: grayscale(100%); */
+    filter: brightness(75%);
+    z-index: -1;
+  }
+
+  .adwf-img-text h1{
+    position: absolute;
+    top: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 55px;
+    font-family: 'Open Sans', 'Regular';
+    font-weight: bold;
+    text-align: center;
+}
+
+.adwf-adobelogo-section {
+    margin-top: 80px;
+    display: flex;
+    align-items: center; 
+    margin-left: 250px ;
+    gap: 120px;
+  }
+
+  .adwf-adobelogo-text h3 {
+    font-size: 22px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  
+    
+  }
+  
+  .adwf-adobelogo-text p  {
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+  }
+
+  .adwf-partnership-section{
+    margin-top: 70px;
+  }
+
+  .adwf-partnership-section h1{
+    text-align: center;
+    font-family: 'Open Sans', 'Regular';
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom:50px;
+  }
+
+  .adwf-partnership-text{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+  }
+
+  .adwf-partnership-text p{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+  }
+
+  .adwf-partnership-numberanimation{
+    padding-top: 100px;
+  }
+
+  .adwf-partnership-number-flex{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+
+  .adwf-partnership-number-certifications{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+
+
+ .adwf_cer1-no{
+     margin-top: -23px;
+     text-align: left;
+    
+ } 
+
+ .adwf_cer1-no h1{
+    text-align: left;
+    line-height: 1;
+    word-break: break-word;
+    font-family: 'Open Sans', 'Regular';
+    font-weight: bold;
+    font-size: 45px;
+    
+} 
+
+.adwf_cer1-no h3{
+    text-align: left;
+    line-height: 1;
+    word-break: break-word;
+    font-family: 'Open Sans', 'Regular';
+    font-weight: bold;
+    font-size: 22px;
+
+} 
+
+
+ .adwf-partnership-number-employees{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+
+
+  .adwf_cer2-no{
+    margin-top: -20px;
+    text-align: left;
+   
+} 
+
+.adwf_cer2-no h1{
+   text-align: left;
+   line-height: 1;
+   word-break: break-word;
+   font-family: 'Open Sans', 'Regular';
+   font-weight: bold;
+   font-size: 45px;
+   
+} 
+
+.adwf_cer2-no h3{
+   text-align: left;
+   line-height: 1;
+   word-break: break-word;
+   font-family: 'Open Sans', 'Regular';
+   font-weight: bold;
+   font-size: 22px;
+
+}  
+
+
+ .adwf-partnership-number-specializations{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+
+
+  .adwf_cer3-no{
+    margin-top: -23px;
+    text-align: left;
+   
+} 
+
+.adwf_cer3-no h1{
+   text-align: left;
+   line-height: 1;
+   word-break: break-word;
+   font-family: 'Open Sans', 'Regular';
+   font-weight: bold;
+   font-size: 45px;
+   
+} 
+
+.adwf_cer3-no h3{
+   text-align: left;
+   line-height: 1;
+   word-break: break-word;
+   font-family: 'Open Sans', 'Regular';
+   font-weight: bold;
+   font-size: 22px;
+
+} 
+
+.adwf-solution-partner-section{
+  margin-top : 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  gap: 110px;
+  background: linear-gradient(to right, #333333 ,  #0D0D0D); 
+}
+
+
+.adwf-choose-section{
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+
+.adwf-choose-head{
+  padding-bottom: 50px;
+}
+
+.adwf-choose-head h1{
+  font-size: 45px;
+  font-family: 'Open Sans', 'Regular';
+  text-align:left;
+  font-weight: bold;
+}
+
+.adwf-choose-head h4{
+  font-family: 'Open Sans', 'Regular';
+  text-align:left;
+  color:#FE780C;
+}
+
+.adwf-choose-text1{
+  padding-bottom: 40px;
+}
+
+.adwf-choose-text1 h3{
+  font-size: 22px;
+  font-family: 'Open Sans', 'Regular';
+  text-align:left;
+}
+
+.adwf-choose-text1 p{
+  font-size: 16px;
+  font-family: 'Open Sans', 'Regular';
+  text-align:left;
+  line-height: 30px;
+}
+
+.adwf-choose-text2{
+  padding-bottom: 40px;
+}
+
+.adwf-choose-text2 h3{
+  font-size: 22px;
+  font-family: 'Open Sans', 'Regular';
+  text-align:left;
+}
+
+.adwf-choose-text2 p{
+  font-size: 16px;
+  font-family: 'Open Sans', 'Regular';
+  text-align:left;
+  line-height: 30px;
+}
+
+.adwf-choose-text3{
+  padding-bottom: 40px;
+}
+
+.adwf-choose-text3 h3{
+  font-size: 22px;
+  font-family: 'Open Sans', 'Regular';
+  text-align:left;
+}
+
+.adwf-choose-text3 p{
+  font-size: 16px;
+  font-family: 'Open Sans', 'Regular';
+  text-align:left;
+  line-height: 30px;
+}
+
+.adwf-choose-text4{
+  padding-bottom: 40px;
+}
+
+.adwf-choose-text4 h3{
+  font-size: 22px;
+  font-family: 'Open Sans', 'Regular';
+  text-align:left;
+}
+
+.adwf-choose-text4 p{
+  font-size: 16px;
+  font-family: 'Open Sans', 'Regular';
+  text-align:left;
+  line-height: 30px;
+}
+
+
+.adwf-choose-text5{
+  padding-bottom: 40px;
+}
+
+.adwf-choose-text5 h3{
+  font-size: 22px;
+  font-family: 'Open Sans', 'Regular';
+  text-align:left;
+}
+
+.adwf-choose-text5 p{
+  font-size: 16px;
+  font-family: 'Open Sans', 'Regular';
+  text-align:left;
+  line-height: 30px;
+}
+
+.adwf-success-story-section{
+  background: linear-gradient(to right, #333333 ,  #0D0D0D); 
+}
+
+
+.adwf-success-story-head h1{
+  display: flex;
+  justify-content: center;
+  font-size: 45px ;
+  font-family: 'Open Sans', 'Regular';
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 50px;
+  margin-bottom: 70px;
+
+}
+
+/* Animation of Scroll */
+
+.adwf-success-story-imagescroll{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding-left: 250px;
+}
+
+
+.adwf-animate-on-scroll {
+opacity: 0;
+transition: opacity 5s, transform 5s;
+}
+
+.adwf-animate {
+opacity: 1;
+transform: translateY(0);
+}
+
+
+.adwf-image-text-container1 {
+display: flex;
+gap: 100px;
+}
+
+.adwf-image-text-container2 {
+display: flex;
+gap: 100px;
+}
+
+.adwf-image-text-container3 {
+display: flex;
+gap: 100px;
+}
+
+.adwf-image-text-container4 {
+display: flex;
+gap: 100px;
+}
+
+.adwf-image-text-container5 {
+display: flex;
+gap: 100px;
+}
+
+.adwf-images1animation, 
+.adwf-images2animation, 
+.adwf-images3animation, 
+.adwf-images4animation, 
+.adwf-images5animation {
+padding-bottom: 70px;
+}
+
+.adwf-text-animation  {
+display: flex;
+flex-direction: column;
+justify-content: left;
+align-items: left;
+margin-top: 40px;
+
+}
+
+.adwf-text-animation  h3 {
+font-size: 22px;
+font-family: 'Open Sans', 'Regular';
+text-align: left;
+font-weight: bold;
+line-height: 2; 
+word-break: break-word;
+
+}
+
+
+.adwf-text-animation  p {
+font-size: 16px;
+font-family: 'Open Sans', 'Regular';
+text-align: left;
+line-height: 30px;
+}
+
+
+/* LevelUp Section CSS */
+
+.adwf-levelup-section {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.adwf-levelup-section h1{
+  font-family: 'Open Sans', 'Regular';
+  font-size: 45px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+
+.adwf-levelup-text{
+  display: flex;
+  padding-left: 250px;
+  justify-content: center ;
+  align-items: center;
+
+}
+
+
+.adwf-levelup-para p {
+  font-family: 'Open Sans', 'Regular';
+  font-size: 15px;
+  line-height: 30px;
+  text-align: left;
+
+}
+
+
+ .adwf-levelup-btn button {
+  margin-top: 50px;
+  padding: 5px 50px;
+  border-radius: 40px; 
+  background: linear-gradient(to right,#FE780C, #FE3908);
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  /* background-color: black; */
+  /* border:linear-gradient(to right,#Fe780C,#FE3908);   */
+}
+
+.adwf-levelup-btn button:hover {
+  box-shadow: 0 0 15px #FE780C, 0 0 20px #FE3908;
+}
+
+.adwf-levelup-btn button:hover::after {
+  content: url('../../contents/Careers/careers-assests/carrow2.png');
+  position: absolute;
+  margin-top: -29px;
+  padding-left: 90px;
+}
+
+.adwf-levelup-btn h6{
+  font-family: 'Open Sans', 'Regular';
+  font-size: 15px;
+}
+
+.adwf-levelup-adwf_lasvegas {
+  flex: 1;
+  display: flex;
+  padding-left: 140px;
+  margin-top: -20px;
+}
+
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); 
+  }
+  to {
+    transform: rotate(360deg); 
+}
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.adwf-blinkystuff1{
+  position: absolute;
+  top: 198%; 
+  right: 150px;
+  animation: blink 1.5s infinite;
+}
+
+.adwf-blinkystuff2{
+  position: absolute;
+  top: 282%; 
+  left: 210px;
+  animation: blink 1.5s infinite;
+
+}
+
+.adwf-blinkystuff3{
+  position: absolute;
+  top: 350%; 
+  right: 100px;
+  animation: blink 1.5s infinite;
+}
+
+.adwf-blinkystuff4{
+  position: absolute;
+  top: 416%; 
+  left: 200px;
+  animation: blink 1.5s infinite;
+
+}
+
+.adwf-globe{
+  position: absolute;
+  top: 187%; 
+  left: 12%; 
+  transform: translate(-50%, -50%); 
+  z-index: 1; 
+  animation: rotate 4s linear infinite; 
+}
+
+
+
+.adwf-cube{
+  position: absolute;
+  top: 435%; 
+  right: 10%; 
+  transform: translate(-50%, -50%); 
+  z-index: 1; 
+  animation: rotate 4s linear infinite; 
+}
+
+.adwf-wave img {
+  width: 100%;
+}
+
+.adwf-footer{
+  margin-right: 17px;
+}
+
+
+@media (max-width: 768px) {
+  .platform-adobe-workfront-img-section img {
+    margin-top: 100px;
+    filter: brightness(100%);
+  }
+
+  .adwf-img-text h1 {
+    font-size: 22px;
+    margin-top:-200px ;
+  }
+
+  .adwf-adobelogo-section {
+    margin-left: 0;
+    flex-direction: column;
+    gap: 20px;
+  }
+   .adwf-adobelogo-section img{
+    width: 70%;
+   }
+
+  .adwf-adobelogo-text {
+    text-align: center;
+    margin-left: 20px;
+  }
+  .adwf-adobelogo-text h3{
+    font-size: 19px;
+    color: #FE780C;
+    text-align: center;
+    margin-left: -10px;
+  
+  }
+  .adwf-adobelogo-text p{
+    display: none;
+  }
+  .hide-on-laptop2{
+    font-size: 12px;
+    font-size: 'Open Sans', 'Regular';
+    margin-left: 20px;
+    margin-top: -30px;
+  }
+
+  .adwf-partnership-section h1 {
+    font-size: 19px;
+    color: #FE780C;
+  }
+
+  .adwf-partnership-text {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .adwf-partnership-subtext1{
+    display: none;
+  }
+  .adwf-partnership-subtext2{
+    display: none;
+  }
+  .hide-on-laptop22  {
+    margin-left: 10px;
+    margin-top: -20px;
+  
+  }
+
+  .adwf-partnership-numberanimation {
+    padding-top: 50px;
+  }
+
+  .adwf-partnership-number-flex {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .adwf-partnership-number-certifications,
+  .adwf-partnership-number-employees,
+  .adwf-partnership-number-specializations {
+    justify-content: center;
+    gap: 20px;
+  }
+  .adwf-partnership-number-employees{
+    margin-left: 50px;
+  }
+  .adwf-partnership-number-specializations{
+    margin-left: 30px;
+  }
+
+  .adwf_cer1-no h1,
+  .adwf_cer2-no h1,
+  .adwf_cer3-no h1 {
+    font-size: 35px;
+  }
+  .adwf_cer3-no h1{
+    margin-left: 10px;
+  }
+
+  .adwf_cer1-no h3,
+  .adwf_cer2-no h3,
+  .adwf_cer3-no h3 {
+    font-size: 18px;
+  }
+
+  .adwf-solution-partner-section {
+    gap: 10px;
+    width: 100%;
+  }
+  .adwf-solution-partner-section img{
+  width: 22%;
+  }
+
+  .adwf-choose-section {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .adwf-choose-head h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .adwf-choose-head h4 {
+    font-size: 18px;
+    margin-left: 30px;
+    margin-left: 50px;
+  }
+  .adwf-choose-text1 img,
+  .adwf-choose-text2 img,
+  .adwf-choose-text3 img,
+  .adwf-choose-text4 img,
+  .adwf-choose-text5 img {
+    margin-left: 20px;
+  }
+
+  .adwf-choose-text1 h3,
+  .adwf-choose-text2 h3,
+  .adwf-choose-text3 h3,
+  .adwf-choose-text4 h3,
+  .adwf-choose-text5 h3 {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  .adwf-choose-text1 p,
+  .adwf-choose-text2 p,
+  .adwf-choose-text3 p,
+  .adwf-choose-text4 p,
+  .adwf-choose-text5 p {
+   display: none;
+  }
+  .adwf-choose-rightcontent{
+    margin-top: -45px;
+   ;
+  }
+  .hide-on-laptop211{
+    font-size: 12px;
+    font-size: 'Open Sans', 'Regular';
+    width: 90%;
+    margin-left: 20px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+  }
+
+  .adwf-success-story-section h1 {
+    font-size: 20px;
+    color: #FE780C;
+  }
+
+  .adwf-success-story-imagescroll {
+    padding-left: 0;
+  }
+
+  .adwf-animate-on-scroll {
+    opacity: 1;
+    transition: opacity 1s, transform 1s;
+  }
+
+  .adwf-animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .adwf-image-text-container1,
+  .adwf-image-text-container2,
+  .adwf-image-text-container3,
+  .adwf-image-text-container4,
+  .adwf-image-text-container5 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .adwf-images1animation,
+  .adwf-images2animation,
+  .adwf-images3animation,
+  .adwf-images4animation,
+  .adwf-images5animation {
+ display: none;
+
+  }
+ .adwf-success-story-imagescroll h3{
+  font-size: 19px;
+  color: white;
+  margin-top: -20px;
+  margin-left: 10px;
+ }
+ .adwf-text-animation p{
+display: none;
+
+ }
+ .hide-on-laptop23 {
+  font-size: 12px;
+  font-family: 'open sans', 'Regular';
+  margin-left: 10px;
+  margin-bottom: 20px;
+ }
+
+  .adwf-text-animation {
+    margin-top: 20px;
+  }
+
+  .adwf-levelup-section h1 {
+    font-size: 22px;
+    margin-bottom: 300px;
+    text-align: center;
+
+  }
+
+  .adwf-levelup-text {
+    flex-direction: column;
+    gap: 20px;
+    margin-left: -240px;
+  }
+
+  .adwf-levelup-para p {
+    display: none;
+  }
+.hide-on-laptop222 p{
+  font-size: 12px;
+  font-family: 'Open Sans', 'Regular';
+ margin-top: -350px;
+ width: 90%;
+ text-align: center;
+ margin-left: 10px;
+
+}
+  .adwf-levelup-btn button {
+        padding: 6px 20px;
+    /* margin-left: 10px; */
+    margin-top: 200px;
+  }
+
+  .adwf-levelup-btn button:hover::after {
+      content: none;
+      position: absolute;
+  }
+
+  .adwf-levelup-btn button h6 {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Open Sans', 'Regular';
+  }
+
+  .adwf-levelup-adwf_lasvegas img {
+    padding-left: 0;
+   display: none;  
+  }
+  .adwf-levelup-adwf_lasvegass img{
+    width: 80%;
+margin-left: 30px;
+    margin-top: -950px;
+    margin-bottom: 10px;
+  }
+
+  .adwf-blinkystuff1,
+  .adwf-blinkystuff2,
+  .adwf-blinkystuff3,
+  .adwf-blinkystuff4 {
+    display: none;
+  }
+
+  .adwf-globe,
+  .adwf-cube {
+    display: none;
+  }
+
+  .adwf-wave img {
+    width: 100%;
+    margin-top: -10px;
+   
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .hide-on-laptop2 {
+    display: none; /* Hide the content on screens with a width of 1024 pixels or larger (laptops and desktops) */
+  }
+  .hide-on-laptop22 {
+    display: none; /* Hide the content on screens with a width of 1024 pixels or larger (laptops and desktops) */
+  }
+  .hide-on-laptop23 {
+    display: none; /* Hide the content on screens with a width of 1024 pixels or larger (laptops and desktops) */
+  }
+  .hide-on-laptop24 {
+    display: none; /* Hide the content on screens with a width of 1024 pixels or larger (laptops and desktops) */
+  }
+  .hide-on-laptop211{
+    display: none;
+  }
+  .hide-on-laptop222{
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1366px) {
+  .adwf-img-text h1
+  {
+    margin-top: -80px;
+  }
+  .adwf-adobelogo-section
+  {
+    margin-left:180px;
+    gap:80px;
+  }
+  .adwf-cube
+  {
+    margin-top:-20px;
+    margin-right:-50px;
+  }
+  .adwf-blinkystuff4
+  {
+   margin-top:100px;
+   margin-left:-150px;
+  }
+  .adwf-success-story-imagescroll
+  {
+    margin-left:-60px;
+  }
+  .adwf-levelup-text
+  {
+    margin-right:200px;
+  }
+  .adwf-levelup-para p br{
+   display:none;
+  }
+  .adwf-levelup-para p
+  {
+    text-align: justify;
+    margin-top:50px;
+  }
+}
+
+
+
+
+
+
+  

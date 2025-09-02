@@ -1,0 +1,32 @@
+// src/routes.js
+const routes = [
+  { path: "/", priority: 1.0, changefreq: "daily" },
+  { path: "/services", priority: 0.8, changefreq: "weekly" },
+  { path: "/contact-us", priority: 0.7, changefreq: "monthly" },
+  { path: "/About-Us", priority: 0.7, changefreq: "monthly" },
+  { path: "/industries", priority: 0.7, changefreq: "monthly" },
+  { path: "/our-growth-story", priority: 0.6, changefreq: "monthly" },
+  { path: "/partners", priority: 0.6, changefreq: "monthly" },
+  { path: "/careers", priority: 0.6, changefreq: "monthly" },
+  { path: "/our-team", priority: 0.6, changefreq: "monthly" },
+  { path: "/retail-and-consumer-product-consulting", priority: 0.6, changefreq: "monthly" },
+  { path: "/digital-martech-consulting", priority: 0.6, changefreq: "monthly" },
+  { path: "/managed-application-services", priority: 0.6, changefreq: "monthly" },
+  { path: "/content-management-dam", priority: 0.6, changefreq: "monthly" },
+  { path: "/training-change-management", priority: 0.6, changefreq: "monthly" },
+  { path: "/salesforce", priority: 0.7, changefreq: "monthly" },
+  { path: "/aprimo", priority: 0.7, changefreq: "monthly" },
+  { path: "/Dataiku", priority: 0.7, changefreq: "monthly" },
+  { path: "/adobe-workfront", priority: 0.7, changefreq: "monthly" },
+  { path: "/adobe-aem", priority: 0.7, changefreq: "monthly" },
+  { path: "/privacy-policy", priority: 0.5, changefreq: "yearly" },
+  { path: "/cookie-policy", priority: 0.5, changefreq: "yearly" },
+  { path: "/adobe-workfront-managed-services", priority: 0.7, changefreq: "monthly" },
+  { path: "/adobe-workfront-managed-services-us", priority: 0.7, changefreq: "monthly" },
+  { path: "/blogs", priority: 0.8, changefreq: "daily" },
+  { path: "/success-stories", priority: 0.7, changefreq: "monthly" },
+  { path: "/resources-library", priority: 0.7, changefreq: "monthly" },
+  { path: "/video-library", priority: 0.7, changefreq: "monthly" },
+];
+
+export default routes;

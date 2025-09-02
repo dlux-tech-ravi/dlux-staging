@@ -1,0 +1,863 @@
+
+/* variables */
+:root {
+    --main-color: #2288ff;
+    --second-color: #193f6a;
+    --text-color: #314862;
+    --bg-color: #000000;
+    --p-color:white;
+    /* Box Shadow */
+    --box-shadow: 2px 2px 18px rgb(14 52 54 / 15%);
+}
+
+
+.ServiceTraningandChange-wrapper{
+    width: 100vw;
+}
+
+.serviceTraning-img img{
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    z-index: -1;
+    background-color: black;
+    /* filter: grayscale(100%); */
+    filter:brightness(55%);
+    top: 0;
+}
+
+
+/* Head section */
+.serviceTraining-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+}
+
+.serviceTraining-container {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.serviceTraning-head-text {
+    width: 59%;
+    margin: 0  auto; 
+    font-size: 45px;
+    display: flex;
+    justify-content: center; 
+     align-items: center;
+    text-align: center;
+    font-family: 'Open Sans', 'Regular';
+    color: white;
+    font-weight: bold; 
+    margin-top: -330px;
+}
+
+.serviceTraning-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    background-color: black;
+    top: 0;
+   margin-top: -100px;
+}
+
+.serviceTraning-head-section {
+    position: relative;
+    width: 100vw;
+    background: no-repeat center center fixed;
+    background-size: cover;
+    filter: grayscale(100%);
+    background-color: black;
+    z-index: -1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
+}
+
+.serviceTraning-head-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    z-index: -1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Service Section */
+.serviceTraning-section{
+    margin-left: 100px;
+    margin-top: 70px;
+    
+}
+.serviceTraning-content {
+    position: relative;
+    /* width: 90%; */
+    max-width: 85rem;
+}
+
+
+.serviceTraning-left img {
+    display: block;
+    position: inherit;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 500px;
+    margin-left: 0;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+
+.leftTraning-text {
+    display: inline-flex;
+    font-family: 'Open Sans', 'Regular';
+    position: relative;
+    font-size: 16px;
+    color: var(--p-color);
+    text-align: left;
+    line-height: 30px;
+    width: 43%;
+    bottom: 70px;
+    left: 10px;
+}
+
+.serviceTraning-right {
+    display: block;
+    position: absolute;
+    top: 7rem;
+    right: 0;
+    left: 42rem;
+    width: 47%;
+    height: 100%;
+}
+.serviceTraning-right h1{
+    display: inline-flex;
+    font-family: 'Open Sans', 'Regular';
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--p-color);
+    text-align: left;
+}
+
+.rightTraning-text {
+    display: inline-flex;
+    font-family: 'Open Sans', 'Regular';
+    font-size: 16px;
+    color: var(--p-color);
+    text-align: left;
+    line-height: 30px;
+}
+
+/* Stack section */
+.stackTraning-section{
+    margin-top: -2rem;
+    position: inherit;
+}
+
+.bold {
+    color: rgb(255, 120, 12);
+    font-size: 2em;
+    display: flex;
+    justify-content: start;
+    margin-left: 5px;
+}
+
+.stack-head,
+.stack-text {
+    color: var(--p-color);
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Open Sans', 'Regular';
+}
+
+.stack-text {
+    font-size: 20px;
+    color: var(--p-color);
+}
+
+
+
+
+.text-t-l,
+.text-t-r,
+.text-b-l,
+.text-b-r {
+    color: var(--bg-color);
+    display: inline-flex;
+    width: 18%;
+    padding: 20px 10px;
+    text-align: left;
+    border-radius: 16px;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    font-size: 22px;
+    background: linear-gradient(to right, rgb(48, 47, 47), black);
+    border: 1px solid;
+}
+
+.text-t-l {
+    margin-left: 40rem;
+    margin-top: 80px;
+}
+
+.text-t-r {
+    margin-left: 67rem;
+    margin-top: -106px;
+    display: flex;
+}
+
+.text-b-l {
+    margin-left: 40rem;
+    margin-top: 50px;
+}
+
+.text-b-r {
+    margin-left: 67rem;
+    margin-top: -106px;
+    display: flex;
+}
+
+/* vertical line */
+.Training-progress-bar {
+    position: absolute;
+    background-color: rgb(116, 116, 116);
+    width: 10px;
+    height: 122%;
+    margin-left: 50%;
+    margin-top: 10%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Training-filled {
+    width: 133%;
+    background: #FE3908;
+}
+
+/* Stand gain section */
+.standTraining-section {
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background: linear-gradient(to bottom right, rgb(46, 45, 45), rgb(0, 0, 0));
+    margin-top: 3rem;
+    font-family: 'Open Sans', 'Regular';
+    font-size: 16px;
+    width: 100%;
+
+}
+
+.standTraining-head {
+    color: var(--p-color);
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Open Sans', 'Regular';
+    font-weight: bold;
+}
+
+/* journey */
+
+.Training-journey,
+.Training-analysis,
+.Training-rates,
+.Training-practices {
+    display: block;
+    position: relative;
+    margin-left: 12rem;
+    color: var(--p-color);
+}
+
+.Training-journey-head,
+.Training-analysis-head,
+.Training-rates-head,
+.Training-practices-head {
+    padding-top: 7rem;
+    font-size: 1.6em;
+    text-align: start;
+    font-weight: bold;
+}
+
+.Training-analysis h1{
+    text-align: right;
+
+}
+
+.Training-journey-text,
+.Training-analysis-text,
+.Training-rates-text,
+.Training-practices-text {
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Open Sans', 'Regular';
+    line-height: 30px;
+    margin-bottom: 70px;
+
+}
+
+.Training-journey-img {
+    margin-left: 60rem;
+    margin-top: -22rem;
+    display: flex;
+}
+
+.Training-rates-img {
+    margin-left: 60rem;
+    margin-top: -22rem;
+    display: flex;
+}
+
+/* analysis */
+
+.Training-analysis {
+    margin-right: 180px;
+   
+}
+
+.Training-analysis-head {
+    margin-left: 5px;
+}
+
+.Training-analysis-text {
+    margin-left: 15px;
+    text-align: right ;
+}
+
+.Training-analysis-img,
+.Training-practices-img {
+    margin-left: 12rem;
+    margin-top: -21rem;
+    display: flex;
+}
+
+/* rates */
+
+/* practices */
+
+.Training-practices {
+    /* margin-left: 70rem; */
+}
+
+.Training-practices-head {
+    /* margin-left: 20px; */
+}   
+
+.Training-practices-text {
+    text-align: right;
+    margin-left: 20px;
+}
+
+/* process */
+
+.serviceTraning-dlux h1{
+    color: #fff;
+    margin-top: 70px;
+    font-size: 45px;
+    font-family: 'Open Sans', 'Regular';
+    font-weight: bold;
+}
+
+.serviceTraning-dlux-wrap{
+    display: flex;
+    gap: 105px;
+}
+
+.serviceTraning-dlux-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+
+.serviceTraning-dlux-img-text-wrap{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+}
+.serviceTraning-dlux-content1 h3{
+      font-size: 25px;
+      color: #fff;
+      font-family: 'Open Sans', 'Regular';
+}
+.serviceTraning-dlux-content1 p{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+    color: #fff;
+   
+}
+
+.tranining-change-management-Dgif{
+    margin-top: 70px;
+}
+.corner{
+    margin-top: 200px;
+    margin-right: 700px;
+}
+
+
+.stack-mainDiv{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 300px;
+    gap: 100px;
+}
+
+.stack-topic-heading,
+.stack-topic-heading1,
+.stack-topic-heading2,
+.stack-topic-heading3{
+    font-size: 22px;
+    color: #e97415;
+}
+.stack-ul,
+.stack-ul1,
+.stack-ul2,
+.stack-ul3{
+    font-size: 18px;
+    margin-top: 10px;
+    font-size: 'open sans', regular;
+    color: #fff;
+}
+
+.stack-container{
+    margin-top: 100px;
+ margin-right: 850px;
+}
+.vector1Traning-div{
+    position: absolute;
+    top: 220%; 
+    right: 20%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    animation: rotate 4s linear infinite; 
+  }
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg); 
+    }
+    to {
+      transform: rotate(360deg); 
+  }
+}
+.vector2Traning-div{
+    position: absolute;
+    top: 235%; 
+    left: 10%; 
+    animation: blink 1.5s infinite;
+  }
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+ 
+ 
+ 
+.vector3Traning-div{
+    position: absolute;
+    top: 250%; 
+    right: 4%; 
+    animation: blink 1.5s infinite;
+  }
+
+  .train {
+    position: relative;
+    overflow: hidden;
+}
+.train img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    margin-top: 80px;
+}
+
+.stac-footer{
+    margin-right: 17px;
+}
+
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .serviceTraning-img img {
+      width: 100%;
+      margin-top: 200px;
+      filter: brightness(100%);
+    }
+  
+    .serviceTraning-head-text {
+     font-size: 15px;
+     width: 100%;
+     margin-top: -520px;
+    }
+  
+    .serviceTraning-section {
+      margin-left: 0;
+    }
+  
+    .serviceTraning-left img {
+      width: 75%;
+      margin-left: 50px;
+      margin-top: -400px;
+    }
+  
+    .serviceTraning-right {
+      position: relative;
+      top: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+      margin-top: -20px;
+     
+    }
+  
+    .serviceTraning-right h1 {
+      text-align: center;
+      font-size: 22px;
+      margin-left: 20px;
+     
+     
+    }
+  
+    .leftTraning-text {
+      width: 90%;
+      text-align: center;
+      margin-top: 50px;
+      font-size: 14px;
+      margin-left: 10px;
+     
+    }
+    .rightTraning-text{
+        width: 90%;
+        text-align: center;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+  
+    .stackTraning-section {
+      margin-top: 20px;
+    }
+    .standTraining-head{
+        font-size: 20px;
+        font-weight: bold;
+    }
+  
+    .Training-progress-bar {
+      display: none;
+    }
+  
+    .Training-journey,
+    .Training-analysis,
+    .Training-rates,
+    .Training-practices {
+      margin-left: 0;
+      margin-top: -70px;
+    }
+    .Training-journey-head{
+        font-size: 20px;
+        margin-left: 90px;
+        
+    }
+    .Training-journey-text{
+        font-size: 12px;
+        margin-left: 10px;
+        text-align:center;
+        
+    }
+  
+    .Training-journey-img,
+    .Training-analysis-img,
+    .Training-rates-img {
+      margin-left: 40px;
+      margin-top: -30px;
+      width: 80%;
+    }
+    .Training-analysis-head{
+        font-size: 19px;
+        width: 190%;
+        margin-left:-40px;
+        text-align: center;
+    }
+    .Training-analysis-text{
+       display: none;
+       
+    }
+    .hide-on-laptop{
+        font-size: 12px;
+        margin-left: 10px;
+        text-align:center;
+        width: 170%;
+        margin-bottom: 50px;
+        font-family: 'open sans','Regular';
+    }
+    .Training-rates-head{
+        font-size: 19px;
+        margin-left: 30px;
+        width: 150%;
+    }
+    .Training-rates-text{
+       display: none;
+    }
+    .hide-on-laptop1{
+        font-size: 12px;
+        margin-left: 10px;
+        text-align:center;
+        width: 95%;
+        font-family: 'open sans','Regular';
+        margin-bottom: 50px;
+    }
+    .serviceTraning-dlux h1{
+        font-size: 22px;
+        /* margin-left: 130px; */
+    }
+    .serviceTraning-dlux-wrap {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .serviceTraning-dlux-text-left h3{
+        font-size: 20px;
+        /* margin-left: 20px; */
+    }
+    .serviceTraning-dlux-text-left p{
+        font-size: 12px;
+        width: 100%;
+        /* margin-left: 20px; */
+    }
+    .serviceTraning-dlux-img{
+        width: 90%;
+        /* margin-left:100px; */
+    }
+    .serviceTraning-dlux-content {
+      gap: 20px;
+    }
+  
+    .serviceTraning-dlux-img-text-wrap {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .tranining-change-management-Dgif {
+      display: none;
+    }
+    
+  
+    .train {
+    margin-top: 10px;
+    }
+  
+    .stack-mainDiv {
+      margin-top: 20px;
+      margin-left: 0;
+      gap: 20px;
+    }
+  
+    .stack-container {
+      margin-top: 20px;
+      margin-right: 0;
+    }
+    .vector2{
+        margin-top: -20px;
+    }
+    .vector1Traning{
+        display: none;
+    }
+    .vector3{
+        margin-top: 20px;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .hide-on-laptop1 {
+      display: none; /* Hide the content on screens with a width of 1024 pixels or larger (laptops and desktops) */
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1366px) {
+    .serviceTraning-head-text
+    {
+        margin-top: -250px;
+    }
+    .Training-journey-img
+    {
+        margin-left: 800px;
+    }
+    .Training-rates-img 
+    {
+    margin-left: 800px;
+    } 
+    .Training-analysis
+    {
+        margin-left:850px;
+        width:400px;
+    }
+    .Training-analysis  br{
+        display: none;
+      }
+    .standTraining-section
+    {
+        margin-right:40px;
+        background-color: grey;
+    }
+    .StandApplication-content
+    {
+        margin-left:-30px;
+    }
+    .StandApplication-content1
+    {
+        margin-left:-30px;
+        gap:20px;
+    }
+    .hide-mobile
+    {
+        width:500px;
+        align-items: justfiy;
+    }
+    .StandApplication-content11
+    {
+    margin-left:80px;
+    }
+    .StandApplication-content12
+    {
+        margin-left:80px;
+    }
+    .ApplicationWorks-section
+    {
+        margin-left:90px;
+    }
+    .Training-progress-bar
+    {
+        margin-right: 200px;
+    }
+    .vector1Traning-div
+    {
+      top:1550px;
+   
+    }
+    .Training-journey
+    {
+        margin-left: 150px;
+    }
+    .Training-analysis-img
+    {
+       
+        margin-left: 150px;
+    }
+    .Training-rates{
+        margin-left: 150px;
+    }
+    .Training-analysis{
+        margin-top: -20px;
+    }
+    .Training-analysis h1{
+        margin-left: -100px;
+    }
+    .Training-analysis p br{
+        display:none;
+    }
+    .vector3Traning-div
+    {
+        margin-top:100px;
+    }
+    .Training-progress-bar
+    {
+       margin-left:700px;
+       height:900px;
+    }
+    .serviceTraning-dlux-wrap
+    {
+        gap:40px;
+    }
+}
+@media (min-width: 790px) and (max-width: 1200px)
+{
+.serviceTraning-img
+{
+margin-top:100px;
+}
+.serviceTraning-head-text
+{
+    margin-top:-400px;
+}
+.serviceTraning-head-text h1 br
+{
+    display:none;
+}
+.serviceTraning-right
+{
+    margin-left:-600px;
+    margin-top:800px;
+}
+.serviceTraning-right p br
+{
+    display:none;
+}
+.serviceTraning-right 
+{
+    width:900px;
+    margin-left: -800px;
+}
+.rightTraning-text
+{
+    margin-left:180px;
+    /* margin-top:200px; */
+    width:650px;
+}
+.serviceTraning-content
+{
+    margin-bottom:700px;
+}
+.serviceTraning-right h1
+{
+    margin-top:40px;
+    margin-left:180px;
+}
+.leftTraning-text
+{
+    width:80%;
+}
+.Training-progress-bar
+{
+    display:none;
+}
+.Training-journey
+{
+    margin-left:100px;
+}
+.Training-journey-img
+{
+    margin-left:350px;
+    margin-top:40px;
+}
+.Training-analysis{
+    margin-left:380px;  
+}
+.Training-analysis-img
+{
+    margin-left:100px;  
+    margin-top:-150px;
+}
+.Training-rates{
+    margin-left:100px;  
+}
+.Training-rates-img{
+margin-left:320px;
+margin-top:-70px;
+}
+
+}

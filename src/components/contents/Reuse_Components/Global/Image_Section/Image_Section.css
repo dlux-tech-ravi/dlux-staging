@@ -1,0 +1,20 @@
+.cmp-image_section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  background-color: #04070E;}
+
+.cmp-section__img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* .cmp-section__placeholder {
+  font-size: 16px;
+  color: #777;
+  text-align: center;
+  margin: 16px 0;
+} */

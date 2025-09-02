@@ -1,0 +1,213 @@
+
+.trust-policy-container{
+ padding: 0px 20px;
+}
+
+.trust-policy-container h1{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Open Sans', 'Regular';
+}
+
+.trust-policy-text{
+  padding: 0rem;
+
+  @media (min-width: 768px) {
+
+  }
+  @media (min-width: 1024px) {
+    padding: 0rem 8rem; 
+  }
+}
+
+.trust-policy-terms-para1 h3{
+    /* font-weight: bold; */
+    color:#FE780C;
+    width: 95vw;
+    @media (min-width: 768px) {
+    width: 100vw;
+  }
+  @media (min-width: 1024px) {
+    width: 100vw;
+  }
+}
+.trust-policy-terms-para1 p{
+    margin-top: 0px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+}
+
+.trust-policy-terms-para2 p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+}
+
+.tp-personalinfo-section h3{
+    font-size:35px;
+    margin-top: 50px;
+    color: #FE780C ;
+  }
+
+
+  .tp-personalinfo-para1 p{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 40px;
+  }
+
+  .tp-personalinfo-para1 h4{
+    font-size: 22px;
+    color:#FE780C;
+  }
+  .tp-personalinfo-para1 ul li{
+    margin-left: 15px;
+  }
+
+  .tp-personalinfo-para1 ul li::marker{
+    color: #FE780C ;
+  }
+
+.tp-personalinfo-para1 ol{
+    list-style-type: lower-alpha; 
+  font-family: 'Open Sans', 'Regular';
+
+}
+  .tp-personalinfo-para1 ol li{
+    font-family: 'Open Sans', 'Regular';
+    margin-left: 45px;
+  }
+
+  .tp-personalinfo-certi {
+    text-align: center;
+    transform: scale(1.02);
+    padding: 10px;
+    width: 90vw;
+    border-radius: 8px;
+    background: linear-gradient(
+    rgba(132, 71, 71, 0.3),
+    rgba(13, 13, 13, 0.3)); 
+    box-shadow:  2px 4px 10px #fe3908;
+    margin: 40px 50px 0px -7px;
+
+  @media (min-width: 768px) {
+    margin: 20px 20px 0px 65px;
+    width: 80vw;
+  }
+  @media (min-width: 1024px) {
+    width: 70vw;
+    margin: 50px 20px 40px 10px;
+  }
+}
+
+  .tp-adoptionuse-section h3{
+    font-size:35px;
+    margin-top: 50px;
+    color: #FE780C ;
+  }
+
+  .tp-adoptionuse-para1 p{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+  }
+
+  .tp-adoptionuse-para3 p{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 40px;
+  }
+
+  .tp-adoptionuse-para3 h4{
+    font-size: 22px;
+    color:#FE780C;
+  }
+  .tp-adoptionuse-para3 ul li{
+    margin-left: 15px;
+  }
+
+  .tp-adoptionuse-para3 ul li::marker{
+    color: #FE780C ;
+  }
+
+  .tp-handlingcorrection-section h3{
+    font-size:35px;
+    margin-top: 50px;
+    color: #FE780C ;
+  }
+
+  .tp-handlingcorrection-para1 p{
+    margin-top: 0px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px; 
+  }
+
+  .tp-handlingcorrection-para2 p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px; 
+  }
+
+  .tp-contactus-section{
+    padding-bottom: 50px;
+  }
+  .tp-contactus-section h3{
+    font-size:35px;
+    margin-top: 50px;
+    color: #FE780C ;
+  }
+  
+  .tp-contactus-para1 p{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .tp-contactus-para2 p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    line-height: 20px;
+  }
+
+  
+  .tp-contactus-para2 a{
+    font-size: 16px;
+    font-family: 'Open Sans', 'Regular';
+    text-align: left;
+    color:  #FE780C ; 
+    text-decoration: none;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .trust-policy-container h1 {
+        padding-top: 150px; 
+        font-size: 30px; 
+    }
+
+    .trust-policy-text {
+        margin-left: 10px; 
+    }
+
+    .trust-policy-text p{
+        font-size: 14px;
+    }
+
+  }
